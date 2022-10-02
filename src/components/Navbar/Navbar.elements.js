@@ -17,7 +17,8 @@ export const Nav = styled.nav`
   transition: all 0.4s ease-in-out;
 
   @media screen and (min-width: 768px) {
-    background: ${({ scrollNav }) => (scrollNav ? "var(--color-black)" : "transparent")};
+    background: ${({ scrollNav }) =>
+      scrollNav ? "var(--color-black)" : "transparent"};
   }
 `;
 
@@ -29,26 +30,36 @@ export const NavbarContainer = styled(SectionWrapper)`
   ${SectionWrapper}
 `;
 
-export const NavLogo = styled(Link)`
-  color: var(--color-lightYellow);
-  justify-self: flex-start;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-  font-family: var(--fonts-heading);
-  position: relative;
-  height: 90%;
+// export const NavLogo = styled(Link)`
+//   color: var(--color-lightYellow);
+//   justify-self: flex-start;
+//   cursor: pointer;
+//   text-decoration: none;
+//   font-size: 2rem;
+//   display: flex;
+//   align-items: center;
+//   font-family: var(--fonts-heading);
+//   position: relative;
+//   height: 90%;
 
-  &:after {
-    content: "restaurant • pizzeria";
-    white-space: nowrap;
-    font-family: var(--fonts-body);
-    font-size: .8rem;
-    position: absolute;
-    left: 0px;
-    bottom: 5px;
+//   &:after {
+//     content: "restaurant • pizzeria";
+//     white-space: nowrap;
+//     font-family: var(--fonts-body);
+//     font-size: .8rem;
+//     position: absolute;
+//     left: 0px;
+//     bottom: 5px;
+//   }
+// `;
+
+export const NavLogo = styled(Link)`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  img {
+    height: 60px;
   }
 `;
 
@@ -94,7 +105,7 @@ export const NavMenu = styled.ul`
     width: auto;
     background: unset;
     transition: unset;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 `;
 
@@ -108,7 +119,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(NavLink)`
-    color: var(--color-lightYellow);
+  color: var(--color-lightYellow);
   display: table;
   line-height: 80px;
   text-decoration: none;
@@ -116,7 +127,6 @@ export const NavLinks = styled(NavLink)`
   width: 100%;
   text-transform: uppercase;
   transition: ease-in-out 0.4s;
-
 
   &:hover {
     background-color: var(--color-primary);
@@ -128,11 +138,10 @@ export const NavLinks = styled(NavLink)`
     }
   }
 
-
   @media screen and (min-width: 768px) {
     width: unset;
     padding: 0.5rem 1rem;
-    margin: 0 .5rem;
+    margin: 0 0.5rem;
     display: flex;
     align-items: center;
     position: relative;

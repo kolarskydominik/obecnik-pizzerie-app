@@ -1,15 +1,18 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import { Navbar, Footer, CopyrightFooter } from "./components";
 import ScrollToTop from "./components/ScrollToTop";
 
 import GlobalStyle from "./globalStyles";
 
-import Restaurace from "./pages/Restaurace/Restaurace";
+import Restaurace from "./pages/Restaurace/Restaurace"
 import Pizza from "./pages/Pizza/Pizza";
 import Menu from "./pages/Menu/Menu";
 import Galerie from "./pages/Galerie/Galerie";
 import Kontakt from "./pages/Kontakt/Kontakt";
+
+
 
 function App() {
   return (

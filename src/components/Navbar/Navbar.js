@@ -16,6 +16,8 @@ import {
   NavLinks,
 } from "./Navbar.elements";
 
+import logo from '../../obecnik-logo.png'
+
 function Navbar() {
   // logika hamburgeru
   const [isOpen, setIsOpen] = useState(false);
@@ -41,8 +43,8 @@ function Navbar() {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to="/" onClick={closeMobileMenu}>
-            <NavIcon />
-            becník
+
+            <img src={logo}/>
           </NavLogo>
           
           <MobileIcon onClick={handleIsOpen}>
