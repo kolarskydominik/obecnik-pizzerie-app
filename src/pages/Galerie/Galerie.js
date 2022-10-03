@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+import { Navbar, Footer, CopyrightFooter } from "../../components";
+
 import {
   SectionContainer,
   SectionWrapper,
@@ -20,7 +22,7 @@ export const SectionHeaderHome = styled(SectionHeader)`
   z-index: 0;
 
   &:before {
-    background: var(--color-gray30);
+    background: linear-gradient(var(--color-gray80),var(--color-gray30),var(--color-gray30));
     content: "";
     height: 100%;
     left: 0;
@@ -42,6 +44,7 @@ function Galerie() {
 
   return (
     <>
+    <Navbar/>
       <SectionHeaderHome>Galerie</SectionHeaderHome>
       <Container>
         <Wrapper>
@@ -49,6 +52,8 @@ function Galerie() {
             galleryImages={galleryImages} />
         </Wrapper>
       </Container>
+      <Footer/>
+      <CopyrightFooter/>
     </>
   );
 }

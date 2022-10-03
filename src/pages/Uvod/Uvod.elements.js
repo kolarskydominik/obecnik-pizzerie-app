@@ -1,33 +1,54 @@
-import React from "react";
-
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+
 import {
   SectionContainer,
   SectionWrapper,
   SectionHeader,
 } from "../../globalStyles";
+
 import img from "../../images/img6m1.jpg";
-import imgWelcome from "../../images/welcome.jpg";
 import imgCTA from "../../images/CTAgalerie.jpg";
-import imgGalerie from "../../images/galerie.jpg";
-
-import { Link } from "react-router-dom";
-
-import { GiFullPizza, GiCoffeeBeans, GiForkKnifeSpoon } from "react-icons/gi";
 
 export const SectionHeaderHome = styled(SectionHeader)`
   background-image: url(${img});
-  height: 99vh;
+  height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  background-attachment: fixed;
+
+  img {
+    padding-top: 5rem;
+    width: 80%;
+    max-width: 550px;
+    z-index: 2;
+  }
+
+  p {
+    font-size: 1rem;
+    max-width: 740px;
+    z-index: 2;
+    margin: 2.5rem 20px 1.5rem 20px;
+    padding: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 0px 0px 6px var(--color-gray90);
+  }
 
   &:before {
-    background: var(--color-gray30);
+    background: linear-gradient(
+      var(--color-gray80),
+      var(--color-gray30),
+      var(--color-gray90)
+    );
     content: "";
     height: 100%;
     left: 0;
     position: absolute;
     top: 0;
     width: 100%;
+    background-attachment: fixed;
   }
   ${SectionHeader}
 `;
@@ -176,12 +197,15 @@ export const Header3 = styled.h2`
 `;
 
 export const LinkBtn = styled(Link)`
+  z-index: 2;
   text-decoration: none;
+  white-space: nowrap;
   font-size: 1.2rem;
   padding: 0.5rem 1.5rem;
   margin: 2rem auto 1.5rem;
   color: var(--color-primary);
   border: 2px solid var(--color-primary);
+  cursor: pointer;
 
   &:hover {
     color: var(--color-lightYellow);
@@ -193,92 +217,3 @@ export const LinkBtn = styled(Link)`
     margin: 1.5rem auto 0 0;
   }
 `;
-
-function Restaurace() {
-  return (
-    <>
-      <SectionHeaderHome></SectionHeaderHome>
-      <Container>
-        <WrapperGrid>
-          <WrapperLeft>
-            <Header2>Vítáme Vás</Header2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              numquam, omnis repudiandae nisi nulla commodi minima ullam
-              molestias.
-            </p>
-            <p>
-              Aperiam numquam, omnis repudiandae nisi nulla commodi minima ullam
-              molestias earum doloribus perferendis incidunt quae laborum minus
-              odio vitae sit cumque.
-            </p>
-          </WrapperLeft>
-          <WrapperRight>
-            <img src={imgWelcome} alt="majitele"></img>
-          </WrapperRight>
-        </WrapperGrid>
-      </Container>
-      <ContainerFlex>
-        <WrapperFlex>
-          <FlexItem>
-            <i>
-              <GiFullPizza />
-            </i>
-            <h3>Pizza</h3>
-            <p>
-              Aliquam erat volutpat. Nullam dapibus fermentum ipsum. Fusce
-              tellus odio, dapibus id fermentum quis, suscipit id erat. Morbi
-              scelerisque luctus velit. In convallis. Phasellus enim erat, ...
-            </p>
-          </FlexItem>
-          <FlexItem>
-            <i>
-              <GiForkKnifeSpoon />
-            </i>
-            <h3>Italské speciality</h3>
-            <p>
-              Aliquam erat volutpat. Nullam dapibus fermentum ipsum. Fusce
-              tellus odio, dapibus id fermentum quis, suscipit id erat. Morbi
-              scelerisque luctus velit. In convallis. Phasellus enim erat, ...
-            </p>
-          </FlexItem>
-          <FlexItem>
-            <i>
-              <GiCoffeeBeans />
-            </i>
-            <h3>Caffè</h3>
-            <p>
-              Aliquam erat volutpat. Nullam dapibus fermentum ipsum. Fusce
-              tellus odio, dapibus id fermentum quis, suscipit id erat. Morbi
-              scelerisque luctus velit. In convallis. Phasellus enim erat, ...
-            </p>
-          </FlexItem>
-        </WrapperFlex>
-      </ContainerFlex>
-      <Container>
-        <WrapperGrid>
-          <WrapperLeft2>
-            <img src={imgGalerie} alt="majitele"></img>
-          </WrapperLeft2>
-          <WrapperRight2>
-            <Header2>Galerie</Header2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              numquam, omnis repudiandae nisi nulla commodi minima ullam
-              molestias.
-            </p>
-            <LinkBtn to="/galerie" className="CTAgalerie">
-              Více
-            </LinkBtn>
-          </WrapperRight2>
-        </WrapperGrid>
-      </Container>
-      <ContainerImg>
-        <Header3>Těšíme se na Vás</Header3>
-        <LinkBtn to="/kontakt">Rezervovat stůl</LinkBtn>
-      </ContainerImg>
-    </>
-  );
-}
-
-export default Restaurace;

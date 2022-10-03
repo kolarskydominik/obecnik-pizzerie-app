@@ -9,7 +9,7 @@ import {
   Nav,
   NavbarContainer,
   NavLogo,
-  NavIcon,
+  // NavIcon,
   MobileIcon,
   NavMenu,
   NavItem,
@@ -43,30 +43,28 @@ function Navbar() {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to="/" onClick={closeMobileMenu}>
-
-            <img src={logo}/>
+            <img src={logo} alt="Obecník Raškovice logo" />
           </NavLogo>
-          
           <MobileIcon onClick={handleIsOpen}>
             {/* obarveni icon */}
             <IconContext.Provider value={{ color: "#fff" }}>
               {isOpen ? <FaTimes /> : <FaBars />}
             </IconContext.Provider>
           </MobileIcon>
-          <NavMenu onClick={handleIsOpen} isOpen={isOpen}>
+          <NavMenu onClick={handleIsOpen} isOpen={isOpen} scrollNav={scrollNav}>
             <NavItem>
-              <NavLinks to="/restaurace" onClick={closeMobileMenu}>
-                Restaurace
+              <NavLinks to="/uvod" onClick={closeMobileMenu}>
+                Úvod
               </NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="/menu" onClick={closeMobileMenu}>
-                Menu
+                Jídelní lístek
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/pizza" onClick={closeMobileMenu}>
-                Pizza
+              <NavLinks to="/rozvoz" onClick={closeMobileMenu}>
+                Rozvoz
               </NavLinks>
             </NavItem>
             <NavItem>

@@ -1,87 +1,108 @@
 import React from "react";
 
-import styled from "styled-components";
-import { SectionContainer, SectionWrapper, SectionHeader } from "../../globalStyles";
-import img from "../../images/kontakt.jpg";
+import {SectionHeaderHome,Container,Wrapper  } from './Kontakt.elements'
 
-export const SectionHeaderHome = styled(SectionHeader)`
-    background-image: url(${img});
-    height: 60vh;
-    background-attachment: fixed;
-  background-position: bottom;
-    position: relative;
-    z-index: 0;
+import { Navbar, CopyrightFooter, ContactForm } from "../../components";
+import {
+  FooterContainer,
+  FooterWrap,
+  FooterItems,
+  FooterHeader,
+  FooterItem,
+  FooterLink,
+  SocialIcons,
+  SocialIconLink,
+} from "../../components/Footer/Footer.elements";
 
-    &:before {
-        background: rgba(0, 0, 0, 0.4);
-        content: "";
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 100%;
-        z-index: -1;
-    }
-  ${SectionHeader}
-`;
+import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
+import {
+  HiLocationMarker,
+  HiPhone,
+  HiMail,
+  HiOutlineClock,
+} from "react-icons/hi";
 
-export const Container = styled(SectionContainer)``;
-export const Wrapper = styled(SectionWrapper)``;
+
+
+// mapa
+const iframe =
+  '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.067922118789!2d18.464188915729775!3d49.62259457936968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4714099c38542849%3A0x5881bb0c3ebae8e3!2sRa%C5%A1kovice%20207%2C%20739%2004%20Ra%C5%A1kovice!5e1!3m2!1sen!2scz!4v1664813316176!5m2!1sen!2scz" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+function Iframe(props) {
+  return (
+    <div
+      dangerouslySetInnerHTML={{ __html: props.iframe ? props.iframe : "" }}
+    />
+  );
+}
 
 function Kontakt() {
   return (
     <>
+      <Navbar />
       <SectionHeaderHome>Kontakt</SectionHeaderHome>
       <Container>
         <Wrapper>
-          test page Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Dicta excepturi accusantium exercitationem maxime harum. Dolorem a
-          similique perferendis perspiciatis vel magni adipisci. Voluptates sed
-          excepturi et mollitia necessitatibus aut quo qui iure architecto!
-          Praesentium incidunt delectus accusamus perspiciatis, esse minima
-          eveniet dignissimos doloribus maxime pariatur, inventore quibusdam.
-          Quas molestiae veniam magni commodi tenetur totam iste voluptas
-          corporis deleniti vitae, impedit culpa voluptatem, natus iure dicta,
-          odit repellat eaque nisi? Cum vitae labore voluptatem autem maiores
-          soluta tempora tempore rem consequuntur earum sapiente laboriosam
-          suscipit, nisi mollitia voluptatibus assumenda exercitationem dolore,
-          est alias facilis iusto eaque distinctio incidunt. Odio nam
-          consectetur saepe, sed nihil similique, illo corporis aliquam nesciunt
-          ipsum accusamus fugiat rem. Magnam, unde? Numquam deleniti accusamus
-          deserunt ratione molestiae, quia nulla, dolorum nobis blanditiis
-          dolore recusandae soluta hic ad voluptas distinctio at ut. Iste
-          aperiam magnam est a qui fuga soluta facere. Fugit quidem voluptatem
-          quos facilis blanditiis enim obcaecati provident esse quod. Laudantium
-          ipsum deserunt repudiandae vero. Sed ipsum fuga nemo quibusdam
-          repellendus suscipit ea distinctio eveniet quam nostrum laudantium,
-          dignissimos porro deserunt nesciunt explicabo voluptates autem tempore
-          alias harum mollitia libero dolorem. Praesentium ducimus tenetur
-          incidunt qui! Illum tenetur adipisci beatae ipsam sunt nesciunt optio,
-          eligendi soluta eius officiis porro, error fugiat harum nemo minus
-          quaerat fugit incidunt perferendis, id quidem sint modi deserunt!
-          Nostrum exercitationem eos excepturi tempora impedit quidem, quam
-          laboriosam at quaerat, reprehenderit voluptatibus iure, itaque
-          officiis dolorem ipsa adipisci voluptatem porro illum dolores a
-          quaerat architecto. Alias quo, ex sapiente minima ad deleniti saepe
-          quasi, ipsam perferendis, voluptatem dolore id molestiae minus nulla
-          maxime ipsum fugit error voluptatibus quisquam cum modi accusamus esse
-          debitis eum. Recusandae earum sit libero omnis sed. Necessitatibus
-          quidem rerum facilis velit harum hic dignissimos reprehenderit
-          doloribus repellat! Eum corrupti qui nam ab iure, architecto
-          laboriosam laudantium. Itaque molestias dignissimos repellat libero
-          ratione saepe incidunt perferendis, assumenda animi aut quibusdam est
-          dolorem, qui, officiis alias? Sit, tempora consectetur voluptate
-          soluta harum at eveniet sequi quisquam cum officia nihil amet saepe
-          est molestias nobis. Illum nobis atque doloremque beatae cupiditate?
-          Quo, ex libero mollitia aliquam culpa dolore voluptas possimus placeat
-          nostrum sequi suscipit corporis illo ab earum ratione doloremque illum
-          omnis excepturi modi ad! Saepe deserunt eaque, laboriosam animi
-          explicabo quas laborum libero adipisci exercitationem mollitia
-          assumenda optio cupiditate ullam corporis enim veritatis porro veniam,
-          voluptatem voluptas velit magnam. Molestiae amet tempore suscipit
-          magnam.
+          <FooterContainer >
+            <FooterWrap style={{ flexDirection: 'column-reverse'}}>
+              {/* address */}
+              <FooterItems>
+                <FooterHeader>KDE NÁS NAJDETE</FooterHeader>
+                <FooterItem>Restaurace Obecník</FooterItem>
+                <FooterItem>Raškovice 207, 739 04</FooterItem>
+                <FooterItem>
+                  <FooterLink
+                    href="https://www.google.com/maps"
+                    target="_blank"
+                  >
+                    <HiLocationMarker /> zobrazit na mapě
+                  </FooterLink>
+                </FooterItem>
+              </FooterItems>
+              {/* kontakty */}
+              <FooterItems>
+                <FooterHeader>KONTAKTY</FooterHeader>
+                <FooterItem>
+                  <HiPhone /> telefon:<span> +420 123 456 789</span>
+                </FooterItem>
+                <FooterItem>
+                  <HiMail /> email:<span> info@pizzerieobecnik.cz</span>
+                </FooterItem>
+                <SocialIcons>
+                  <SocialIconLink
+                    href="https://www.facebook.com"
+                    target="_blank"
+                    aria-label="Facebook"
+                  >
+                    <FaFacebookSquare />
+                  </SocialIconLink>
+                  <SocialIconLink
+                    href="https://instagram.com"
+                    target="_blank"
+                    aria-label="Instagram"
+                  >
+                    <FaInstagram />
+                  </SocialIconLink>
+                </SocialIcons>
+              </FooterItems>
+              {/* otviracka */}
+              <FooterItems>
+                <FooterHeader>OTEVÍRACÍ DOBA</FooterHeader>
+                <FooterItem>
+                  <HiOutlineClock /> po-pá:<span> 11:00-20:00</span>
+                </FooterItem>
+                <FooterItem>
+                  <HiOutlineClock /> so-ne:<span> 12:00-22:00</span>
+                </FooterItem>
+              </FooterItems>
+            </FooterWrap>
+          </FooterContainer>
+          {/* kontakt form */}
+
+          <ContactForm/>
         </Wrapper>
       </Container>
+      <Iframe iframe={iframe} />
+      <CopyrightFooter />
     </>
   );
 }

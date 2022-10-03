@@ -19,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
   --color-gray40: rgba(0, 0, 0, 0.4);
   --color-gray30: rgba(0, 0, 0, 0.3);
   --color-gray20: rgba(0, 0, 0, 0.2);
+  --color-gray10: rgba(0, 0, 0, 0.1);
   --color-white90: rgba(255, 255, 255, 0.9);
   --color-white80: rgba(255, 255, 255, 0.8);
   --color-white70: rgba(255, 255, 255, 0.7);
@@ -34,6 +35,9 @@ const GlobalStyle = createGlobalStyle`
 
 html {
   overflow-x: hidden;
+}
+body {
+  background-color: var(--color-black);
 }
 `;
 
@@ -62,12 +66,15 @@ export const SectionContainer = styled.div`
   background: var(--color-lightYellow);
   display: flex;
   justify-content: center;
+  /* min-height: 90vh; */
 
 `;
 
 export const SectionWrapper = styled.div`
   width: 100%;
   max-width: 1200px;
+
+  
   margin: 0 auto;
   padding: 0 25px;
 

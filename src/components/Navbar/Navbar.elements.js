@@ -8,6 +8,7 @@ export const Nav = styled.nav`
   width: 100%;
   background: var(--color-gray90);
   height: 80px;
+  height: ${({ scrollNav }) => (scrollNav ? "60px" : "80px")};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,20 +58,18 @@ export const NavLogo = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   img {
-    height: 60px;
+    height: 44px;
+
   }
 `;
 
 export const NavIcon = styled(GiFullPizza)``;
 
 export const MobileIcon = styled.div`
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  transform: translate(-100%, 60%);
+  display: flex;
+  align-items: center;
   font-size: 1.8rem;
   cursor: pointer;
 
@@ -89,7 +88,8 @@ export const NavMenu = styled.ul`
   width: 100%;
   min-height: 450px;
   position: absolute;
-  top: 80px;
+  /* top: 80px; */
+  top: ${({ scrollNav }) => (scrollNav ? "60px" : "80px")};
   left: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
 
   opacity: 1;
@@ -126,6 +126,7 @@ export const NavLinks = styled(NavLink)`
   height: 100%;
   width: 100%;
   text-transform: uppercase;
+  white-space: nowrap;
   transition: ease-in-out 0.4s;
 
   &:hover {
@@ -140,11 +141,15 @@ export const NavLinks = styled(NavLink)`
 
   @media screen and (min-width: 768px) {
     width: unset;
-    padding: 0.5rem 1rem;
-    margin: 0 0.5rem;
+    padding: 0.5rem 1.5rem;
+    /* margin: 0 0.5rem; */
     display: flex;
     align-items: center;
     position: relative;
+    &:hover {
+      color: var(--color-primary);
+      transition: ease-in-out 0.3s;
+    }
     &:after {
       content: "";
       position: absolute;
@@ -158,9 +163,12 @@ export const NavLinks = styled(NavLink)`
       transition: ease-in-out 0.3s;
       -webkit-transition: ease-in-out 0.3s;
     }
-    &.active:after {
+    /* &.active:after {
       opacity: 1;
       width: 100%;
+    } */
+    &.active {
+      color: var(--color-primary);
     }
     &:hover:after {
       opacity: 1;

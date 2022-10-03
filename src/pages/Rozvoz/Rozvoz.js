@@ -1,38 +1,46 @@
 import React from "react";
+import { Navbar, Footer, CopyrightFooter } from "../../components";
 
 import styled from "styled-components";
-import { SectionContainer, SectionWrapper, SectionHeader } from "../../globalStyles";
+import {
+  SectionContainer,
+  SectionWrapper,
+  SectionHeader,
+} from "../../globalStyles";
 import img from "../../images/pizza.jpg";
 
 export const SectionHeaderHome = styled(SectionHeader)`
-    background-image: url(${img});
-    height: 60vh;
-    background-attachment: fixed;
-    position: relative;
-    z-index: 0;
+  background-image: url(${img});
+  height: 60vh;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 0;
 
-    &:before {
-        background: rgba(0, 0, 0, 0.2);
-        content: "";
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 100%;
-        z-index: -1;
-    }
+  &:before {
+    background: linear-gradient(
+      var(--color-gray80),
+      var(--color-gray30),
+      var(--color-gray30)
+    );
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
   ${SectionHeader}
 `;
 
 export const Container = styled(SectionContainer)``;
 export const Wrapper = styled(SectionWrapper)``;
 
-function Pizza() {
+function Rozvoz() {
   return (
     <>
-      <SectionHeaderHome>
-        Pizza
-      </SectionHeaderHome>
+      <Navbar />
+      <SectionHeaderHome>Rozvoz</SectionHeaderHome>
       <Container>
         <Wrapper>
           test page Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -83,8 +91,10 @@ function Pizza() {
           magnam.
         </Wrapper>
       </Container>
+      <Footer />
+      <CopyrightFooter />
     </>
   );
 }
 
-export default Pizza;
+export default Rozvoz;
