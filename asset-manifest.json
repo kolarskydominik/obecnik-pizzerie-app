@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.js": "/dominikkolarsky/obecnik-pizzerie-app/static/js/main.49b66357.js",
-    "static/media/pizza-menu.pdf": "/dominikkolarsky/obecnik-pizzerie-app/static/media/pizza-menu.5061aa81076033f4fd0b.pdf",
-    "static/media/menu.jpg": "/dominikkolarsky/obecnik-pizzerie-app/static/media/menu.edc84065a290f5b9ba40.jpg",
-    "static/media/img6m1.jpg": "/dominikkolarsky/obecnik-pizzerie-app/static/media/img6m1.d40b6bdf62ecb379bbfe.jpg",
-    "static/media/pizza.jpg": "/dominikkolarsky/obecnik-pizzerie-app/static/media/pizza.11e570d108138c0ae591.jpg",
-    "static/media/galerie.jpg": "/dominikkolarsky/obecnik-pizzerie-app/static/media/galerie.15552cf113fb8f68551f.jpg",
-    "static/media/img6m.jpg": "/dominikkolarsky/obecnik-pizzerie-app/static/media/img6m.80b2cf345e5c459d0a5d.jpg",
-    "static/media/img4m.jpg": "/dominikkolarsky/obecnik-pizzerie-app/static/media/img4m.98872bebf658ab1ebcc6.jpg",
-    "static/media/img5m.jpg": "/dominikkolarsky/obecnik-pizzerie-app/static/media/img5m.3d520dab58f0b45d994d.jpg",
-    "static/media/img3m.jpg": "/dominikkolarsky/obecnik-pizzerie-app/static/media/img3m.9b69649bb67eed176f73.jpg",
-    "static/media/img2m.jpg": "/dominikkolarsky/obecnik-pizzerie-app/static/media/img2m.98232692de720b45d184.jpg",
-    "static/media/img1m.jpg": "/dominikkolarsky/obecnik-pizzerie-app/static/media/img1m.eca3d2d785e44ce4d2f1.jpg",
-    "static/media/CTAgalerie.jpg": "/dominikkolarsky/obecnik-pizzerie-app/static/media/CTAgalerie.a7b949b399a3a3a9d238.jpg",
-    "static/media/welcome.jpg": "/dominikkolarsky/obecnik-pizzerie-app/static/media/welcome.60f68dc0332026da4472.jpg",
-    "static/media/obecnik-logo.png": "/dominikkolarsky/obecnik-pizzerie-app/static/media/obecnik-logo.9a8b0f5947c1443551a8.png",
-    "index.html": "/dominikkolarsky/obecnik-pizzerie-app/index.html",
-    "main.49b66357.js.map": "/dominikkolarsky/obecnik-pizzerie-app/static/js/main.49b66357.js.map"
+    "main.js": "/obecnik-pizzerie-app/static/js/main.0da49574.js",
+    "static/media/pizza-menu.pdf": "/obecnik-pizzerie-app/static/media/pizza-menu.5061aa81076033f4fd0b.pdf",
+    "static/media/menu.jpg": "/obecnik-pizzerie-app/static/media/menu.edc84065a290f5b9ba40.jpg",
+    "static/media/img6m1.jpg": "/obecnik-pizzerie-app/static/media/img6m1.d40b6bdf62ecb379bbfe.jpg",
+    "static/media/pizza.jpg": "/obecnik-pizzerie-app/static/media/pizza.11e570d108138c0ae591.jpg",
+    "static/media/galerie.jpg": "/obecnik-pizzerie-app/static/media/galerie.15552cf113fb8f68551f.jpg",
+    "static/media/img6m.jpg": "/obecnik-pizzerie-app/static/media/img6m.80b2cf345e5c459d0a5d.jpg",
+    "static/media/img4m.jpg": "/obecnik-pizzerie-app/static/media/img4m.98872bebf658ab1ebcc6.jpg",
+    "static/media/img5m.jpg": "/obecnik-pizzerie-app/static/media/img5m.3d520dab58f0b45d994d.jpg",
+    "static/media/img3m.jpg": "/obecnik-pizzerie-app/static/media/img3m.9b69649bb67eed176f73.jpg",
+    "static/media/img2m.jpg": "/obecnik-pizzerie-app/static/media/img2m.98232692de720b45d184.jpg",
+    "static/media/img1m.jpg": "/obecnik-pizzerie-app/static/media/img1m.eca3d2d785e44ce4d2f1.jpg",
+    "static/media/CTAgalerie.jpg": "/obecnik-pizzerie-app/static/media/CTAgalerie.a7b949b399a3a3a9d238.jpg",
+    "static/media/welcome.jpg": "/obecnik-pizzerie-app/static/media/welcome.60f68dc0332026da4472.jpg",
+    "static/media/obecnik-logo.png": "/obecnik-pizzerie-app/static/media/obecnik-logo.9a8b0f5947c1443551a8.png",
+    "index.html": "/obecnik-pizzerie-app/index.html",
+    "main.0da49574.js.map": "/obecnik-pizzerie-app/static/js/main.0da49574.js.map"
   },
   "entrypoints": [
-    "static/js/main.49b66357.js"
+    "static/js/main.0da49574.js"
   ]
 }
