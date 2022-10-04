@@ -31,7 +31,6 @@ export const SectionHeaderHome = styled(SectionHeader)`
 export const Container = styled(SectionContainer)`
   background-color: var(--color-black);
   margin: 3rem 0;
-
 `;
 export const Wrapper = styled(SectionWrapper)`
   display: flex;

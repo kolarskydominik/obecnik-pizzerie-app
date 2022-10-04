@@ -7,8 +7,8 @@ import { SectionWrapper } from "../../globalStyles";
 export const Nav = styled.nav`
   width: 100%;
   background: var(--color-gray90);
-  height: 80px;
-  height: ${({ scrollNav }) => (scrollNav ? "60px" : "80px")};
+  height: 60px;
+  /* height: ${({ scrollNav }) => (scrollNav ? "60px" : "80px")}; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,6 +20,8 @@ export const Nav = styled.nav`
   @media screen and (min-width: 768px) {
     background: ${({ scrollNav }) =>
       scrollNav ? "var(--color-black)" : "transparent"};
+  height: ${({ scrollNav }) => (scrollNav ? "60px" : "80px")};
+
   }
 `;
 
@@ -61,7 +63,6 @@ export const NavLogo = styled(Link)`
 
   img {
     height: 44px;
-
   }
 `;
 
@@ -88,8 +89,8 @@ export const NavMenu = styled.ul`
   width: 100%;
   min-height: 450px;
   position: absolute;
-  /* top: 80px; */
-  top: ${({ scrollNav }) => (scrollNav ? "60px" : "80px")};
+  top: 60px;
+  /* top: ${({ scrollNav }) => (scrollNav ? "60px" : "80px")}; */
   left: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
 
   opacity: 1;
@@ -155,7 +156,7 @@ export const NavLinks = styled(NavLink)`
       position: absolute;
       border-radius: 1px;
       left: 0;
-      bottom: 15px;
+      bottom: 10px;
       width: 0%;
       height: 2px;
       opacity: 0;

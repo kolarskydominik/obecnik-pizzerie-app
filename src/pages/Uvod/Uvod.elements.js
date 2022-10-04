@@ -27,11 +27,11 @@ export const SectionHeaderHome = styled(SectionHeader)`
 
   p {
     font-size: 1rem;
-    max-width: 740px;
+    max-width: 700px;
     z-index: 2;
     margin: 2.5rem 20px 1.5rem 20px;
     padding: 5px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
     text-shadow: 0px 0px 6px var(--color-gray90);
   }
@@ -40,7 +40,7 @@ export const SectionHeaderHome = styled(SectionHeader)`
     background: linear-gradient(
       var(--color-gray80),
       var(--color-gray30),
-      var(--color-gray90)
+      var(--color-gray80)
     );
     content: "";
     height: 100%;

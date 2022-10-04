@@ -73,8 +73,6 @@ export const SectionContainer = styled.div`
 export const SectionWrapper = styled.div`
   width: 100%;
   max-width: 1200px;
-
-  
   margin: 0 auto;
   padding: 0 25px;
 

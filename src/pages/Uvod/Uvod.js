@@ -24,7 +24,7 @@ import {
   LinkBtn,
 } from "./Uvod.elements";
 
-import logo from "../../obecnik-logo.png";
+import logo from '../../assets/images/web/obecnik-logo.png';
 
 function Restaurace() {
   return (

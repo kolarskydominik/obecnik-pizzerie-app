@@ -9,13 +9,16 @@ export const Form = styled.form`
   flex: 1;
 
   p{
-    margin: 2rem 0;
-    max-width: 400px;
+    margin: 2rem 0 3rem 0;
+    max-width: 450px;
     text-align: center;
     color: var(--color-white90);
+    font-weight: 500;
+    font-size: 1.1rem;
 
     @media screen and (min-width: 600px) {
-        margin: 2rem;
+      margin: 2rem 2rem 3rem 2rem;
+
     }
   }
 
@@ -24,7 +27,7 @@ export const Form = styled.form`
     border: none;
     border-radius: 1px;
     width: 90%;
-    max-width: 400px;
+    max-width: 450px;
     height: 2rem;
     padding: 0.5rem;
     margin: 0.5rem;

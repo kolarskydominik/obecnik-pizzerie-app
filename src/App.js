@@ -15,7 +15,7 @@ import Kontakt from "./pages/Kontakt/Kontakt";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <GlobalStyle />
       <ScrollToTop />
       

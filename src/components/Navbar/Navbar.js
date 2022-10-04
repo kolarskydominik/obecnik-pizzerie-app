@@ -16,7 +16,7 @@ import {
   NavLinks,
 } from "./Navbar.elements";
 
-import logo from '../../obecnik-logo.png'
+import logo from '../../assets/images/web/obecnik-logo.png';
 
 function Navbar() {
   // logika hamburgeru

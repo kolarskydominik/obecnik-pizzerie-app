@@ -21,8 +21,10 @@ export const GalleryItem = styled.div`
   align-items: center;
   overflow: hidden;
 
-  width: 160px;
+  min-width: 250px;
+  max-width: 300px;
   height: 160px;
+  flex: 1;
   cursor: pointer;
   transition: all 0.1s ease;
 
@@ -30,12 +32,15 @@ export const GalleryItem = styled.div`
     object-fit: cover;
     height: 100%;
     width: 100%;
+    
+    :hover {
+      transform: scale(1.05);
+      filter: contrast(70%);
+      filter: blur(1px);
+      transition: all 0.6s ease;
+    }
   }
 
-  :hover {
-    transform: scale(1.02);
-    transition: all 0.1s ease;
-  }
 `;
 
 export const SliderWrap = styled.div`
@@ -51,17 +56,24 @@ export const SliderWrap = styled.div`
   justify-content: center;
   width: 100%;
   height: 100%;
+
 `;
 
 export const FullScreenImages = styled.div`
-width: calc(100%);
-height: calc(100%);
+width: 100%;
+height: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
+padding: 30px;
+
+@media screen and (min-width: 992px) {
+  padding: 50px;
+  }
+
 
 img {
-  max-width: 80%;
+  max-width: 100%;
   max-height: 100%;
   pointer-events: none;
   -webkit-user-select: none;

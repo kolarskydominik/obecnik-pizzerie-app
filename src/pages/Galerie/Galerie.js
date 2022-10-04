@@ -1,59 +1,24 @@
 import React from "react";
-import styled from "styled-components";
-
-import { Navbar, Footer, CopyrightFooter } from "../../components";
-
-import {
-  SectionContainer,
-  SectionWrapper,
-  SectionHeader,
-} from "../../globalStyles";
-import img from "../../images/galerie.jpg";
-
-// galleryImages
-import galleryImages from '../../galleryImages'
-import { Gallery } from "../../components";
-
-export const SectionHeaderHome = styled(SectionHeader)`
-  background-image: url(${img});
-  height: 60vh;
-  background-attachment: fixed;
-  position: relative;
-  z-index: 0;
-
-  &:before {
-    background: linear-gradient(var(--color-gray80),var(--color-gray30),var(--color-gray30));
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-  }
-  ${SectionHeader}
-`;
-export const Container = styled(SectionContainer)``;
-export const Wrapper = styled(SectionWrapper)``;
-
+// components
+import { Navbar, Footer, CopyrightFooter, Gallery } from "../../components";
+// styled
+import { SectionContainer, SectionWrapper } from "../../globalStyles";
+import { SectionHeaderHome } from "./Galerie.elements";
+// galleryImages data
+import galleryImages from "../../galleryImages";
 
 function Galerie() {
-
-
-
-
   return (
     <>
-    <Navbar/>
+      <Navbar />
       <SectionHeaderHome>Galerie</SectionHeaderHome>
-      <Container>
-        <Wrapper>
-          <Gallery
-            galleryImages={galleryImages} />
-        </Wrapper>
-      </Container>
-      <Footer/>
-      <CopyrightFooter/>
+      <SectionContainer>
+        <SectionWrapper>
+          <Gallery galleryImages={galleryImages} />
+        </SectionWrapper>
+      </SectionContainer>
+      <Footer />
+      <CopyrightFooter />
     </>
   );
 }
