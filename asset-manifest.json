@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/obecnik-pizzerie-app/static/js/main.0da49574.js",
+    "main.js": "/obecnik-pizzerie-app/static/js/main.85df7ec5.js",
     "static/media/pizza-menu.pdf": "/obecnik-pizzerie-app/static/media/pizza-menu.5061aa81076033f4fd0b.pdf",
     "static/media/menu.jpg": "/obecnik-pizzerie-app/static/media/menu.edc84065a290f5b9ba40.jpg",
     "static/media/img6m1.jpg": "/obecnik-pizzerie-app/static/media/img6m1.d40b6bdf62ecb379bbfe.jpg",
@@ -16,9 +16,9 @@
     "static/media/welcome.jpg": "/obecnik-pizzerie-app/static/media/welcome.60f68dc0332026da4472.jpg",
     "static/media/obecnik-logo.png": "/obecnik-pizzerie-app/static/media/obecnik-logo.9a8b0f5947c1443551a8.png",
     "index.html": "/obecnik-pizzerie-app/index.html",
-    "main.0da49574.js.map": "/obecnik-pizzerie-app/static/js/main.0da49574.js.map"
+    "main.85df7ec5.js.map": "/obecnik-pizzerie-app/static/js/main.85df7ec5.js.map"
   },
   "entrypoints": [
-    "static/js/main.0da49574.js"
+    "static/js/main.85df7ec5.js"
   ]
 }
