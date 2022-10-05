@@ -14,6 +14,7 @@ export const SectionHeaderHome = styled(SectionHeader)`
   position: relative;
   z-index: 0;
   font-size: 6rem;
+  text-shadow: 0px 2px 2px rgba(0,0,0,1);
 
   &:before {
     background: linear-gradient(var(--color-gray90),var(--color-gray30),var(--color-gray30));

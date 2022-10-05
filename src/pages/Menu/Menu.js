@@ -2,10 +2,7 @@ import React from "react";
 // components
 import { Navbar, Footer, CopyrightFooter, MenuList } from "../../components";
 // elements
-import {
-  SectionContainer,
-  LineDivider,
-} from "../../globalStyles";
+import { SectionContainer, LineDivider } from "../../globalStyles";
 import { SectionHeaderHome, MenuWrap, Wrapper } from "./Menu.elements";
 // data
 import {

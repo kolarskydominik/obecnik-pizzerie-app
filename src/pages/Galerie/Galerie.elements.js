@@ -10,6 +10,7 @@ export const SectionHeaderHome = styled(SectionHeader)`
   background-attachment: fixed;
   position: relative;
   z-index: 0;
+  text-shadow: 0px 2px 2px rgba(0,0,0,1);
 
   &:before {
     background: linear-gradient(

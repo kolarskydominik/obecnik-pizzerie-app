@@ -8,6 +8,7 @@ export const SectionHeaderHome = styled(SectionHeader)`
   background-position: top;
   background-attachment: fixed;
 
+  text-shadow: 0px 2px 2px rgba(0,0,0,1);
   height: 60vh;
   position: relative;
   z-index: 0;
@@ -39,6 +40,8 @@ export const Wrapper = styled(SectionWrapper)`
     text-align: center;
     font-family: var(--fonts-heading);
     color: var(--color-primary);
+    text-shadow: 0px 2px 2px rgba(0,0,0,1);
+
 
     padding: 1rem;
     width: 100%;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Meal = styled.div``;
 
-export const Meal__name = styled.h5`
+export const MealName = styled.h5`
   font-size: 18px;
   color: var(--color-gray70);
   display: flex;
@@ -13,7 +13,7 @@ export const Meal__name = styled.h5`
   }
 `;
 
-export const Meal__description = styled.p`
+export const MealDescription = styled.p`
   font-style: italic;
   padding: 0 30px 0 4px;
   color: var(--color-gray80);

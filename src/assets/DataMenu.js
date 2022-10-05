@@ -20,7 +20,6 @@ const ing = {
   parmskaSunka: 'parmská šunka',
   rukola: 'rukola',
   slanina: 'slanina',
-  feferonky: 'feferonky',
   olivovyOlej: 'olivový olej',
   cesnek: 'česnek',
   oregano: 'oregano',

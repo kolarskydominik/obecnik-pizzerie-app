@@ -1,50 +1,40 @@
 import React from "react";
-import { Navbar, Footer, CopyrightFooter } from "../../components";
 
-import styled from "styled-components";
+import { Navbar, Footer, CopyrightFooter, MenuList } from "../../components";
+
+import { SectionHeaderHome } from "./Rozvoz.elements";
+import { SectionContainer, LineDivider } from "../../globalStyles";
+import { Wrapper, MenuWrap } from "../Menu/Menu.elements";
+// data
 import {
-  SectionContainer,
-  SectionWrapper,
-  SectionHeader,
-} from "../../globalStyles";
-import img from "../../images/pizza.jpg";
-
-export const SectionHeaderHome = styled(SectionHeader)`
-  background-image: url(${img});
-  height: 60vh;
-  background-attachment: fixed;
-  position: relative;
-  z-index: 0;
-
-  &:before {
-    background: linear-gradient(
-      var(--color-gray80),
-      var(--color-gray30),
-      var(--color-gray30)
-    );
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-  }
-`;
-
-export const Container = styled(SectionContainer)``;
-export const Wrapper = styled(SectionWrapper)``;
+  dataPizzaTomato,
+  dataPizzaCream,
+  dataPizzaBread,
+} from "../../assets/DataMenu";
 
 function Rozvoz() {
   return (
     <>
       <Navbar />
       <SectionHeaderHome>Rozvoz</SectionHeaderHome>
-      <Container>
+      <SectionContainer>
         <Wrapper>
-
+          <h3>&mdash; PIZZA &mdash;</h3>
+          <MenuWrap>
+            <h4>Rajčatový základ</h4>
+            <LineDivider />
+            <MenuList dataMenu={dataPizzaTomato} />
+          </MenuWrap>
+          <MenuWrap>
+            <h4>Smetanový základ</h4>
+            <LineDivider />
+            <MenuList dataMenu={dataPizzaCream} />
+            <h4>Pizza chléb</h4>
+            <LineDivider />
+            <MenuList dataMenu={dataPizzaBread} />
+          </MenuWrap>
         </Wrapper>
-      </Container>
+      </SectionContainer>
       <Footer />
       <CopyrightFooter />
     </>

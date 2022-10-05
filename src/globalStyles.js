@@ -56,7 +56,6 @@ export const SectionHeader = styled.div`
   background-repeat: no-repeat;
   font-family: var(--fonts-heading);
 
-
   color: var(--color-lightYellow);
   font-size: 100px;
 `;
