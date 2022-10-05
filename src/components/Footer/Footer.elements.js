@@ -13,7 +13,7 @@ export const FooterWrap = styled.div`
   width: 100%;
   max-width: 1000px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: center;
 
   @media screen and (min-width: 768px) {

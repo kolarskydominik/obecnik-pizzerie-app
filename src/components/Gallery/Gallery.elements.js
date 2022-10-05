@@ -12,7 +12,7 @@ export const GalleryWrap = styled.div`
   gap: 10px;
   align-items: center;
   justify-content: center;
-  margin: 4rem auto;
+  margin: 2rem auto;
 `;
 
 export const GalleryItem = styled.div`

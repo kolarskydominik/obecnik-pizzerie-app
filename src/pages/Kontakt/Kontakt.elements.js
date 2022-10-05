@@ -35,6 +35,7 @@ export const Container = styled(SectionContainer)`
 export const Wrapper = styled(SectionWrapper)`
   display: flex;
   flex-direction: column-reverse;
+  margin: 0;
 
   @media screen and (min-width: 600px) {
     flex-direction: row;

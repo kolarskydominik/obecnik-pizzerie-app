@@ -6,7 +6,9 @@ import { SectionWrapper } from "../../globalStyles";
 
 export const Nav = styled.nav`
   width: 100%;
-  background: var(--color-gray90);
+  /* background: var(--color-gray90); */
+  background: ${({ scrollNav }) =>
+      scrollNav ? "var(--color-black)" : "transparent"};
   height: 60px;
   /* height: ${({ scrollNav }) => (scrollNav ? "60px" : "80px")}; */
   display: flex;
@@ -28,7 +30,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled(SectionWrapper)`
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 100%;
 
   ${SectionWrapper}
 `;
@@ -85,17 +87,20 @@ export const NavMenu = styled.ul`
   list-style: none;
   text-align: center;
   font-size: 1.5rem;
+  z-index: -1;
 
   width: 100%;
   min-height: 450px;
   position: absolute;
-  top: 60px;
+  top: 0;
+  padding-top: 60px;
+  padding-bottom: 10px;
   /* top: ${({ scrollNav }) => (scrollNav ? "60px" : "80px")}; */
   left: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
 
   opacity: 1;
   transition: all 0.5s ease;
-  background: var(--color-gray90);
+  background: var(--color-black);
 
   @media screen and (min-width: 768px) {
     display: flex;
@@ -107,6 +112,10 @@ export const NavMenu = styled.ul`
     background: unset;
     transition: unset;
     font-size: 0.9rem;
+  padding: unset;
+  z-index: unset;
+
+
   }
 `;
 

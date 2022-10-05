@@ -12,7 +12,7 @@ export const Form = styled.form`
     margin: 2rem 0 3rem 0;
     max-width: 450px;
     text-align: center;
-    color: var(--color-white90);
+    color: var(--color-lightYellow);
     font-weight: 500;
     font-size: 1.1rem;
 

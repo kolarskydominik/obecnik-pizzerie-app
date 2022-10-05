@@ -73,13 +73,25 @@ export const SectionContainer = styled.div`
 export const SectionWrapper = styled.div`
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 3rem auto;
   padding: 0 25px;
 
   @media screen and (min-width: 768px) {
     padding: 0 50px;
   }
 `;
+
+export const LineDivider = styled.hr`
+    /* border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(212, 157, 86, 0.3); */
+
+    margin: 6px 0;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(30,30,30, .8), rgba(30,30,30, 0.4), rgba(30,30,30, 0.1));
+`
 
 
 export default GlobalStyle;
