@@ -1,34 +1,31 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import ScrollToTop from "./components/ScrollToTop";
 
 import GlobalStyle from "./globalStyles";
 
-import Uvod from "./pages/Uvod/Uvod"
-import Rozvoz from "./pages/Rozvoz/Rozvoz";
-import Menu from "./pages/Menu/Menu";
-import Galerie from "./pages/Galerie/Galerie";
-import Kontakt from "./pages/Kontakt/Kontakt";
+import Uvod  from "./pages/Uvod/Uvod";
+const Rozvoz = lazy(() => import("./pages/Rozvoz/Rozvoz"));
+const Menu = lazy(() => import("./pages/Menu/Menu"));
+const Galerie = lazy(() => import("./pages/Galerie/Galerie"));
+const Kontakt = lazy(() => import("./pages/Kontakt/Kontakt"));
 
-
-
-function App() {
-  return (
+const App = () =>  (
     <Router basename={process.env.PUBLIC_URL}>
       <GlobalStyle />
       <ScrollToTop />
-      
-      <Routes>
-        <Route path="/" exact element={<Uvod />} />
-        <Route path="/uvod" element={<Uvod />} />
-        <Route path="/menu" element={<Menu />} />
-        <Route path="/rozvoz" element={<Rozvoz />} />
-        <Route path="/galerie" element={<Galerie />} />
-        <Route path="/kontakt" element={<Kontakt />} />
-      </Routes>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route path="/" exact element={<Uvod />} />
+          <Route path="/uvod" element={<Uvod />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/rozvoz" element={<Rozvoz />} />
+          <Route path="/galerie" element={<Galerie />} />
+          <Route path="/kontakt" element={<Kontakt />} />
+        </Routes>
+      </Suspense>
     </Router>
   );
-}
 
 export default App;
