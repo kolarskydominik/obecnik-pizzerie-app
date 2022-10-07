@@ -12,14 +12,14 @@ import imgCTA from "../../images/CTAgalerie.jpg";
 
 export const SectionHeaderHome = styled(SectionHeader)`
   background-image: url(${img});
-  height: 100vh;
+  min-height: 105vh;
   position: relative;
   display: flex;
   flex-direction: column;
   background-attachment: fixed;
 
   img {
-    padding-top: 5rem;
+    padding-top: 7rem;
     width: 80%;
     max-width: 550px;
     z-index: 2;

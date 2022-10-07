@@ -8,7 +8,7 @@ export const SectionHeaderHome = styled(SectionHeader)`
   background-position: top;
   background-attachment: fixed;
 
-  text-shadow: 0px 2px 2px rgba(0,0,0,1);
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
   height: 60vh;
   position: relative;
   z-index: 0;
@@ -35,13 +35,17 @@ export const Wrapper = styled(SectionWrapper)`
   justify-content: center;
   gap: 0 60px;
 
-    h3 {
+  >p {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  h3 {
     font-size: 3rem;
     text-align: center;
     font-family: var(--fonts-heading);
     color: var(--color-primary);
-    text-shadow: 0px 2px 2px rgba(0,0,0,1);
-
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
 
     padding: 1rem;
     width: 100%;
@@ -53,7 +57,6 @@ export const MenuWrap = styled.div`
   min-width: 280px;
   max-width: 500px;
   flex: 1;
-  
 
   h4 {
     font-size: 22px;

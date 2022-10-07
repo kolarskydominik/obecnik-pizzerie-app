@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Navbar, Footer, CopyrightFooter } from "../../components";
+import { Navbar, Footer, CopyrightFooter, Dialog } from "../../components";
 
 import imgWelcome from "../../images/welcome.jpg";
 import imgGalerie from "../../images/galerie.jpg";
@@ -29,6 +29,7 @@ import logo from '../../assets/images/web/obecnik-logo.png';
 function Restaurace() {
   return (
     <>
+      <Dialog/>
       <Navbar />
       <SectionHeaderHome>
         <img src={logo} alt="Obecník Raškovice logo" />

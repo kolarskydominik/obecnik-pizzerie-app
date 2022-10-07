@@ -15,7 +15,7 @@ function MenuList({ dataMenu }) {
                 <span>{item.price}</span>
               </MealName>
               <MealDescription>
-                {item.ingredients.join(", ")} {item.allergens}
+                {item.ingredients.join(", ")} <span>{item.allergens}</span>
               </MealDescription>
               <LineDivider />
             </Meal>

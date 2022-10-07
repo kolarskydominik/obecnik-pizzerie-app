@@ -32,6 +32,7 @@ function Menu() {
             <LineDivider />
             <MenuList dataMenu={dataPizzaBread} />
           </MenuWrap>
+          <p><br/><br/>Na zbytku jídelního lístku se pracuje. Děkujeme za trpělivost.</p>
         </Wrapper>
       </SectionContainer>
       <Footer />

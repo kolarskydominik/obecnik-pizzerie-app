@@ -8,7 +8,7 @@ export const MealName = styled.h5`
   display: flex;
   justify-content: space-between;
 
-  span:nth-child(2){
+  >span:nth-child(2){
     padding-left: 16px;
   }
 `;
@@ -19,7 +19,7 @@ export const MealDescription = styled.p`
   color: var(--color-gray80);
   font-size: 15px;
 
-  >span {
-    white-space: nowrap
+  span {
+    white-space: nowrap;
   }
 `;
