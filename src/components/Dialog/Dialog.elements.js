@@ -17,7 +17,7 @@ export const DialogWrap = styled.div`
 
 export const DialogAktualne = styled.p`
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
 `;
 
 export const DialogContent = styled.div`

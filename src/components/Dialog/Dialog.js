@@ -26,17 +26,20 @@ function Dialog() {
             <button onClick={handleClose} value="X">
               X
             </button>
-            <h3>ROZVOZ PIZZY</h3>
-            <p>
-              Pizzu si můžete objednat telefonicky a využít náš rozvoz v Raškovicích a blízkém okolí.
-            </p>
-            <LinkBtn to="/rozvoz" className="dialogBtn">
-              Přejít k objednání
-            </LinkBtn>
+              <h3>ROZVOZ PIZZY</h3>
+              <p>
+                Pizzu si můžete objednat telefonicky a využít náš rozvoz v
+                Raškovicích a blízkém okolí.
+              </p>
+              <LinkBtn to="/rozvoz" className="dialogBtn">
+                Přejít k objednání
+              </LinkBtn>
 
-            <h3>Aktuálně:</h3>
-            <DialogAktualne><span>15.10.2022</span><span>Restaurace je momentálně UZAVŘENA. Rozvoz funguje.</span></DialogAktualne>
-            
+              <h3>Aktuálně:</h3>
+              <DialogAktualne>
+                <span>15.10.2022</span>
+                <span>Restaurace je momentálně UZAVŘENA. Rozvoz funguje.</span>
+              </DialogAktualne>
           </DialogContent>
         </DialogWrap>
       )}
