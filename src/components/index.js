@@ -5,4 +5,4 @@ export { default as Gallery } from "./Gallery/Gallery";
 export { default as ContactForm } from "./ContactForm/ContactForm";
 export { default as MenuList } from "./MenuList/MenuList";
 export { default as OrderInfo } from "./OrderInfo/OrderInfo";
-export {default as Dialog} from './Dialog/Dialog';
+export { default as Dialog } from "./Dialog/Dialog";

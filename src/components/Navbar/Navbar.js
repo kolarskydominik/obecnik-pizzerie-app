@@ -1,22 +1,20 @@
 import React, { useState, useEffect } from "react";
-// ikony hamburgeru
+// icons
 import { FaBars, FaTimes } from "react-icons/fa";
 // pro obarveni loga
 import { IconContext } from "react-icons/lib";
-
-// import elements
+//elements
 import {
   Nav,
   NavbarContainer,
   NavLogo,
-  // NavIcon,
   MobileIcon,
   NavMenu,
   NavItem,
   NavLinks,
 } from "./Navbar.elements";
-
-import logo from '../../assets/images/web/obecnik-logo.png';
+//images
+import {dataWebImages} from "../../dataImages";
 
 function Navbar() {
   // logika hamburgeru
@@ -43,7 +41,7 @@ function Navbar() {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to="/" onClick={closeMobileMenu}>
-            <img src={logo} alt="Obecník Raškovice logo" />
+            <img src={dataWebImages.logoNavbar} alt="Obecník Raškovice logo" />
           </NavLogo>
           <MobileIcon onClick={handleIsOpen}>
             {/* obarveni icon */}
@@ -58,7 +56,7 @@ function Navbar() {
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/menu" onClick={closeMobileMenu}>
+              <NavLinks to="/jidelni-listek" onClick={closeMobileMenu}>
                 Jídelní lístek
               </NavLinks>
             </NavItem>

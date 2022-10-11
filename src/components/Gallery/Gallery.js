@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+// elements
 import {
   GalleryWrap,
   GalleryItem,
@@ -10,7 +10,8 @@ import {
   FullScreenImages,
 } from "./Gallery.elements";
 
-const Gallery = ({ galleryImages }) => {
+// gallery logic
+const Gallery = ({ dataGalleryImages }) => {
   const [slideNumber, setSlideNumber] = useState(0);
   const [openModal, setOpenModal] = useState(false);
 
@@ -25,15 +26,16 @@ const Gallery = ({ galleryImages }) => {
 
   const prevSlide = () => {
     slideNumber === 0
-      ? setSlideNumber(galleryImages.length - 1)
+      ? setSlideNumber(dataGalleryImages.length - 1)
       : setSlideNumber(slideNumber - 1);
   };
 
   const nextSlide = () => {
-    slideNumber + 1 === galleryImages.length
+    slideNumber + 1 === dataGalleryImages.length
       ? setSlideNumber(0)
       : setSlideNumber(slideNumber + 1);
   };
+  
   return (
     <>
       {openModal && (
@@ -42,14 +44,14 @@ const Gallery = ({ galleryImages }) => {
           <IconPrev onClick={prevSlide} />
           <IconNext onClick={nextSlide} />
           <FullScreenImages>
-            <img src={galleryImages[slideNumber].img} alt="" />
+            <img src={dataGalleryImages[slideNumber].img} alt="" />
           </FullScreenImages>
         </SliderWrap>
       )}
 
       <GalleryWrap>
-        {galleryImages &&
-          galleryImages.map((item, index) => {
+        {dataGalleryImages &&
+          dataGalleryImages.map((item, index) => {
             return (
               <GalleryItem key={index} onClick={() => handleOpenModal(index)}>
                 <img src={item.img} alt="" />

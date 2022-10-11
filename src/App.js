@@ -15,11 +15,11 @@ const App = () =>  (
     <Router basename={process.env.PUBLIC_URL}>
       <GlobalStyle />
       <ScrollToTop />
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div>Načítám, čekejte prosím...</div>}>
         <Routes>
           <Route path="/" exact element={<Uvod />} />
           <Route path="/uvod" element={<Uvod />} />
-          <Route path="/menu" element={<Menu />} />
+          <Route path="/jidelni-listek" element={<Menu />} />
           <Route path="/rozvoz" element={<Rozvoz />} />
           <Route path="/galerie" element={<Galerie />} />
           <Route path="/kontakt" element={<Kontakt />} />

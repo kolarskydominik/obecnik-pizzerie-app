@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+//icons
 import {
   IoArrowRedoCircleOutline,
   IoArrowUndoCircleOutline,
@@ -22,9 +22,9 @@ export const GalleryItem = styled.div`
   overflow: hidden;
 
   min-width: 250px;
-  max-width: 300px;
+  max-width: 290px;
   height: 160px;
-  flex: 1;
+  flex: 1 1 0px;
   cursor: pointer;
   transition: all 0.1s ease;
 
@@ -34,7 +34,6 @@ export const GalleryItem = styled.div`
     width: 100%;
     transition: all 0.6s ease;
 
-    
     :hover {
       transform: scale(1.05);
       filter: contrast(70%);
@@ -42,7 +41,6 @@ export const GalleryItem = styled.div`
       transition: all 0.6s ease;
     }
   }
-
 `;
 
 export const SliderWrap = styled.div`
@@ -58,30 +56,28 @@ export const SliderWrap = styled.div`
   justify-content: center;
   width: 100%;
   height: 100%;
-
 `;
 
 export const FullScreenImages = styled.div`
-width: 100%;
-height: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
 
-@media screen and (min-width: 992px) {
-  padding: 50px;
+  @media screen and (min-width: 992px) {
+    padding: 50px;
   }
 
-
-img {
-  max-width: 100%;
-  max-height: 100%;
-  pointer-events: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 `;
 
 export const IconPrev = styled(IoArrowUndoCircleOutline)`
@@ -108,7 +104,6 @@ export const IconNext = styled(IoArrowRedoCircleOutline)`
   z-index: 9999;
   font-size: 4rem;
 
-
   top: 50%;
   transform: translateY(-50%);
   right: 1%;
@@ -124,7 +119,6 @@ export const IconClose = styled(IoCloseCircleOutline)`
   color: var(--color-white);
   z-index: 9999;
   font-size: 3rem;
-
 
   top: 2%;
   right: 1%;

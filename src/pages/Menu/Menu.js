@@ -2,20 +2,28 @@ import React from "react";
 // components
 import { Navbar, Footer, CopyrightFooter, MenuList } from "../../components";
 // elements
-import { SectionContainer, LineDivider } from "../../globalStyles";
-import { SectionHeaderHome, MenuWrap, Wrapper } from "./Menu.elements";
+import {
+  SectionContainer,
+  LineDivider,
+  SectionHeaderHome,
+} from "../../globalStyles";
+import { MenuWrap, Wrapper } from "./Menu.elements";
 // data
 import {
   dataPizzaTomato,
   dataPizzaCream,
   dataPizzaBread,
-} from "../../assets/DataMenu";
+} from "../../dataMenu";
+//images
+import { dataWebImages } from "../../dataImages";
 
 function Menu() {
   return (
     <>
       <Navbar />
-      <SectionHeaderHome>Menu</SectionHeaderHome>
+      <SectionHeaderHome image={dataWebImages.jidelniListekHeader}>
+        Menu
+      </SectionHeaderHome>
       <SectionContainer>
         <Wrapper>
           <h3>&mdash; PIZZA &mdash;</h3>
@@ -32,7 +40,11 @@ function Menu() {
             <LineDivider />
             <MenuList dataMenu={dataPizzaBread} />
           </MenuWrap>
-          <p><br/><br/>Na zbytku jídelního lístku se pracuje. Děkujeme za trpělivost.</p>
+          <p>
+            <br />
+            <br />
+            Na zbytku jídelního lístku se pracuje. Děkujeme za trpělivost.
+          </p>
         </Wrapper>
       </SectionContainer>
       <Footer />

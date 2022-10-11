@@ -1,22 +1,17 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
-
+//elements
 import {
   SectionContainer,
   SectionWrapper,
-  SectionHeader,
+  SectionHeaderHome,
 } from "../../globalStyles";
 
-import img from "../../images/img6m1.jpg";
-import imgCTA from "../../images/CTAgalerie.jpg";
+import { dataWebImages } from "../../dataImages";
 
-export const SectionHeaderHome = styled(SectionHeader)`
-  background-image: url(${img});
+export const SectionHeaderHome2 = styled(SectionHeaderHome)`
   min-height: 105vh;
-  position: relative;
   display: flex;
   flex-direction: column;
-  background-attachment: fixed;
 
   img {
     padding-top: 7rem;
@@ -42,30 +37,38 @@ export const SectionHeaderHome = styled(SectionHeader)`
       var(--color-gray30),
       var(--color-gray80)
     );
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
     background-attachment: fixed;
   }
-  ${SectionHeader}
 `;
-export const Container = styled(SectionContainer)``;
 
-export const WrapperGrid = styled(SectionWrapper)`
+export const WrapperSection = styled(SectionWrapper)`
   margin: 3rem 0;
-  padding: 0 25px;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  @media screen and (min-width: 992px) {
+    gap: 2rem;
+  }
 `;
 
-export const WrapperLeft = styled.div`
-  grid-column: span 6;
+export const WrapperText = styled.div`
+  flex: 1 1 320px;
   color: var(--color-gray80);
+
+  h2 {
+    font-family: var(--fonts-heading);
+    font-size: 3rem;
+    padding: 1rem 0;
+
+    @media screen and (min-width: 500px) {
+      font-size: 4rem;
+    }
+  }
+
   p {
     margin-bottom: 0.5rem;
+    font-size: 1.125rem;
   }
 
   @media screen and (min-width: 768px) {
@@ -76,38 +79,20 @@ export const WrapperLeft = styled.div`
   }
 `;
 
-export const Header2 = styled.h2`
-  margin-top: 1rem;
-  font-family: var(--fonts-heading);
-  font-size: 4rem;
-  padding: 0rem 0 1rem;
-`;
-
-export const WrapperRight = styled.div`
-  grid-column: 1/7;
+export const WrapperImage = styled.div`
+  flex: 1 1 320px;
   display: flex;
   justify-content: end;
 
   img {
-    padding: 10px;
     width: 100%;
     margin: auto 0;
-    aspect-ratio: 1920/1280;
-
-    @media screen and (min-width: 768px) {
-    }
-    @media screen and (min-width: 992px) {
-      width: 80%;
-    }
   }
 
   @media screen and (min-width: 768px) {
     grid-column: 4/7;
     justify-content: center;
   }
-`;
-export const ContainerFlex = styled(SectionContainer)`
-  background: var(--color-white);
 `;
 
 export const WrapperFlex = styled(SectionWrapper)`
@@ -140,13 +125,13 @@ export const FlexItem = styled.div`
     margin-bottom: 1rem;
   }
   p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: var(--color-gray70);
   }
 `;
 
 export const ContainerImg = styled(SectionContainer)`
-  background-image: url(${imgCTA});
+  background-image: url(${dataWebImages.uvodTesimeSe});
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -155,65 +140,9 @@ export const ContainerImg = styled(SectionContainer)`
   flex-direction: column;
 `;
 
-export const WrapperLeft2 = styled.div`
-  grid-column: 1/7;
-
-  display: flex;
-  justify-content: start;
-  img {
-    padding: 0 30px;
-    margin: auto 0;
-    width: 100%;
-    aspect-ratio: 1920/1280;
-  }
-
-  @media screen and (min-width: 768px) {
-    grid-column: 1/4;
-    justify-content: center;
-  }
-`;
-export const WrapperRight2 = styled.div`
-  grid-column: span 6;
-  color: var(--color-gray80);
-  padding: 0 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  p {
-    margin-bottom: 0.5rem;
-  }
-
-  @media screen and (min-width: 768px) {
-    grid-column: 4/7;
-  }
-`;
-
 export const Header3 = styled.h2`
   color: var(--color-lightYellow);
   font-family: var(--fonts-heading);
   font-size: 3rem;
   text-align: center;
-`;
-
-export const LinkBtn = styled(Link)`
-  z-index: 2;
-  text-decoration: none;
-  white-space: nowrap;
-  font-size: 1.2rem;
-  padding: 0.5rem 1.5rem;
-  margin: 2rem auto 1.5rem;
-  color: var(--color-primary);
-  border: 2px solid var(--color-primary);
-  cursor: pointer;
-
-  &:hover {
-    color: var(--color-lightYellow);
-    background: var(--color-primary);
-    font-weight: 500;
-  }
-
-  &.CTAgalerie {
-    margin: 1.5rem auto 0 0;
-  }
 `;

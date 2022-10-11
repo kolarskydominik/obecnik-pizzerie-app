@@ -1,20 +1,19 @@
 import React from "react";
 // components
 import { Navbar, Footer, CopyrightFooter, Gallery } from "../../components";
-// styled
-import { SectionContainer, SectionWrapper } from "../../globalStyles";
-import { SectionHeaderHome } from "./Galerie.elements";
+// elements
+import { SectionHeaderHome, SectionContainer, SectionWrapper } from "../../globalStyles";
 // galleryImages data
-import galleryImages from "../../galleryImages";
+import {dataWebImages, dataGalleryImages} from "../../dataImages";
 
 function Galerie() {
   return (
     <>
       <Navbar />
-      <SectionHeaderHome>Galerie</SectionHeaderHome>
+      <SectionHeaderHome image={dataWebImages.galerieHeader}>Galerie</SectionHeaderHome>
       <SectionContainer>
-        <SectionWrapper>
-          <Gallery galleryImages={galleryImages} />
+        <SectionWrapper style={{padding: '0'}}>
+          <Gallery dataGalleryImages={dataGalleryImages} />
         </SectionWrapper>
       </SectionContainer>
       <Footer />

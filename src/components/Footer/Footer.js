@@ -1,4 +1,5 @@
 import React from "react";
+//icons
 import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 import {
   HiLocationMarker,
@@ -6,6 +7,7 @@ import {
   HiMail,
   HiOutlineClock,
 } from "react-icons/hi";
+//elements
 import {
   FooterContainer,
   FooterWrap,

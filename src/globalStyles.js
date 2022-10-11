@@ -1,4 +1,6 @@
 import styled, { createGlobalStyle } from "styled-components";
+import { Link } from "react-router-dom";
+
 
 const GlobalStyle = createGlobalStyle`
 :root {
@@ -48,16 +50,40 @@ export const SectionHeader = styled.div`
   height: 100vh;
   align-items: center;
   justify-content: center;
-  font-size: 4rem;
 
-  background-image: url(${''});
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: var(--fonts-heading);
 
+  font-family: var(--fonts-heading);
   color: var(--color-lightYellow);
-  font-size: 100px;
+  font-size: 6rem;
+`;
+
+export const SectionHeaderHome = styled(SectionHeader)`
+  background-image: url(${props => props.image});
+  background-position: top;
+  background-attachment: fixed;
+
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+  height: 60vh;
+  position: relative;
+  z-index: 0;
+
+  &:before {
+    background: linear-gradient(
+      var(--color-gray80),
+      var(--color-gray30),
+      var(--color-gray30)
+    );
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
 `;
 
 export const SectionContainer = styled.div`
@@ -92,5 +118,22 @@ export const LineDivider = styled.hr`
     background-image: linear-gradient(to right, rgba(30,30,30, .8), rgba(30,30,30, 0.4), rgba(30,30,30, 0.1));
 `
 
+export const LinkBtn = styled(Link)`
+  z-index: 2;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+  margin: 2rem auto 1.5rem;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--color-lightYellow);
+    background: var(--color-primary);
+    font-weight: 500;
+  }
+`;
 
 export default GlobalStyle;
