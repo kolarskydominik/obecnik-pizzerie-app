@@ -15,6 +15,13 @@ const Gallery = ({ dataGalleryImages }) => {
   const [slideNumber, setSlideNumber] = useState(0);
   const [openModal, setOpenModal] = useState(false);
 
+    // disableBodyScroll
+    if (openModal) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "initial";
+    }
+
   const handleOpenModal = (index) => {
     setSlideNumber(index);
     setOpenModal(true);

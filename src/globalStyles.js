@@ -35,9 +35,9 @@ const GlobalStyle = createGlobalStyle`
   font-family: var(--fonts-body);
 } 
 
-html {
+/* html {
   overflow-x: hidden;
-}
+} */
 body {
   background-color: var(--color-black);
 }

@@ -16,6 +16,13 @@ function Dialog() {
     setOpen(false);
   };
 
+    // disableBodyScroll
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "initial";
+    }
+
   return (
     <>
       {open && (

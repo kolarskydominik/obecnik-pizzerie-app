@@ -14,9 +14,9 @@ import {
   NavLinks,
 } from "./Navbar.elements";
 //images
-import {dataWebImages} from "../../dataImages";
+import { dataWebImages } from "../../dataImages";
 
-function Navbar() {
+function Navbar(props) {
   // logika hamburgeru
   const [isOpen, setIsOpen] = useState(false);
   const handleIsOpen = () => setIsOpen(!isOpen);
@@ -35,6 +35,13 @@ function Navbar() {
   useEffect(() => {
     window.addEventListener("scroll", changeNav);
   }, []);
+
+  // disableBodyScroll
+  if (isOpen) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "initial";
+  }
 
   return (
     <>
