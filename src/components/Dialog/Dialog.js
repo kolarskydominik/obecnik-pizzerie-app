@@ -9,7 +9,7 @@ function Dialog() {
   useEffect(() => {
     setTimeout(() => {
       setOpen(true);
-    }, 600);
+    }, 0);
   }, []);
 
   const handleClose = () => {

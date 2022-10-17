@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.section`
-  background-color: var(--color-black);
+    background: transparent;
+
   padding: 2rem 0;
   display: flex;
   flex-direction: column;

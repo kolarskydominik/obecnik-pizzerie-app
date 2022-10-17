@@ -6,7 +6,7 @@ function CopyrightFooter() {
   return (
     <CopyContainer>
       <p>
-        &copy;&nbsp;Copyright 2022 Restaurace a pizzerie Obecník, Raškovice | <a rel="noreferrer" href="https://www.kolarsky.eu/" target="_blank">
+        &copy;&nbsp;Copyright 2022 Restaurace a Pizzerie Obecník Raškovice | <a rel="noreferrer" href="https://www.kolarsky.eu/" target="_blank">
         Vytvořeno <svg
             className="love"
             fill="none"

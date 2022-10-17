@@ -26,7 +26,14 @@ function Menu() {
       </SectionHeaderHome>
       <SectionContainer>
         <Wrapper>
-          <h3>&mdash; PIZZA &mdash;</h3>
+        <p>
+            <br />
+            Na jídelního lístku se pracuje. Děkujeme za trpělivost.
+            <br />
+            <br />
+          </p>
+
+          {/* <h3>&mdash; PIZZA &mdash;</h3>
           <MenuWrap>
             <h4>Rajčatový základ</h4>
             <LineDivider />
@@ -39,12 +46,7 @@ function Menu() {
             <h4>Pizza chléb</h4>
             <LineDivider />
             <MenuList dataMenu={dataPizzaBread} />
-          </MenuWrap>
-          <p>
-            <br />
-            <br />
-            Na zbytku jídelního lístku se pracuje. Děkujeme za trpělivost.
-          </p>
+          </MenuWrap> */}
         </Wrapper>
       </SectionContainer>
       <Footer />

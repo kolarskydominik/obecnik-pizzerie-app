@@ -47,9 +47,15 @@ function Navbar(props) {
     <>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to="/" onClick={closeMobileMenu}>
-            <img src={dataWebImages.logoNavbar} alt="Obecník Raškovice logo" />
-          </NavLogo>
+          <h1>
+            <NavLogo to="/" onClick={closeMobileMenu}>
+              <img
+                src={dataWebImages.logoNavbar}
+                alt="Obecník Raškovice logo"
+                title="Obecník - restaurace a pizzerie Raškovice"
+              />
+            </NavLogo>
+          </h1>
           <MobileIcon onClick={handleIsOpen}>
             {/* obarveni icon */}
             <IconContext.Provider value={{ color: "#fff" }}>

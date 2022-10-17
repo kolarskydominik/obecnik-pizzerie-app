@@ -19,7 +19,7 @@ export const CopyContainer = styled.div`
   }
   a {
     position: relative;
-    top: 1.5px;
+    top: 1px;
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     white-space: nowrap;

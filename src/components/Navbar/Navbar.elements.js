@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   width: 100%;
   /* background: var(--color-gray90); */
   background: ${({ scrollNav }) =>
-      scrollNav ? "var(--color-black)" : "transparent"};
+    scrollNav ? "linear-gradient(var(--color-black) 20%, var(--color-black2) 100%)" : "transparent"};
   height: 60px;
   /* height: ${({ scrollNav }) => (scrollNav ? "60px" : "80px")}; */
   display: flex;
@@ -21,9 +21,8 @@ export const Nav = styled.nav`
 
   @media screen and (min-width: 768px) {
     background: ${({ scrollNav }) =>
-      scrollNav ? "var(--color-black)" : "transparent"};
-  height: ${({ scrollNav }) => (scrollNav ? "60px" : "80px")};
-
+    scrollNav ? "linear-gradient(var(--color-black) 20%,var(--color-black2) 100%)" : "transparent"};
+    height: ${({ scrollNav }) => (scrollNav ? "60px" : "80px")};
   }
 `;
 
@@ -31,6 +30,11 @@ export const NavbarContainer = styled(SectionWrapper)`
   display: flex;
   justify-content: space-between;
   height: 100%;
+
+  h1 {
+    height: 100%;
+    display: flex;
+  }
 
   ${SectionWrapper}
 `;
@@ -63,9 +67,9 @@ export const NavLogo = styled(Link)`
   justify-content: center;
   align-items: center;
 
-  img {
-    height: 44px;
-  }
+    img {
+      height: 44px;
+    }
 `;
 
 export const NavIcon = styled(GiFullPizza)``;
@@ -100,7 +104,8 @@ export const NavMenu = styled.ul`
 
   opacity: 1;
   transition: all 0.5s ease;
-  background: var(--color-black);
+  /* background: var(--color-black); */
+  background: linear-gradient(176deg, var(--color-black) 20%,var(--color-black2) 100%);
 
   @media screen and (min-width: 768px) {
     display: flex;
@@ -112,10 +117,8 @@ export const NavMenu = styled.ul`
     background: unset;
     transition: unset;
     font-size: 0.9rem;
-  padding: unset;
-  z-index: unset;
-
-
+    padding: unset;
+    z-index: unset;
   }
 `;
 

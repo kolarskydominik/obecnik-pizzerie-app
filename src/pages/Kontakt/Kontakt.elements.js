@@ -5,7 +5,8 @@ import {
 } from "../../globalStyles";
 
 export const Container = styled(SectionContainer)`
-  background-color: var(--color-black);
+      background: transparent;
+
   margin: 3rem 0;
 `;
 export const Wrapper = styled(SectionWrapper)`

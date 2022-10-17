@@ -26,8 +26,8 @@ function Footer() {
         {/* address */}
         <FooterItems>
           <FooterHeader>KDE NÁS NAJDETE</FooterHeader>
-          <FooterItem>Restaurace Obecník</FooterItem>
-          <FooterItem>Raškovice 207, 739 04</FooterItem>
+          <FooterItem>Restaurace a Pizzerie Obecník</FooterItem>
+          <FooterItem>Raškovice 50, 739 04</FooterItem>
           <FooterItem>
             <FooterLink href="https://www.google.com/maps" target="_blank">
               <HiLocationMarker /> zobrazit na mapě

@@ -4,7 +4,7 @@ export const Meal = styled.div``;
 
 export const MealName = styled.h5`
   font-size: 18px;
-  color: var(--color-gray70);
+  color: var(--color-gray90);
   display: flex;
   justify-content: space-between;
 

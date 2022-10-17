@@ -24,7 +24,7 @@ function Restaurace() {
       <Dialog />
       <Navbar />
       <SectionHeaderHome2 image={dataWebImages.uvodHeader}>
-        <img src={dataWebImages.logoHeader} alt="Obecník Raškovice logo" />
+        <img src={dataWebImages.logoHeader} alt="Obecník Raškovice logo"  title="Obecník - restaurace a pizzerie Raškovice"/>
         <p>
           V podhůří Lysé Hory Vám přinášíme pravou italskou pizzu, společně s
           tradiční domácí a zahraniční kuchyní.

@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
   --color-lightYellow: #F2F2EC;
   --color-white: #FFF;
   --color-black: #1E1E1E;
+  --color-black2: #1b1b1b;
   --color-primary: rgba(212, 157, 86, 1);
   --color-primary80: rgba(212, 157, 86, 0.8);
 
@@ -39,7 +40,8 @@ const GlobalStyle = createGlobalStyle`
   overflow-x: hidden;
 } */
 body {
-  background-color: var(--color-black);
+  background: linear-gradient(176deg, var(--color-black) 20%,var(--color-black2) 100%);
+  width: 100%;
 }
 `;
 
