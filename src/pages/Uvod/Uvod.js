@@ -24,7 +24,11 @@ function Restaurace() {
       <Dialog />
       <Navbar />
       <SectionHeaderHome2 image={dataWebImages.uvodHeader}>
-        <img src={dataWebImages.logoHeader} alt="Obecník Raškovice logo"  title="Obecník - restaurace a pizzerie Raškovice"/>
+        <img
+          src={dataWebImages.logoHeader}
+          alt="Obecník Raškovice logo"
+          title="Obecník - restaurace a pizzerie Raškovice"
+        />
         <p>
           V podhůří Lysé Hory Vám přinášíme pravou italskou pizzu, společně s
           tradiční domácí a zahraniční kuchyní.
@@ -97,8 +101,8 @@ function Restaurace() {
             <img src={dataWebImages.galerieHeader} alt="galerie"></img>
           </WrapperImage>
           <WrapperText>
+            <h2>Galerie</h2>
             <p style={{ paddingBottom: "24px" }}>
-              <h2>Galerie</h2>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
               numquam, omnis repudiandae nisi nulla commodi minima ullam
               molestias.
@@ -109,7 +113,7 @@ function Restaurace() {
           </WrapperText>
         </WrapperSection>
       </SectionContainer>
-      
+
       <ContainerImg>
         <Header3>Těšíme se na Vás</Header3>
         <LinkBtn to="/kontakt">Rezervovat stůl</LinkBtn>

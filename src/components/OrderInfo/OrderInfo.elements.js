@@ -22,6 +22,10 @@ export const OrderInfoWrap = styled.div`
     h3 {
       text-align: right;
     }
+    h3 {
+      padding: 0;
+      padding-bottom: 1.2rem;
+    }
   }
 
   > div:nth-child(2) {
@@ -37,10 +41,7 @@ export const OrderInfoWrap = styled.div`
 
   h3 {
     font-size: 40px;
-    padding: 0;
-    padding-bottom: 1.2rem;
     color: var(--color-primary);
-
   }
   h4 {
     font-size: 1.5rem;
@@ -68,7 +69,7 @@ export const OrderInfoWrap = styled.div`
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
 
     &:hover {
-    color: var(--color-primary);
+      color: var(--color-primary);
     }
   }
 `;
