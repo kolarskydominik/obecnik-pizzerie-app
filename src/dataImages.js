@@ -12,12 +12,12 @@ import logoHeader from './images/obecnik-logo.png';
 import logoIcon from './images/obecnik-logo-icon.png';
 import uvodHeader from './images/img6m1.jpg';
 import uvodWelcome from './images/welcome.jpg';
-import uvodGalerie from './images/galerie.jpg';
+// import uvodGalerie from './images/galerie.jpg';
 import uvodTesimeSe from './images/CTAgalerie.jpg';
 import jidelniListekHeader from './images/menu.jpg';
 import rozvozHeader from './images/pizza.jpg';
-import galerieHeader from './images/galerie.jpg';
-import kontaktHeader from './images/img2m.jpg';
+// import galerieHeader from './images/galerie.jpg';
+import kontaktHeader from './images/img4m.jpg';
 
 
 export const dataGalleryImages = [
@@ -48,11 +48,11 @@ export const dataWebImages = {
     
     uvodHeader: uvodHeader,
     uvodWelcome: uvodWelcome,
-    uvodGalerie: uvodGalerie,
-    uvodTesimeSe: uvodTesimeSe,
+    uvodGalerie: image3,
+    uvodTesimeSe: uvodTesimeSe  ,
 
     jidelniListekHeader: jidelniListekHeader,
     rozvozHeader: rozvozHeader,
-    galerieHeader: galerieHeader,
+    galerieHeader: image2,
     kontaktHeader: kontaktHeader
 }
