@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/obecnik-pizzerie-app/static/js/main.95a50873.js",
-    "static/js/672.4806c9f9.chunk.js": "/obecnik-pizzerie-app/static/js/672.4806c9f9.chunk.js",
-    "static/js/881.192124bc.chunk.js": "/obecnik-pizzerie-app/static/js/881.192124bc.chunk.js",
-    "static/js/667.7f6432c0.chunk.js": "/obecnik-pizzerie-app/static/js/667.7f6432c0.chunk.js",
-    "static/js/689.ff71e620.chunk.js": "/obecnik-pizzerie-app/static/js/689.ff71e620.chunk.js",
+    "main.js": "/obecnik-pizzerie-app/static/js/main.b87648e3.js",
+    "static/js/672.6276d479.chunk.js": "/obecnik-pizzerie-app/static/js/672.6276d479.chunk.js",
+    "static/js/881.6df6e978.chunk.js": "/obecnik-pizzerie-app/static/js/881.6df6e978.chunk.js",
+    "static/js/667.366512cc.chunk.js": "/obecnik-pizzerie-app/static/js/667.366512cc.chunk.js",
+    "static/js/689.dbb453c7.chunk.js": "/obecnik-pizzerie-app/static/js/689.dbb453c7.chunk.js",
     "static/media/menu.jpg": "/obecnik-pizzerie-app/static/media/menu.edc84065a290f5b9ba40.jpg",
     "static/media/img6m1.jpg": "/obecnik-pizzerie-app/static/media/img6m1.d40b6bdf62ecb379bbfe.jpg",
     "static/media/pizza.jpg": "/obecnik-pizzerie-app/static/media/pizza.11e570d108138c0ae591.jpg",
@@ -19,13 +19,13 @@
     "static/media/welcome.jpg": "/obecnik-pizzerie-app/static/media/welcome.60f68dc0332026da4472.jpg",
     "static/media/obecnik-logo.png": "/obecnik-pizzerie-app/static/media/obecnik-logo.9a8b0f5947c1443551a8.png",
     "index.html": "/obecnik-pizzerie-app/index.html",
-    "main.95a50873.js.map": "/obecnik-pizzerie-app/static/js/main.95a50873.js.map",
-    "672.4806c9f9.chunk.js.map": "/obecnik-pizzerie-app/static/js/672.4806c9f9.chunk.js.map",
-    "881.192124bc.chunk.js.map": "/obecnik-pizzerie-app/static/js/881.192124bc.chunk.js.map",
-    "667.7f6432c0.chunk.js.map": "/obecnik-pizzerie-app/static/js/667.7f6432c0.chunk.js.map",
-    "689.ff71e620.chunk.js.map": "/obecnik-pizzerie-app/static/js/689.ff71e620.chunk.js.map"
+    "main.b87648e3.js.map": "/obecnik-pizzerie-app/static/js/main.b87648e3.js.map",
+    "672.6276d479.chunk.js.map": "/obecnik-pizzerie-app/static/js/672.6276d479.chunk.js.map",
+    "881.6df6e978.chunk.js.map": "/obecnik-pizzerie-app/static/js/881.6df6e978.chunk.js.map",
+    "667.366512cc.chunk.js.map": "/obecnik-pizzerie-app/static/js/667.366512cc.chunk.js.map",
+    "689.dbb453c7.chunk.js.map": "/obecnik-pizzerie-app/static/js/689.dbb453c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.95a50873.js"
+    "static/js/main.b87648e3.js"
   ]
 }
