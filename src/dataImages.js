@@ -9,6 +9,7 @@ import image6 from './images/img6m.jpg';
 //web
 import logoNavbar from './images/obecnik-logo-navbar.png';
 import logoHeader from './images/obecnik-logo.png';
+import logoIcon from './images/obecnik-logo-icon.png';
 import uvodHeader from './images/img6m1.jpg';
 import uvodWelcome from './images/welcome.jpg';
 import uvodGalerie from './images/galerie.jpg';
@@ -43,6 +44,7 @@ export const dataGalleryImages = [
 export const dataWebImages = {
     logoNavbar: logoNavbar,
     logoHeader: logoHeader,
+    logoIcon: logoIcon,
     
     uvodHeader: uvodHeader,
     uvodWelcome: uvodWelcome,

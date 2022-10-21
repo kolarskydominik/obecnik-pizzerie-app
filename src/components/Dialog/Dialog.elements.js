@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { dataWebImages } from "../../dataImages";
 
 export const DialogWrap = styled.div`
   position: fixed;
@@ -13,6 +14,17 @@ export const DialogWrap = styled.div`
   justify-content: center;
   width: 100%;
   height: 100%;
+
+  > div {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    max-width: 600px;
+    max-height: 80vh;
+    border-radius: 20px;
+  }
 `;
 
 export const DialogAktualne = styled.p`
@@ -22,13 +34,15 @@ export const DialogAktualne = styled.p`
 
 export const DialogContent = styled.div`
   background-color: var(--color-lightYellow);
-  margin: 1rem;
+
+  margin: 16px;
   display: flex;
   flex-direction: column;
   overflow: auto;
-  max-width: 600px;
-  max-height: 80vh;
+  max-width: 100%;
+  max-height: 100%;
   padding-bottom: 1.5rem;
+  border-radius: 10px;
 
   button {
     width: 2.5rem;
@@ -40,7 +54,11 @@ export const DialogContent = styled.div`
     cursor: pointer;
     line-height: 2.5rem;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    border-radius: 0 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &:hover {
       background-color: var(--color-primary80);
@@ -49,7 +67,7 @@ export const DialogContent = styled.div`
 
   h3 {
     margin: 0.5rem 1.5rem;
-    font-size: 1.4rem;
+    font-size: 1.75rem;
     color: var(--color-primary);
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
   }
@@ -62,5 +80,6 @@ export const DialogContent = styled.div`
     margin: 0.5rem 1.5rem;
     padding: 0.25rem 0.5rem;
     width: fit-content;
+    border-radius: 2px;
   }
 `;

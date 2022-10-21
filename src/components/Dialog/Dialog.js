@@ -4,6 +4,8 @@ import { DialogWrap, DialogContent, DialogAktualne } from "./Dialog.elements";
 import { LinkBtn } from "../../globalStyles";
 //aktualneText
 import { aktualneText } from "../../dataText";
+// icons
+import {IoClose}  from "react-icons/io5";
 
 function Dialog() {
   const [open, setOpen] = useState(false);
@@ -14,7 +16,7 @@ function Dialog() {
     }, 0);
   }, []);
 
-  const handleClose = (aktualneText) => {
+  const handleClose = () => {
     setOpen(false);
   };
 
@@ -31,30 +33,32 @@ function Dialog() {
         <DialogWrap>
           {/* <DialogTitle>
           </DialogTitle> */}
-          <DialogContent>
-            <button onClick={handleClose} value="X">
-              X
-            </button>
-            <h3>ROZVOZ PIZZY</h3>
-            <p>
-              Pizzu si můžete objednat telefonicky a využít náš rozvoz v
-              Raškovicích a blízkém okolí.
-            </p>
-            <LinkBtn to="/rozvoz" className="dialogBtn">
-              Přejít k objednání
-            </LinkBtn>
+          <div>
+            <DialogContent>
+              <button onClick={handleClose} value="X">
+                <IoClose />
+              </button>
+              <h3>ROZVOZ PIZZY</h3>
+              <p>
+                Pizzu si můžete objednat telefonicky a využít náš rozvoz v
+                Raškovicích a blízkém okolí.
+              </p>
+              <LinkBtn to="/rozvoz" className="dialogBtn">
+                Přejít k objednání
+              </LinkBtn>
 
-            <h3>Aktuálně:</h3>
-            {aktualneText &&
-              aktualneText.map((item, index) => {
-                return (
-                  <DialogAktualne key={index}>
-                    <span>{item.date}</span>
-                    <span>{item.info}</span>
-                  </DialogAktualne>
-                );
-              })}
-          </DialogContent>
+              <h3>Aktuálně:</h3>
+              {aktualneText &&
+                aktualneText.map((item, index) => {
+                  return (
+                    <DialogAktualne key={index}>
+                      <span>{item.date}</span>
+                      <span>{item.info}</span>
+                    </DialogAktualne>
+                  );
+                })}
+            </DialogContent>
+          </div>
         </DialogWrap>
       )}
     </>

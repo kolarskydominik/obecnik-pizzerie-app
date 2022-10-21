@@ -6,16 +6,18 @@ import ScrollToTop from "./components/ScrollToTop";
 import GlobalStyle from "./globalStyles";
 
 import Uvod  from "./pages/Uvod/Uvod";
+import { Fallback } from "./components";
 const Rozvoz = lazy(() => import("./pages/Rozvoz/Rozvoz"));
 const Menu = lazy(() => import("./pages/Menu/Menu"));
 const Galerie = lazy(() => import("./pages/Galerie/Galerie"));
 const Kontakt = lazy(() => import("./pages/Kontakt/Kontakt"));
 
+
 const App = () =>  (
     <Router basename={process.env.PUBLIC_URL}>
       <GlobalStyle />
       <ScrollToTop />
-      <Suspense fallback={<div>Načítám, čekejte prosím...</div>}>
+      <Suspense fallback={<Fallback />}>
         <Routes>
           <Route path="/" exact element={<Uvod />} />
           <Route path="/uvod" element={<Uvod />} />
