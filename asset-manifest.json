@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.js": "/obecnik-pizzerie-app/static/js/main.b87648e3.js",
-    "static/js/672.6276d479.chunk.js": "/obecnik-pizzerie-app/static/js/672.6276d479.chunk.js",
-    "static/js/881.6df6e978.chunk.js": "/obecnik-pizzerie-app/static/js/881.6df6e978.chunk.js",
-    "static/js/667.366512cc.chunk.js": "/obecnik-pizzerie-app/static/js/667.366512cc.chunk.js",
-    "static/js/689.dbb453c7.chunk.js": "/obecnik-pizzerie-app/static/js/689.dbb453c7.chunk.js",
+    "main.js": "/obecnik-pizzerie-app/static/js/main.396a02b0.js",
+    "static/js/672.09bb9b7a.chunk.js": "/obecnik-pizzerie-app/static/js/672.09bb9b7a.chunk.js",
+    "static/js/881.45a311d6.chunk.js": "/obecnik-pizzerie-app/static/js/881.45a311d6.chunk.js",
+    "static/js/667.a2f7ba96.chunk.js": "/obecnik-pizzerie-app/static/js/667.a2f7ba96.chunk.js",
+    "static/js/689.7be8a323.chunk.js": "/obecnik-pizzerie-app/static/js/689.7be8a323.chunk.js",
     "static/media/menu.jpg": "/obecnik-pizzerie-app/static/media/menu.edc84065a290f5b9ba40.jpg",
     "static/media/img6m1.jpg": "/obecnik-pizzerie-app/static/media/img6m1.d40b6bdf62ecb379bbfe.jpg",
-    "static/media/pizza.jpg": "/obecnik-pizzerie-app/static/media/pizza.11e570d108138c0ae591.jpg",
-    "static/media/galerie.jpg": "/obecnik-pizzerie-app/static/media/galerie.15552cf113fb8f68551f.jpg",
+    "static/media/pizza.jpg": "/obecnik-pizzerie-app/static/media/pizza.86f2d462949a6b11a829.jpg",
     "static/media/img6m.jpg": "/obecnik-pizzerie-app/static/media/img6m.80b2cf345e5c459d0a5d.jpg",
     "static/media/img4m.jpg": "/obecnik-pizzerie-app/static/media/img4m.98872bebf658ab1ebcc6.jpg",
     "static/media/img5m.jpg": "/obecnik-pizzerie-app/static/media/img5m.3d520dab58f0b45d994d.jpg",
@@ -18,14 +17,15 @@
     "static/media/CTAgalerie.jpg": "/obecnik-pizzerie-app/static/media/CTAgalerie.a7b949b399a3a3a9d238.jpg",
     "static/media/welcome.jpg": "/obecnik-pizzerie-app/static/media/welcome.60f68dc0332026da4472.jpg",
     "static/media/obecnik-logo.png": "/obecnik-pizzerie-app/static/media/obecnik-logo.9a8b0f5947c1443551a8.png",
+    "static/media/obecnik-logo-icon.png": "/obecnik-pizzerie-app/static/media/obecnik-logo-icon.96c9ee2cab39e4a39dbe.png",
     "index.html": "/obecnik-pizzerie-app/index.html",
-    "main.b87648e3.js.map": "/obecnik-pizzerie-app/static/js/main.b87648e3.js.map",
-    "672.6276d479.chunk.js.map": "/obecnik-pizzerie-app/static/js/672.6276d479.chunk.js.map",
-    "881.6df6e978.chunk.js.map": "/obecnik-pizzerie-app/static/js/881.6df6e978.chunk.js.map",
-    "667.366512cc.chunk.js.map": "/obecnik-pizzerie-app/static/js/667.366512cc.chunk.js.map",
-    "689.dbb453c7.chunk.js.map": "/obecnik-pizzerie-app/static/js/689.dbb453c7.chunk.js.map"
+    "main.396a02b0.js.map": "/obecnik-pizzerie-app/static/js/main.396a02b0.js.map",
+    "672.09bb9b7a.chunk.js.map": "/obecnik-pizzerie-app/static/js/672.09bb9b7a.chunk.js.map",
+    "881.45a311d6.chunk.js.map": "/obecnik-pizzerie-app/static/js/881.45a311d6.chunk.js.map",
+    "667.a2f7ba96.chunk.js.map": "/obecnik-pizzerie-app/static/js/667.a2f7ba96.chunk.js.map",
+    "689.7be8a323.chunk.js.map": "/obecnik-pizzerie-app/static/js/689.7be8a323.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.b87648e3.js"
+    "static/js/main.396a02b0.js"
   ]
 }

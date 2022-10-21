@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkobecnik_pizzerie_app=self.webpackChunkobecnik_pizzerie_app||[]).push([[667],{667:function(e,i,r){r.r(i);r(791);var a=r(225),s=r(959),n=r(928),l=r(184);i.default=function(){return(0,l.jsxs)(l.Fragment,{children:[(0,l.jsx)(a.wp,{}),(0,l.jsx)(s.oQ,{image:n.Q.galerieHeader,children:"Galerie"}),(0,l.jsx)(s.S$,{children:(0,l.jsx)(s.Uq,{style:{padding:"0"},children:(0,l.jsx)(a.ri,{dataGalleryImages:n.e})})}),(0,l.jsx)(a.$_,{}),(0,l.jsx)(a.gJ,{})]})}}}]);
+//# sourceMappingURL=667.a2f7ba96.chunk.js.map
