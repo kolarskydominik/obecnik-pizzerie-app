@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const Meal = styled.div``;
+export const Meal = styled.li`
+list-style: none;
+`;
 
 export const MealName = styled.h5`
   font-size: 18px;

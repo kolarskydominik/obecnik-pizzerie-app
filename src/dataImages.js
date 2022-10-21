@@ -43,10 +43,12 @@ export const dataGalleryImages = [
 export const dataWebImages = {
     logoNavbar: logoNavbar,
     logoHeader: logoHeader,
+    
     uvodHeader: uvodHeader,
     uvodWelcome: uvodWelcome,
     uvodGalerie: uvodGalerie,
     uvodTesimeSe: uvodTesimeSe,
+
     jidelniListekHeader: jidelniListekHeader,
     rozvozHeader: rozvozHeader,
     galerieHeader: galerieHeader,

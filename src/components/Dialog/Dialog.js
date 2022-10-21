@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 //elements
 import { DialogWrap, DialogContent, DialogAktualne } from "./Dialog.elements";
 import { LinkBtn } from "../../globalStyles";
+//aktualneText
+import { aktualneText } from "../../dataText";
 
 function Dialog() {
   const [open, setOpen] = useState(false);
@@ -12,16 +14,16 @@ function Dialog() {
     }, 0);
   }, []);
 
-  const handleClose = () => {
+  const handleClose = (aktualneText) => {
     setOpen(false);
   };
 
-    // disableBodyScroll
-    if (open) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "initial";
-    }
+  // disableBodyScroll
+  if (open) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "initial";
+  }
 
   return (
     <>
@@ -33,20 +35,25 @@ function Dialog() {
             <button onClick={handleClose} value="X">
               X
             </button>
-              <h3>ROZVOZ PIZZY</h3>
-              <p>
-                Pizzu si můžete objednat telefonicky a využít náš rozvoz v
-                Raškovicích a blízkém okolí.
-              </p>
-              <LinkBtn to="/rozvoz" className="dialogBtn">
-                Přejít k objednání
-              </LinkBtn>
+            <h3>ROZVOZ PIZZY</h3>
+            <p>
+              Pizzu si můžete objednat telefonicky a využít náš rozvoz v
+              Raškovicích a blízkém okolí.
+            </p>
+            <LinkBtn to="/rozvoz" className="dialogBtn">
+              Přejít k objednání
+            </LinkBtn>
 
-              <h3>Aktuálně:</h3>
-              <DialogAktualne>
-                <span>15.10.2022</span>
-                <span>Restaurace je momentálně UZAVŘENA. Rozvoz funguje.</span>
-              </DialogAktualne>
+            <h3>Aktuálně:</h3>
+            {aktualneText &&
+              aktualneText.map((item, index) => {
+                return (
+                  <DialogAktualne key={index}>
+                    <span>{item.date}</span>
+                    <span>{item.info}</span>
+                  </DialogAktualne>
+                );
+              })}
           </DialogContent>
         </DialogWrap>
       )}

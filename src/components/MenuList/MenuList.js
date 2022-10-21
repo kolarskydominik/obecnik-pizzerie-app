@@ -5,11 +5,11 @@ import { LineDivider } from "../../globalStyles";
 
 function MenuList({ dataMenu }) {
   return (
-    <div>
+    <ul>
       {dataMenu &&
-        dataMenu.map((item) => {
+        dataMenu.map((item, index) => {
           return (
-            <Meal>
+            <Meal key={index}>
               <MealName>
                 <span>{item.name}</span>
                 <span>{item.price}</span>
@@ -21,7 +21,7 @@ function MenuList({ dataMenu }) {
             </Meal>
           );
         })}
-    </div>
+    </ul>
   );
 }
 

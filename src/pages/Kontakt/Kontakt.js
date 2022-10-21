@@ -24,9 +24,11 @@ import {
 } from "../../components/Footer/Footer.elements";
 //images
 import { dataWebImages } from "../../dataImages";
+//datatext
+import {dataText} from "../../dataText";
 // maps
 const iframe =
-  '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.067922118789!2d18.464188915729775!3d49.62259457936968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4714099c38542849%3A0x5881bb0c3ebae8e3!2sRa%C5%A1kovice%20207%2C%20739%2004%20Ra%C5%A1kovice!5e1!3m2!1sen!2scz!4v1664813316176!5m2!1sen!2scz" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+  '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24590.934978238776!2d18.453772263347155!3d49.620306567285624!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8b0c8ce6a9526154!2sRestaurace%20a%20Pizzerie%20Obecn%C3%ADk!5e0!3m2!1sen!2scz!4v1666353675331!5m2!1sen!2scz" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
 function Iframe(props) {
   return (
     <div
@@ -53,7 +55,7 @@ function Kontakt() {
                 <FooterItem>Raškovice 207, 739 04</FooterItem>
                 <FooterItem>
                   <FooterLink
-                    href="https://www.google.com/maps"
+                    href="https://goo.gl/maps/ofZQbcaPbob6QgAD7"
                     target="_blank"
                   >
                     <HiLocationMarker /> zobrazit na mapě
@@ -61,41 +63,44 @@ function Kontakt() {
                 </FooterItem>
               </FooterItems>
               {/* kontakty */}
-              <FooterItems>
-                <FooterHeader>KONTAKTY</FooterHeader>
-                <FooterItem>
-                  <HiPhone /> telefon:<span> +420 123 456 789</span>
-                </FooterItem>
-                <FooterItem>
-                  <HiMail /> email:<span> info@pizzerieobecnik.cz</span>
-                </FooterItem>
-                <SocialIcons>
-                  <SocialIconLink
-                    href="https://www.facebook.com"
-                    target="_blank"
-                    aria-label="Facebook"
-                  >
-                    <FaFacebookSquare />
-                  </SocialIconLink>
-                  <SocialIconLink
-                    href="https://instagram.com"
-                    target="_blank"
-                    aria-label="Instagram"
-                  >
-                    <FaInstagram />
-                  </SocialIconLink>
-                </SocialIcons>
-              </FooterItems>
-              {/* otviracka */}
-              <FooterItems>
-                <FooterHeader>OTEVÍRACÍ DOBA</FooterHeader>
-                <FooterItem>
-                  <HiOutlineClock /> po-pá:<span> 11:00-20:00</span>
-                </FooterItem>
-                <FooterItem>
-                  <HiOutlineClock /> so-ne:<span> 12:00-22:00</span>
-                </FooterItem>
-              </FooterItems>
+        <FooterItems>
+          <FooterHeader>KONTAKTY</FooterHeader>
+          <FooterItem>
+            <HiPhone /> telefon:<span> {dataText.telefon}</span>
+          </FooterItem>
+          <FooterItem>
+            <HiMail /> email:<span> {dataText.email}</span>
+          </FooterItem>
+          <SocialIcons>
+            <SocialIconLink
+              href="https://www.facebook.com"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <FaFacebookSquare />
+            </SocialIconLink>
+            <SocialIconLink
+              href="https://instagram.com"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <FaInstagram />
+            </SocialIconLink>
+          </SocialIcons>
+        </FooterItems>
+        {/* otviracka */}
+        <FooterItems>
+          <FooterHeader>OTEVÍRACÍ DOBA</FooterHeader>
+          <FooterItem>
+            <HiOutlineClock /> po-čt:<span> {dataText.otevrenoPoCt}</span>
+          </FooterItem>
+          <FooterItem>
+            <HiOutlineClock /> pá-so:<span> {dataText.otevrenoPaSo}</span>
+          </FooterItem>
+          <FooterItem>
+          <HiOutlineClock /> ne:<span> {dataText.otevrenoNe} &nbsp;</span>
+          </FooterItem>
+        </FooterItems>
             </FooterWrap>
           </FooterContainer>
           <ContactForm />

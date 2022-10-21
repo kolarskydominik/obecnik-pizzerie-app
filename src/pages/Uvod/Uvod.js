@@ -18,6 +18,9 @@ import {
 } from "./Uvod.elements";
 import { LinkBtn, SectionContainer } from "../../globalStyles";
 
+//dataText
+import {dataText} from "../../dataText";
+
 function Restaurace() {
   return (
     <>
@@ -29,27 +32,16 @@ function Restaurace() {
           alt="Obecník Raškovice logo"
           title="Obecník - restaurace a pizzerie Raškovice"
         />
-        <p>
-          V podhůří Lysé Hory Vám přinášíme pravou italskou pizzu, společně s
-          tradiční domácí a zahraniční kuchyní.
-        </p>
-        <LinkBtn to="/menu">Kouknout na menu</LinkBtn>
+        <p>{dataText.uvod_header}</p>
+        <LinkBtn to="/rozvoz">Kouknout na menu</LinkBtn>
       </SectionHeaderHome2>
 
       <SectionContainer>
         <WrapperSection>
           <WrapperText>
             <h2>Vítáme Vás</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              numquam, omnis repudiandae nisi nulla commodi minima ullam
-              molestias.
-            </p>
-            <p>
-              Aperiam numquam, omnis repudiandae nisi nulla commodi minima ullam
-              molestias earum doloribus perferendis incidunt quae laborum minus
-              odio vitae sit cumque.
-            </p>
+            <p>{dataText.uvod_vitejte1}</p>
+            <p>{dataText.uvod_vitejte2}</p>
           </WrapperText>
           <WrapperImage>
             <img src={dataWebImages.uvodWelcome} alt="majitele"></img>
@@ -64,33 +56,21 @@ function Restaurace() {
               <GiFullPizza />
             </i>
             <h3>Pizza</h3>
-            <p>
-              Aliquam erat volutpat. Nullam dapibus fermentum ipsum. Fusce
-              tellus odio, dapibus id fermentum quis, suscipit id erat. Morbi
-              scelerisque luctus velit. In convallis. Phasellus enim erat, ...
-            </p>
+            <p>{dataText.uvod_pizzaText}</p>
           </FlexItem>
           <FlexItem>
             <i>
               <GiForkKnifeSpoon />
             </i>
-            <h3>Italské speciality</h3>
-            <p>
-              Aliquam erat volutpat. Nullam dapibus fermentum ipsum. Fusce
-              tellus odio, dapibus id fermentum quis, suscipit id erat. Morbi
-              scelerisque luctus velit. In convallis. Phasellus enim erat, ...
-            </p>
+            <h3>Mezinárodní speciality</h3>
+            <p>{dataText.uvod_mezinarodniText}</p>
           </FlexItem>
           <FlexItem>
             <i>
               <GiCoffeeBeans />
             </i>
             <h3>Caffè</h3>
-            <p>
-              Aliquam erat volutpat. Nullam dapibus fermentum ipsum. Fusce
-              tellus odio, dapibus id fermentum quis, suscipit id erat. Morbi
-              scelerisque luctus velit. In convallis. Phasellus enim erat, ...
-            </p>
+            <p>{dataText.uvod_cafeText}</p>
           </FlexItem>
         </WrapperFlex>
       </SectionContainer>
@@ -102,11 +82,7 @@ function Restaurace() {
           </WrapperImage>
           <WrapperText>
             <h2>Galerie</h2>
-            <p style={{ paddingBottom: "24px" }}>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              numquam, omnis repudiandae nisi nulla commodi minima ullam
-              molestias.
-            </p>
+            <p style={{ paddingBottom: "24px" }}>{dataText.uvod_galerieText}</p>
             <LinkBtn to="/galerie" style={{ margin: "0 auto 0 0" }}>
               Více
             </LinkBtn>

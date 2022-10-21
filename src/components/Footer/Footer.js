@@ -18,6 +18,8 @@ import {
   SocialIcons,
   SocialIconLink,
 } from "./Footer.elements";
+//textData
+import {dataText} from "../../dataText";
 
 function Footer() {
   return (
@@ -29,7 +31,7 @@ function Footer() {
           <FooterItem>Restaurace a Pizzerie Obecník</FooterItem>
           <FooterItem>Raškovice 50, 739 04</FooterItem>
           <FooterItem>
-            <FooterLink href="https://www.google.com/maps" target="_blank">
+            <FooterLink href="https://goo.gl/maps/ofZQbcaPbob6QgAD7" target="_blank">
               <HiLocationMarker /> zobrazit na mapě
             </FooterLink>
           </FooterItem>
@@ -38,10 +40,10 @@ function Footer() {
         <FooterItems>
           <FooterHeader>KONTAKTY</FooterHeader>
           <FooterItem>
-            <HiPhone /> telefon:<span> +420 123 456 789</span>
+            <HiPhone /> telefon:<span> {dataText.telefon}</span>
           </FooterItem>
           <FooterItem>
-            <HiMail /> email:<span> info@pizzerieobecnik.cz</span>
+            <HiMail /> email:<span> {dataText.email}</span>
           </FooterItem>
           <SocialIcons>
             <SocialIconLink
@@ -64,10 +66,13 @@ function Footer() {
         <FooterItems>
           <FooterHeader>OTEVÍRACÍ DOBA</FooterHeader>
           <FooterItem>
-            <HiOutlineClock /> po-pá:<span> 11:00-20:00</span>
+            <HiOutlineClock /> po-čt:<span> {dataText.otevrenoPoCt}</span>
           </FooterItem>
           <FooterItem>
-            <HiOutlineClock /> so-ne:<span> 12:00-22:00</span>
+            <HiOutlineClock /> pá-so:<span> {dataText.otevrenoPaSo}</span>
+          </FooterItem>
+          <FooterItem>
+          <HiOutlineClock /> ne:<span> {dataText.otevrenoNe} &nbsp;</span>
           </FooterItem>
         </FooterItems>
       </FooterWrap>
