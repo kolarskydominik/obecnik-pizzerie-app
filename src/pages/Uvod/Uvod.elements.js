@@ -9,12 +9,13 @@ import {
 import { dataWebImages } from "../../dataImages";
 
 export const SectionHeaderHome2 = styled(SectionHeaderHome)`
-  min-height: 105vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 
   img {
-    padding-top: 7rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
     width: 80%;
     max-width: 550px;
     z-index: 2;
@@ -22,10 +23,11 @@ export const SectionHeaderHome2 = styled(SectionHeaderHome)`
 
   p {
     font-size: 1rem;
-    max-width: 700px;
+    max-width: 1150px;
     z-index: 2;
-    margin: 2.5rem 20px 1.5rem 20px;
-    padding: 5px;
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0 20px;
     font-size: 1.4rem;
     text-align: center;
     text-shadow: 0px 0px 6px var(--color-gray90);

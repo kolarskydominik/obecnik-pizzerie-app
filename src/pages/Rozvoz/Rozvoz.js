@@ -12,6 +12,7 @@ import {
   SectionHeaderHome,
   SectionContainer,
   LineDivider,
+  Heading2,
 } from "../../globalStyles";
 import { Wrapper, MenuWrap } from "../Menu/Menu.elements";
 // data
@@ -22,13 +23,20 @@ import {
 } from "../../dataMenu";
 // images
 import { dataWebImages } from "../../dataImages";
+// dataText
+import { dataText } from "../../dataText";
 
 function Rozvoz() {
   return (
     <>
       <Navbar />
       <SectionHeaderHome image={dataWebImages.rozvozHeader}>
-        Rozvoz
+        <Heading2>Rozvoz Pizzy</Heading2>
+        <p>{dataText.rozvoz_text}</p>
+        <p>
+          Sledujte nás také na <a href="https://www.facebook.com">Facebooku</a>{" "}
+          ať vám nic neunikne.
+        </p>
       </SectionHeaderHome>
       <SectionContainer>
         <Wrapper>

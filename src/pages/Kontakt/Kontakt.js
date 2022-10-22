@@ -10,7 +10,7 @@ import {
   HiOutlineClock,
 } from "react-icons/hi";
 // elements
-import { SectionHeaderHome } from "../../globalStyles";
+import { SectionHeaderHome, Heading2 } from "../../globalStyles";
 import { Container, Wrapper } from "./Kontakt.elements";
 import {
   FooterContainer,
@@ -42,7 +42,7 @@ function Kontakt() {
     <>
       <Navbar />
       <SectionHeaderHome image={dataWebImages.kontaktHeader}>
-        Kontakt
+        <Heading2>Kontakt</Heading2>
       </SectionHeaderHome>
       <Container>
         <Wrapper>

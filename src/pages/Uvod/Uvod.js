@@ -19,12 +19,12 @@ import {
 import { LinkBtn, SectionContainer } from "../../globalStyles";
 
 //dataText
-import {dataText} from "../../dataText";
+import { dataText } from "../../dataText";
 
 function Restaurace() {
   return (
     <>
-      <Dialog />
+      {/* <Dialog /> */}
       <Navbar />
       <SectionHeaderHome2 image={dataWebImages.uvodHeader}>
         <img
@@ -32,11 +32,28 @@ function Restaurace() {
           alt="Obecník Raškovice logo"
           title="Obecník - restaurace a pizzerie Raškovice"
         />
-        <p>{dataText.uvod_header}</p>
-        <LinkBtn to="/rozvoz">Kouknout na menu</LinkBtn>
+        {/* <p>{dataText.uvod_header}</p>
+         */}
+        <p>
+          V beskydské přírodě v klidné části vesnice Raškovice brzy otevřeme
+          restauraci - pizzeii Obecník. Budova právě prochází rekonstrukcí,
+          která se blíží do finále. Pilně se pracuje na vytvoření útulného
+          prostředí, kde si budete moci pochutnat na české a ukrajinské kuchyni.
+        </p>
+        <p>
+        Specializujeme se také na výrobu italské pizzy a už nyní můžete využít
+          náš rozvoz a dát si pizzu z pohodlí domova nebo v práci. V nabídce
+          budou i výhodné obědové menu. Budeme péct převážně vlastní dezerty a
+          necháme si záležet i na dobré kávě pražírny - Laura Coffee, která má svou pražírnu
+          v Ostravě. 
+        </p>
+        <p>Věříme, že si restauraci - pizzerii Obecník oblíbíte a
+          strávíte tam příjemné chvíle. O otevření Vás budeme včas informovat
+          zde na webových stránkách.</p>
+        <LinkBtn to="/rozvoz">Kouknout na rozvoz</LinkBtn>
       </SectionHeaderHome2>
 
-      <SectionContainer>
+      {/* <SectionContainer>
         <WrapperSection>
           <WrapperText>
             <h2>Vítáme Vás</h2>
@@ -93,7 +110,7 @@ function Restaurace() {
       <ContainerImg>
         <Header3>Těšíme se na Vás</Header3>
         <LinkBtn to="/kontakt">Rezervovat stůl</LinkBtn>
-      </ContainerImg>
+      </ContainerImg> */}
       <Footer />
       <CopyrightFooter />
     </>

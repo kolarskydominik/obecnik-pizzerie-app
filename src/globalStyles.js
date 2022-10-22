@@ -45,21 +45,35 @@ body {
 }
 `;
 
+export const Heading2 = styled.div`
+  font-size: 6rem;
+  line-height: 6rem;
+  font-family: var(--fonts-heading);
+  padding: 40px 0;
+  color: var(--color-primary);
+
+`
+
+
 export const SectionHeader = styled.div`
+padding-top: 80px;
+padding-bottom: 20px;
   display: flex;
+  flex-direction: column;
   position: relative;
   margin-top: -80px;
   height: 100vh;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 
-  font-family: var(--fonts-heading);
   color: var(--color-lightYellow);
-  font-size: 6rem;
+
+
 `;
 
 export const SectionHeaderHome = styled(SectionHeader)`
@@ -67,16 +81,38 @@ export const SectionHeaderHome = styled(SectionHeader)`
   background-position: top;
   background-attachment: fixed;
 
+
   text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
-  height: 60vh;
+  height: unset;
+  min-height: 60vh;
   position: relative;
   z-index: 0;
+
+  p {
+    padding: 0 20px;
+    margin: 20px 0;
+    max-width: 1000px;
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+
+    a {
+  color: var(--color-primary);
+
+    }
+  }
+
+  @media screen and (min-width: 996px) {
+    p {
+      font-size: 1.5rem;
+    }
+  }
 
   &:before {
     background: linear-gradient(
       var(--color-gray80),
-      var(--color-gray30),
-      var(--color-gray30)
+      var(--color-gray40),
+      var(--color-gray40)
     );
     content: "";
     height: 100%;

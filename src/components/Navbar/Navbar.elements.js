@@ -94,7 +94,7 @@ export const NavMenu = styled.ul`
   z-index: -1;
 
   width: 100%;
-  min-height: 450px;
+  /* min-height: 450px; */
   position: absolute;
   top: 0;
   padding-top: 60px;

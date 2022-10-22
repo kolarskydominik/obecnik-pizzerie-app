@@ -6,6 +6,7 @@ import {
   SectionContainer,
   LineDivider,
   SectionHeaderHome,
+  Heading2
 } from "../../globalStyles";
 import { MenuWrap, Wrapper } from "./Menu.elements";
 // data
@@ -22,7 +23,7 @@ function Menu() {
     <>
       <Navbar />
       <SectionHeaderHome image={dataWebImages.jidelniListekHeader}>
-        Menu
+        <Heading2>Menu</Heading2>
       </SectionHeaderHome>
       <SectionContainer>
         <Wrapper>

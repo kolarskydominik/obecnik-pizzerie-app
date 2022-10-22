@@ -68,21 +68,21 @@ function Navbar(props) {
                 Úvod
               </NavLinks>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLinks to="/jidelni-listek" onClick={closeMobileMenu}>
                 Jídelní lístek
               </NavLinks>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <NavLinks to="/rozvoz" onClick={closeMobileMenu}>
                 Rozvoz
               </NavLinks>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLinks to="/galerie" onClick={closeMobileMenu}>
                 Galerie
               </NavLinks>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <NavLinks to="/kontakt" onClick={closeMobileMenu}>
                 Kontakt

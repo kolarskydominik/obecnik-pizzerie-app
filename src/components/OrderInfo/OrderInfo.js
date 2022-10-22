@@ -21,8 +21,7 @@ function OrderInfo() {
         </p>
         <p>
           <br />
-          Platit při doručení lze <span>hotově</span>, <span>kartou</span> i{" "}
-          <span>stravenkami</span>.
+        Platit při doručení lze <span>hotově</span> nebo <span>kartou</span>.
         </p>
       </div>
       <div>
