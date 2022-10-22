@@ -41,13 +41,13 @@ export const dataPizzaTomato = [
     name: "1. MARGARITA",
     allergens: "(1, 7)",
     ingredients: [ing.tomato, ing.mozzarella, ing.bazalka],
-    price: "139,-",
+    price: "159,-",
   },
   {
     name: "2. SALAMI",
     allergens: "(1, 7, 12)",
     ingredients: [ing.tomato, ing.mozzarella, ing.salamDolce],
-    price: "184,-",
+    price: "179,-",
   },
   {
     name: "3. AL COTTO",
@@ -59,13 +59,13 @@ export const dataPizzaTomato = [
     name: "4. HAWAI",
     allergens: "(1, 7, 9, 12)",
     ingredients: [ing.tomato, ing.mozzarella, ing.sunka, ing.ananas],
-    price: "179,-",
+    price: "189,-",
   },
   {
     name: "5. CAPRICIOSA",
     allergens: "(1, 7)",
     ingredients: [ing.tomato, ing.mozzarella, ing.sunka, ing.zampiony],
-    price: "179,-",
+    price: "199,-",
   },
   {
     name: "6. VEGETARIANA",
@@ -78,7 +78,7 @@ export const dataPizzaTomato = [
       ing.kukurice,
       ing.rajcata,
     ],
-    price: "169,-",
+    price: "209,-",
   },
   {
     name: "7. PALERMO 🌶️🌶️",
@@ -91,7 +91,7 @@ export const dataPizzaTomato = [
       ing.parmazan,
       ing.feferonky,
     ],
-    price: "xxx,-",
+    price: "199,-",
   },
   {
     name: "8. MEXICANA 🌶️",
@@ -104,13 +104,13 @@ export const dataPizzaTomato = [
       ing.cibule,
       ing.vejce,
     ],
-    price: "189,-",
+    price: "209,-",
   },
   {
     name: "9. AL TONNO",
     allergens: "(1, 4, 7, 12)",
     ingredients: [ing.tomato, ing.mozzarella, ing.tunak, ing.cibule],
-    price: "194,-",
+    price: "199,-",
   },
   {
     name: "10. VALPOLICELLA 🌶️🌶️",
@@ -122,7 +122,7 @@ export const dataPizzaTomato = [
       ing.cervenaCibule,
       ing.parmazan,
     ],
-    price: "209,-",
+    price: "219,-",
   },
   {
     name: "11. PROSCIUTTO CRUDO",
@@ -134,7 +134,7 @@ export const dataPizzaTomato = [
       ing.rukola,
       ing.parmazan,
     ],
-    price: "209,-",
+    price: "219,-",
   },
   {
     name: "12. QUATTRO SALAMI 🌶️",
@@ -147,7 +147,7 @@ export const dataPizzaTomato = [
       ing.pancetta,
       ing.italskaKlobasa,
     ],
-    price: "209,-",
+    price: "229,-",
   },
   {
     name: "13. OBECNÍK SPECIALLE",
@@ -161,7 +161,7 @@ export const dataPizzaTomato = [
       ing.cesnek,
       ing.cervenaCibule
     ],
-    price: "xxx,-",
+    price: "239,-",
   },
 ];
 
@@ -174,10 +174,10 @@ export const dataPizzaCream = [
       ing.mozzarella, 
       ing.zampiony,
     ],
-    price: "149,-",
+    price: "169,-",
   },
   {
-    name: "15. POLLO CON SPINACI",
+    name: "15. CON SPINACI",
     allergens: "(1, 3, 7)",
     ingredients: [
       ing.smetana,
@@ -198,7 +198,7 @@ export const dataPizzaCream = [
       ing.rukola,
       ing.parmazan
     ],
-    price: "194,-",
+    price: "189,-",
   },
   {
     name: "17. ALBORI",
@@ -207,10 +207,10 @@ export const dataPizzaCream = [
       ing.smetana,
       ing.mozzarella,
       ing.slanina,
-      ing.niva,
+      ing.gorgonzola,
       ing.cibule,
     ],
-    price: "194,-",
+    price: "209,-",
   },
   {
     name: "18. QUATTRO FORMAGGI",
@@ -222,7 +222,7 @@ export const dataPizzaCream = [
       ing.mascarpone,
       ing.parmazan,
     ],
-    price: "189,-",
+    price: "209,-",
   },
   {
     name: "19. FANTASTICCA",
@@ -234,15 +234,15 @@ export const dataPizzaCream = [
       ing.uzenyLosos,
       ing.platkyCitronu,
     ],
-    price: "209,-",
+    price: "229,-",
   },
 ];
 
 export const dataPizzaBread = [
   {
-    name: "20. ITALSKÝ CHLÉB",
+    name: "20. PIZZA CHLEBA",
     allergens: "(1)",
-    ingredients: [ing.olivovyOlej, ing.cesnek, ing.oregano],
-    price: "60,-",
+    ingredients: [ing.olivovyOlej, ing.cesnek, ing.oregano, ing.bazalka],
+    price: "105,-",
   },
 ];
