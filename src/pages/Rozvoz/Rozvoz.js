@@ -25,6 +25,9 @@ import {
 import { dataWebImages } from "../../dataImages";
 // dataText
 import { dataText } from "../../dataText";
+//import pdf
+import pdf from '../../files/OBECNIK-PIZZA-ROZVOZ.pdf'
+
 
 function Rozvoz() {
   return (
@@ -34,7 +37,7 @@ function Rozvoz() {
         <Heading2>Rozvoz Pizzy</Heading2>
         <p>{dataText.rozvoz_text}</p>
         <p>
-          Sledujte nás také na <a href="https://www.facebook.com">Facebooku</a>{" "}
+          Sledujte nás také na <a href="https://www.facebook.com" target="_blank" rel="noreferrer">Facebooku</a>{" "}
           ať vám nic neunikne.
         </p>
       </SectionHeaderHome>
@@ -60,6 +63,11 @@ function Rozvoz() {
             <br />
             <p style={{ fontWeight: "bold", fontStyle: "italic" }}>
               příplatek za bezlepkovou pizzu +100,-
+            </p>
+            <br />
+            <br />
+            <p style={{ fontWeight: "bold", fontStyle: "italic" }}>
+              Naše menu ke stažení v <a href={pdf} download target="_blank" rel="noreferrer">PDF</a>.
             </p>
           </MenuWrap>
         </Wrapper>
