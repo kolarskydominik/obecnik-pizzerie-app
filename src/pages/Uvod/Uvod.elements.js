@@ -12,9 +12,11 @@ export const SectionHeaderHome2 = styled(SectionHeaderHome)`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-position: center;
+
 
   img {
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 2rem;
     width: 80%;
     max-width: 550px;
@@ -44,10 +46,12 @@ export const SectionHeaderHome2 = styled(SectionHeaderHome)`
 `;
 
 export const WrapperSection = styled(SectionWrapper)`
-  margin: 3rem 0;
+  margin: 4rem 0 6rem 0;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+
+
 
   @media screen and (min-width: 992px) {
     gap: 2rem;

@@ -8,8 +8,13 @@ export const Wrapper = styled(SectionWrapper)`
   gap: 0 60px;
 
   >p {
+    font-size: 1rem;
+    max-width: 1150px;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
     text-align: center;
-    font-size: 1.2rem;
   }
 
   h3 {

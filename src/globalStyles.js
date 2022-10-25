@@ -53,7 +53,21 @@ export const Heading2 = styled.div`
   color: var(--color-primary);
 
 `
+export const PhoneLink = styled.a`
+  display: block;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-white);
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+  padding-top: 1rem;
+  margin-bottom: 5rem;
 
+  &:hover {
+    color: var(--color-primary80);
+  }
+`
 
 export const SectionHeader = styled.div`
 padding-top: 80px;
@@ -96,10 +110,6 @@ export const SectionHeaderHome = styled(SectionHeader)`
     font-size: 1.25rem;
     font-weight: bold;
 
-    a {
-  color: var(--color-primary);
-
-    }
   }
 
   @media screen and (min-width: 996px) {
@@ -110,9 +120,9 @@ export const SectionHeaderHome = styled(SectionHeader)`
 
   &:before {
     background: linear-gradient(
-      var(--color-gray80),
-      var(--color-gray40),
-      var(--color-gray40)
+      var(--color-gray70),
+      var(--color-gray30),
+      var(--color-gray30)
     );
     content: "";
     height: 100%;
@@ -138,6 +148,17 @@ export const SectionWrapper = styled.div`
   max-width: 1200px;
   margin: 3rem auto;
   padding: 0 25px;
+
+  >p {
+    font-size: 1rem;
+    max-width: 1150px;
+    z-index: 2;
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0;
+    font-size: 1.4rem;
+    text-align: center;
+  }
 
   @media screen and (min-width: 768px) {
     padding: 0 50px;

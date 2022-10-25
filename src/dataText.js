@@ -26,8 +26,8 @@ export const dataText = {
   otevrenoPizzaPaSo: "11:00 - 22:00",
   otevrenoPizzaNe: "zavřeno",
 
-  otevrenoPoCt: "9:00 - 21:00",
-  otevrenoPaSo: "9:00 - 22:00",
+  otevrenoPoCt: "11:00 - 21:00",
+  otevrenoPaSo: "11:00 - 22:00",
   otevrenoNe: "zavřeno",
 };
 

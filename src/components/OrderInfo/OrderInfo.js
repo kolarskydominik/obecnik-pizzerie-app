@@ -7,9 +7,30 @@ function OrderInfo() {
   return (
     <OrderInfoWrap>
       <div>
+      <h4>Zóna 1:</h4>
+        <p>
+          <span>do 6km, zdarma</span> <br />
+          Raškovice, Skalice Pražmo, Morávka
+        </p>
+        <br></br>
+        <h4>Zóna 2:</h4>
+        <p>
+          <span>od 6km do 12km, +55 Kč rozvoz <br />(nad 500 Kč zdarma)</span> <br />
+          Krásná, Visalaje, Nižní Lhoty, Vyšní Lhoty
+        </p>
+        <br></br>
+        <h4>Zóna 3:</h4>
+        <p>
+          <span>dle domluvy</span>
+        </p>
+      </div>
+      <div>
         <h3>Objednávejte na:</h3>
         <a href={dataText.telefon2}>{dataText.telefon}</a>
         <br />
+        <br />
+        <h4>PROVOZNÍ DOBA</h4>
+
         <p>
           po-čt: <span>{dataText.otevrenoPizzaPoCt}</span>
         </p>
@@ -19,25 +40,8 @@ function OrderInfo() {
         <p>
           ne: <span>{dataText.otevrenoPizzaNe}</span>
         </p>
-        <p>
-          <br />
-        Platit při doručení lze <span>hotově</span> nebo <span>kartou</span>.
-        </p>
       </div>
-      <div>
-        <h4>Zóna 1:</h4>
-        <p>
-          <span>zdarma</span> <br />
-          Raškovice, Pražmo, Skalice
-        </p>
-        <br></br>
-        <h4>Zóna 2:</h4>
-        <p>
-          <span>+55 Kč rozvoz (nad 500 Kč zdarma)</span> <br />
-          Morávka, Krásná, Visalaje, Nižní Lhoty, Vyšní Lhoty, Nošovice,
-          Hnojník, Střítež, Dobratice, Komorní Lhotka, Vojkovice
-        </p>
-      </div>
+
     </OrderInfoWrap>
   );
 }
