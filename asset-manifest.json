@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/obecnik-pizzerie-app/static/js/main.f8ed4d59.js",
+    "main.js": "/obecnik-pizzerie-app/static/js/main.3fd6d4f3.js",
     "static/js/306.878beb74.chunk.js": "/obecnik-pizzerie-app/static/js/306.878beb74.chunk.js",
-    "static/js/689.26368392.chunk.js": "/obecnik-pizzerie-app/static/js/689.26368392.chunk.js",
+    "static/js/689.cf840c68.chunk.js": "/obecnik-pizzerie-app/static/js/689.cf840c68.chunk.js",
     "static/media/OBECNIK-PIZZA-ROZVOZ.pdf": "/obecnik-pizzerie-app/static/media/OBECNIK-PIZZA-ROZVOZ.3dca217201944fe9b1f0.pdf",
     "static/media/menu.jpg": "/obecnik-pizzerie-app/static/media/menu.edc84065a290f5b9ba40.jpg",
     "static/media/img6m1.jpg": "/obecnik-pizzerie-app/static/media/img6m1.d40b6bdf62ecb379bbfe.jpg",
@@ -18,11 +18,11 @@
     "static/media/obecnik-logo.png": "/obecnik-pizzerie-app/static/media/obecnik-logo.9a8b0f5947c1443551a8.png",
     "static/media/obecnik-logo-icon.png": "/obecnik-pizzerie-app/static/media/obecnik-logo-icon.96c9ee2cab39e4a39dbe.png",
     "index.html": "/obecnik-pizzerie-app/index.html",
-    "main.f8ed4d59.js.map": "/obecnik-pizzerie-app/static/js/main.f8ed4d59.js.map",
+    "main.3fd6d4f3.js.map": "/obecnik-pizzerie-app/static/js/main.3fd6d4f3.js.map",
     "306.878beb74.chunk.js.map": "/obecnik-pizzerie-app/static/js/306.878beb74.chunk.js.map",
-    "689.26368392.chunk.js.map": "/obecnik-pizzerie-app/static/js/689.26368392.chunk.js.map"
+    "689.cf840c68.chunk.js.map": "/obecnik-pizzerie-app/static/js/689.cf840c68.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.f8ed4d59.js"
+    "static/js/main.3fd6d4f3.js"
   ]
 }
