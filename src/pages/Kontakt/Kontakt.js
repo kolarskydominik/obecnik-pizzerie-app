@@ -73,14 +73,14 @@ function Kontakt() {
           </FooterItem>
           <SocialIcons>
             <SocialIconLink
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/profile.php?id=100087086114612"
               target="_blank"
               aria-label="Facebook"
             >
               <FaFacebookSquare />
             </SocialIconLink>
             <SocialIconLink
-              href="https://instagram.com"
+              href="https://www.instagram.com/obecnik_restaurace_pizzerie_/"
               target="_blank"
               aria-label="Instagram"
             >

@@ -45,7 +45,7 @@ body {
 }
 `;
 
-export const Heading2 = styled.div`
+export const Heading2 = styled.h1`
   font-size: 6rem;
   line-height: 6rem;
   font-family: var(--fonts-heading);
@@ -104,17 +104,17 @@ export const SectionHeaderHome = styled(SectionHeader)`
 
   p {
     padding: 0 20px;
-    margin: 20px 0;
+    margin: 0 0 10px 0;
     max-width: 1000px;
     line-height: 1.75rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
 
   }
 
   @media screen and (min-width: 996px) {
     p {
-      font-size: 1.5rem;
+      font-size: 1.75rem;
     }
   }
 

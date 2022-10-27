@@ -50,7 +50,7 @@ function Restaurace() {
         Specializujeme se také na výrobu italské pizzy a&nbsp;už nyní můžete využít
           náš rozvoz a&nbsp;dát si pizzu z&nbsp;pohodlí domova nebo v&nbsp;práci. V nabídce
           budou i&nbsp;výhodné obědové menu. Budeme péct převážně vlastní dezerty&nbsp;a
-          necháme si záležet i&nbsp;na dobré kávě pražírny - Laura Coffee, která má svou sídlo
+          necháme si záležet i&nbsp;na dobré kávě pražírny - Laura Coffee, která má své sídlo
           v&nbsp;Ostravě. 
         </p>
         <p>Věříme, že si restauraci - pizzerii Obecník oblíbíte a&nbsp;strávíte tam příjemné chvíle. O&nbsp;otevření Vás budeme včas informovat

@@ -35,7 +35,8 @@ function Rozvoz() {
       <Navbar />
       <SectionHeaderHome image={dataWebImages.rozvozHeader}>
         <Heading2>Rozvoz Pizzy</Heading2>
-        <PhoneLink href={dataText.telefon2}>{dataText.telefon}</PhoneLink>
+        <p>od pondělí 31.10.2022</p>
+        <PhoneLink href={dataText.telefon2}>604 284 804</PhoneLink>
       </SectionHeaderHome>
       <SectionContainer>
         <Wrapper>

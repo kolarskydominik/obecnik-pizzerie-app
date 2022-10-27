@@ -206,7 +206,7 @@ export const dataPizzaCream = [
     ingredients: [
       ing.smetana,
       ing.mozzarella,
-      ing.slanina,
+      ing.pancetta,
       ing.gorgonzola,
       ing.cibule,
     ],

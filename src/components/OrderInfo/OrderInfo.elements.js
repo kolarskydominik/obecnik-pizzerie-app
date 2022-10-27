@@ -14,7 +14,7 @@ export const OrderInfoWrap = styled.div`
 
   div {
     flex: 1 1 300px;
-    max-width: 400px
+    max-width: 400px;
   }
   
   h3 {
