@@ -52,7 +52,7 @@ function Kontakt() {
               <FooterItems>
                 <FooterHeader>KDE NÁS NAJDETE</FooterHeader>
                 <FooterItem>Restaurace Obecník</FooterItem>
-                <FooterItem>Raškovice 207, 739 04</FooterItem>
+                <FooterItem>Raškovice 50, 739 04</FooterItem>
                 <FooterItem>
                   <FooterLink
                     href="https://goo.gl/maps/ofZQbcaPbob6QgAD7"

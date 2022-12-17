@@ -34,6 +34,8 @@ const ing = {
   panenka: "kousky vepřové panenky",
   beraniRohy: 'beraní rohy',
   niva: "niva",
+  kure: "kuře",
+
 };
 
 export const dataPizzaTomato = [
@@ -183,6 +185,7 @@ export const dataPizzaCream = [
       ing.smetana,
       ing.mozzarella,
       ing.pancetta,
+      ing.kure,
       ing.listovySpenat,
       ing.cesnek,
     ],

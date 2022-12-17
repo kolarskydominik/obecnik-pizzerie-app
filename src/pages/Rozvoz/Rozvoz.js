@@ -35,7 +35,6 @@ function Rozvoz() {
       <Navbar />
       <SectionHeaderHome image={dataWebImages.rozvozHeader}>
         <Heading2>Rozvoz Pizzy</Heading2>
-        <p>od pondělí 31.10.2022</p>
         <PhoneLink href={dataText.telefon2}>604 284 804</PhoneLink>
       </SectionHeaderHome>
       <SectionContainer>
@@ -47,8 +46,7 @@ function Rozvoz() {
             Jsme nová provozovna, která se specializuje na výrobu pizzy. Děláme
             si vlastní těsto a&nbsp;používáme vybrané italské suroviny. Po
             telefonické objednávce Vám s&nbsp;radostí pizzu připravíme, upečeme
-            a&nbsp;dovezeme na Vámi zvolenou adresu. Průměrná doba dovozu je od
-            20 do 60 min.
+            a&nbsp;dovezeme na Vámi zvolenou adresu.
             <br></br>
             <br></br>
             <br></br>
