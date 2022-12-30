@@ -81,7 +81,7 @@ function Rozvoz() {
             <p style={{ fontWeight: 'bold', fontSize: '.95rem', fontStyle: 'italic', marginBottom: '.5rem'  }}>
             Zelenina: 25,-
               <br />
-              <p style={{ fontSize: '.9rem',fontWeight: 'normal', fontStyle: 'italic' }}>- olivy, žampiony, ananas, kukuřice, paprika, cibule, rukola, špenát, rajčata, feferonky, borani rohy, tomato rajčatový základ, smetana</p>
+              <p style={{ fontSize: '.9rem',fontWeight: 'normal', fontStyle: 'italic' }}>- olivy, žampiony, ananas, kukuřice, paprika, cibule, rukola, špenát, rajčata, feferonky, beraní rohy, tomato rajčatový základ, smetana</p>
             </p>
             <p style={{ fontWeight: 'bold', fontSize: '.95rem', fontStyle: 'italic' }}>
               Italské uzeniny a sýry: 35,- / 100g
