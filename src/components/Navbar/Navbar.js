@@ -78,11 +78,11 @@ function Navbar(props) {
                 Rozvoz
               </NavLinks>
             </NavItem>
-            {/* <NavItem>
+            <NavItem>
               <NavLinks to="/galerie" onClick={closeMobileMenu}>
                 Galerie
               </NavLinks>
-            </NavItem> */}
+            </NavItem>
             <NavItem>
               <NavLinks to="/kontakt" onClick={closeMobileMenu}>
                 Kontakt

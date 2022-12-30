@@ -69,9 +69,29 @@ function Rozvoz() {
             <LineDivider />
             <MenuList dataMenu={dataPizzaBread} />
             <br />
-            <p style={{ fontWeight: 'bold', fontStyle: 'italic' }}>
-              příplatek za bezlepkovou pizzu +100,-
+            <p style={{ fontWeight: 'bold', fontStyle: 'italic', marginBottom: '.75rem'  }}>
+              Příplatek za bezlepkovou pizzu: 100,-
             </p>
+            <p style={{ fontWeight: 'bold', fontStyle: 'italic', marginBottom: '.75rem' }}>
+              Změna ingredience: 15,-
+            </p>
+            <p style={{ fontWeight: 'bold', fontStyle: 'italic', textDecoration: 'underline', marginBottom: '.5rem' }}>
+            <span >Suroviny navíc:</span>
+            </p>
+            <p style={{ fontWeight: 'bold', fontSize: '.95rem', fontStyle: 'italic', marginBottom: '.5rem'  }}>
+            Zelenina: 25,-
+              <br />
+              <p style={{ fontSize: '.9rem',fontWeight: 'normal', fontStyle: 'italic' }}>- olivy, žampiony, ananas, kukuřice, paprika, cibule, rukola, špenát, rajčata, feferonky, borani rohy, tomato rajčatový základ, smetana</p>
+            </p>
+            <p style={{ fontWeight: 'bold', fontSize: '.95rem', fontStyle: 'italic' }}>
+              Italské uzeniny a sýry: 35,- / 100g
+              <br />
+              <p style={{ fontSize: '.9rem',fontWeight: 'normal', fontStyle: 'italic', marginBottom: '.5rem'  }}>- salám dolce, šunka, pikantní salám, tuňák, klobása, parmská šunka, pancetta, vepřová panenka, kuřecí maso, uzený losos</p>
+              <p style={{ fontSize: '.9rem',fontWeight: 'normal', fontStyle: 'italic' }}>- mozzarella, parmazán, gorgonzela, mascarpone</p>
+            </p>
+
+
+
           </MenuWrap>
           <div style={{width: '100%'}}>
           <p
