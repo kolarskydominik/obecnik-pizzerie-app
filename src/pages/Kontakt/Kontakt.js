@@ -92,11 +92,11 @@ function Kontakt() {
         <FooterItems>
           <FooterHeader>OTEVÍRACÍ DOBA</FooterHeader>
           <FooterItem>
-            <HiOutlineClock /> po-čt:<span> {dataText.otevrenoPoCt}</span>
+            <HiOutlineClock /> po-so:<span> {dataText.otevrenoPoCt}</span>
           </FooterItem>
-          <FooterItem>
+          {/* <FooterItem>
             <HiOutlineClock /> pá-so:<span> {dataText.otevrenoPaSo}</span>
-          </FooterItem>
+          </FooterItem> */}
           <FooterItem>
           <HiOutlineClock /> ne:<span> {dataText.otevrenoNe} &nbsp;</span>
           </FooterItem>

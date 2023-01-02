@@ -35,11 +35,11 @@ function OrderInfo() {
         <br />
         <h4>PROVOZNÍ DOBA</h4>
         <p>
-          po-čt: <span>{dataText.otevrenoPizzaPoCt}</span>
+          po-so: <span>{dataText.otevrenoPizzaPoCt}</span>
         </p>
-        <p>
+        {/* <p>
           pá-so: <span>{dataText.otevrenoPizzaPaSo}</span>
-        </p>
+        </p> */}
         <p>
           ne: <span>{dataText.otevrenoPizzaNe}</span>
         </p>
