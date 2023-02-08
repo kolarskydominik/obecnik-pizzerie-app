@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 //icons
-import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
+import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
 import {
   HiLocationMarker,
   HiPhone,
   HiMail,
   HiOutlineClock,
-} from "react-icons/hi";
+} from 'react-icons/hi';
 //elements
 import {
   FooterContainer,
@@ -17,9 +17,9 @@ import {
   FooterLink,
   SocialIcons,
   SocialIconLink,
-} from "./Footer.elements";
+} from './Footer.elements';
 //textData
-import {dataText} from "../../dataText";
+import { dataText } from '../../dataText';
 
 function Footer() {
   return (
@@ -31,7 +31,9 @@ function Footer() {
           <FooterItem>Restaurace a Pizzerie Obecník</FooterItem>
           <FooterItem>Raškovice 50, 739 04</FooterItem>
           <FooterItem>
-            <FooterLink href="https://goo.gl/maps/ofZQbcaPbob6QgAD7" target="_blank">
+            <FooterLink
+              href="https://goo.gl/maps/ofZQbcaPbob6QgAD7"
+              target="_blank">
               <HiLocationMarker /> zobrazit na mapě
             </FooterLink>
           </FooterItem>
@@ -49,15 +51,13 @@ function Footer() {
             <SocialIconLink
               href="https://www.facebook.com/profile.php?id=100087086114612"
               target="_blank"
-              aria-label="Facebook"
-            >
+              aria-label="Facebook">
               <FaFacebookSquare />
             </SocialIconLink>
             <SocialIconLink
               href="https://www.instagram.com/obecnik_restaurace_pizzerie_/"
               target="_blank"
-              aria-label="Instagram"
-            >
+              aria-label="Instagram">
               <FaInstagram />
             </SocialIconLink>
           </SocialIcons>
@@ -66,13 +66,17 @@ function Footer() {
         <FooterItems>
           <FooterHeader>OTEVÍRACÍ DOBA</FooterHeader>
           <FooterItem>
-            <HiOutlineClock /> po-so:<span> {dataText.otevrenoPoCt}</span>
+            <HiOutlineClock /> po:<span> {dataText.otevrenoClose}</span>
           </FooterItem>
-          {/* <FooterItem>
-            <HiOutlineClock /> pá-so:<span> {dataText.otevrenoPaSo}</span>
-          </FooterItem> */}
           <FooterItem>
-          <HiOutlineClock /> ne:<span> {dataText.otevrenoNe} &nbsp;</span>
+            <HiOutlineClock /> ut-st:<span> {dataText.otevrenoShort}</span>
+          </FooterItem>
+          <FooterItem>
+            <HiOutlineClock /> čt-so:<span> {dataText.otevrenoLong}</span>
+          </FooterItem>
+          <FooterItem>
+            <HiOutlineClock /> ne:
+            <span> {dataText.otevrenoClose} &nbsp;</span>
           </FooterItem>
         </FooterItems>
       </FooterWrap>

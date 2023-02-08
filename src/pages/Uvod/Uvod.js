@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 // components
-import { Navbar, Footer, CopyrightFooter } from "../../components";
+import { Navbar, Footer, CopyrightFooter } from '../../components';
 // icons
 // import { GiFullPizza, GiCoffeeBeans, GiForkKnifeSpoon } from "react-icons/gi";
 // images
-import { dataWebImages } from "../../dataImages";
+import { dataWebImages } from '../../dataImages';
 //elements
 import {
   SectionHeaderHome2,
@@ -15,8 +15,8 @@ import {
   // FlexItem,
   // ContainerImg,
   // Header3,
-} from "./Uvod.elements";
-import {  SectionContainer } from "../../globalStyles";
+} from './Uvod.elements';
+import { SectionContainer } from '../../globalStyles';
 
 //dataText
 // import { dataText } from "../../dataText";
@@ -40,22 +40,36 @@ function Restaurace() {
 
       <SectionContainer>
         <WrapperSection>
-        <p>
-          V beskydské přírodě v&nbsp;klidné části vesnice Raškovice brzy otevřeme
-          restauraci - pizzerii Obecník. Budova právě prochází rekonstrukcí,
-          která se blíží do finále. Pilně se pracuje na vytvoření útulného
-          prostředí, kde si budete moci pochutnat na české a&nbsp;ukrajinské kuchyni.
-        </p>
-        <p>
-        Specializujeme se také na výrobu italské pizzy a&nbsp;už nyní můžete využít
-          náš rozvoz a&nbsp;dát si pizzu z&nbsp;pohodlí domova nebo v&nbsp;práci. V nabídce
-          budou i&nbsp;výhodné obědové menu. Budeme péct převážně vlastní dezerty&nbsp;a
-          necháme si záležet i&nbsp;na dobré kávě pražírny - Laura Coffee, která má své sídlo
-          v&nbsp;Ostravě. 
-        </p>
-        <p>Věříme, že si restauraci - pizzerii Obecník oblíbíte a&nbsp;strávíte tam příjemné chvíle. O&nbsp;otevření Vás budeme včas informovat
-          zde na webových stránkách.</p>
-
+          {/* <p>
+            V beskydské přírodě v&nbsp;klidné části vesnice Raškovice brzy
+            otevřeme restauraci - pizzerii Obecník. Budova právě prochází
+            rekonstrukcí, která se blíží do finále. Pilně se pracuje na
+            vytvoření útulného prostředí, kde si budete moci pochutnat na české
+            a&nbsp;ukrajinské kuchyni.
+          </p>
+          <p>
+            Specializujeme se také na výrobu italské pizzy a&nbsp;už nyní můžete
+            využít náš rozvoz a&nbsp;dát si pizzu z&nbsp;pohodlí domova nebo
+            v&nbsp;práci. V nabídce budou i&nbsp;výhodné obědové menu&nbsp;a
+            necháme si záležet i&nbsp;na dobré kávě pražírny - Laura Coffee,
+            která má své sídlo v&nbsp;Ostravě.
+          </p>
+          <p>
+            Věříme, že si restauraci - pizzerii Obecník oblíbíte a&nbsp;strávíte
+            tam příjemné chvíle. O&nbsp;otevření Vás budeme včas informovat zde
+            na webových stránkách.
+          </p> */}
+          <p style={{ width: '100%' }}>Restaurace otevřena pro veřejnost.</p>
+          <p style={{ width: '100%', marginTop: '0',fontSize: '1rem' }}>
+            Bližší informace naleznete na našem{' '}
+            <a
+              href="https://www.facebook.com/profile.php?id=100087086114612"
+              target="_blank"
+              aria-label="Facebook" rel="noreferrer">
+              facebooku
+            </a>
+            .
+          </p>
           {/* <WrapperText>
             <h2>Vítáme Vás</h2>
             <p>{dataText.uvod_vitejte1}</p>

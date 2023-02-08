@@ -22,13 +22,10 @@ export const dataText = {
   telefon2: "tel: +420604284804",
   email: "info@obecnik.cz",
 
-  otevrenoPizzaPoCt: "11:00 - 21:00",
-  otevrenoPizzaPaSo: "11:00 - 22:00",
-  otevrenoPizzaNe: "zavřeno",
 
-  otevrenoPoCt: "11:00 - 21:00",
-  otevrenoPaSo: "11:00 - 22:00",
-  otevrenoNe: "zavřeno",
+  otevrenoShort: "11:00 - 15:00",
+  otevrenoLong: "11:00 - 21:00",
+  otevrenoClose: "zavřeno",
 };
 
 export const aktualneText = [

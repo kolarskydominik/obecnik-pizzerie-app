@@ -35,21 +35,25 @@ function OrderInfo() {
         <br />
         <h4>PROVOZNÍ DOBA</h4>
         <p>
-          po-so: <span>{dataText.otevrenoPizzaPoCt}</span>
+          po: <span>{dataText.otevrenoClose}</span>
         </p>
-        {/* <p>
-          pá-so: <span>{dataText.otevrenoPizzaPaSo}</span>
-        </p> */}
         <p>
-          ne: <span>{dataText.otevrenoPizzaNe}</span>
+          ut-st: <span>{dataText.otevrenoShort}</span>
         </p>
-        <p style={{maxWidth: '400px', margin: '0 auto'}}>
-        <br />
-        Poslední objednávky přijímáme 30&nbsp;minut před koncem pracovní doby.</p>
-      <p style={{maxWidth: '400px', margin: '0 auto'}}>
-        <br />
-        Platit při doručení lze <span>hotově</span> nebo <span>kartou</span>.
-      </p>
+        <p>
+          ct-so: <span>{dataText.otevrenoLong}</span>
+        </p>
+        <p>
+          ne: <span>{dataText.otevrenoClose}</span>
+        </p>
+        <p style={{ maxWidth: '400px', margin: '0 auto' }}>
+          <br />
+          Poslední objednávky přijímáme 30&nbsp;minut před koncem pracovní doby.
+        </p>
+        <p style={{ maxWidth: '400px', margin: '0 auto' }}>
+          <br />
+          Platit při doručení lze <span>hotově</span> nebo <span>kartou</span>.
+        </p>
       </div>
     </OrderInfoWrap>
   );

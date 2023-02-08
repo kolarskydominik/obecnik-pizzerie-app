@@ -1,17 +1,17 @@
-import React from "react";
+import React from 'react';
 // components
-import { Navbar, CopyrightFooter, ContactForm } from "../../components";
+import { Navbar, CopyrightFooter, ContactForm } from '../../components';
 // icons
-import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
+import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
 import {
   HiLocationMarker,
   HiPhone,
   HiMail,
   HiOutlineClock,
-} from "react-icons/hi";
+} from 'react-icons/hi';
 // elements
-import { SectionHeaderHome, Heading2 } from "../../globalStyles";
-import { Container, Wrapper } from "./Kontakt.elements";
+import { SectionHeaderHome, Heading2 } from '../../globalStyles';
+import { Container, Wrapper } from './Kontakt.elements';
 import {
   FooterContainer,
   FooterWrap,
@@ -21,18 +21,18 @@ import {
   FooterLink,
   SocialIcons,
   SocialIconLink,
-} from "../../components/Footer/Footer.elements";
+} from '../../components/Footer/Footer.elements';
 //images
-import { dataWebImages } from "../../dataImages";
+import { dataWebImages } from '../../dataImages';
 //datatext
-import {dataText} from "../../dataText";
+import { dataText } from '../../dataText';
 // maps
 const iframe =
   '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24590.934978238776!2d18.453772263347155!3d49.620306567285624!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8b0c8ce6a9526154!2sRestaurace%20a%20Pizzerie%20Obecn%C3%ADk!5e0!3m2!1sen!2scz!4v1666353675331!5m2!1sen!2scz" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
 function Iframe(props) {
   return (
     <div
-      dangerouslySetInnerHTML={{ __html: props.iframe ? props.iframe : "" }}
+      dangerouslySetInnerHTML={{ __html: props.iframe ? props.iframe : '' }}
     />
   );
 }
@@ -47,7 +47,7 @@ function Kontakt() {
       <Container>
         <Wrapper>
           <FooterContainer>
-            <FooterWrap style={{ flexDirection: "column-reverse" }}>
+            <FooterWrap style={{ flexDirection: 'column-reverse' }}>
               {/* address */}
               <FooterItems>
                 <FooterHeader>KDE NÁS NAJDETE</FooterHeader>
@@ -56,51 +56,52 @@ function Kontakt() {
                 <FooterItem>
                   <FooterLink
                     href="https://goo.gl/maps/ofZQbcaPbob6QgAD7"
-                    target="_blank"
-                  >
+                    target="_blank">
                     <HiLocationMarker /> zobrazit na mapě
                   </FooterLink>
                 </FooterItem>
               </FooterItems>
               {/* kontakty */}
-        <FooterItems>
-          <FooterHeader>KONTAKTY</FooterHeader>
-          <FooterItem>
-            <HiPhone /> telefon:<span> {dataText.telefon}</span>
-          </FooterItem>
-          <FooterItem>
-            <HiMail /> email:<span> {dataText.email}</span>
-          </FooterItem>
-          <SocialIcons>
-            <SocialIconLink
-              href="https://www.facebook.com/profile.php?id=100087086114612"
-              target="_blank"
-              aria-label="Facebook"
-            >
-              <FaFacebookSquare />
-            </SocialIconLink>
-            <SocialIconLink
-              href="https://www.instagram.com/obecnik_restaurace_pizzerie_/"
-              target="_blank"
-              aria-label="Instagram"
-            >
-              <FaInstagram />
-            </SocialIconLink>
-          </SocialIcons>
-        </FooterItems>
-        {/* otviracka */}
-        <FooterItems>
-          <FooterHeader>OTEVÍRACÍ DOBA</FooterHeader>
-          <FooterItem>
-            <HiOutlineClock /> po-so:<span> {dataText.otevrenoPoCt}</span>
-          </FooterItem>
-          {/* <FooterItem>
-            <HiOutlineClock /> pá-so:<span> {dataText.otevrenoPaSo}</span>
-          </FooterItem> */}
-          <FooterItem>
-          <HiOutlineClock /> ne:<span> {dataText.otevrenoNe} &nbsp;</span>
-          </FooterItem>
-        </FooterItems>
+              <FooterItems>
+                <FooterHeader>KONTAKTY</FooterHeader>
+                <FooterItem>
+                  <HiPhone /> telefon:<span> {dataText.telefon}</span>
+                </FooterItem>
+                <FooterItem>
+                  <HiMail /> email:<span> {dataText.email}</span>
+                </FooterItem>
+                <SocialIcons>
+                  <SocialIconLink
+                    href="https://www.facebook.com/profile.php?id=100087086114612"
+                    target="_blank"
+                    aria-label="Facebook">
+                    <FaFacebookSquare />
+                  </SocialIconLink>
+                  <SocialIconLink
+                    href="https://www.instagram.com/obecnik_restaurace_pizzerie_/"
+                    target="_blank"
+                    aria-label="Instagram">
+                    <FaInstagram />
+                  </SocialIconLink>
+                </SocialIcons>
+              </FooterItems>
+              {/* otviracka */}
+              <FooterItems>
+                <FooterHeader>OTEVÍRACÍ DOBA</FooterHeader>
+                <FooterItem>
+                  <HiOutlineClock /> po:<span> {dataText.otevrenoClose}</span>
+                </FooterItem>
+                <FooterItem>
+                  <HiOutlineClock /> ut-st:<span> {dataText.otevrenoShort}</span>
+                </FooterItem>
+                <FooterItem>
+                  <HiOutlineClock /> čt-so:<span> {dataText.otevrenoLong}</span>
+                </FooterItem>
+                <FooterItem>
+                  <HiOutlineClock /> ne:
+                  <span> {dataText.otevrenoClose} &nbsp;</span>
+                </FooterItem>
+              </FooterItems>
             </FooterWrap>
           </FooterContainer>
           <ContactForm />
