@@ -9,23 +9,25 @@ function OrderInfo() {
       <div>
         <h4>Zóna 1:</h4>
         <p>
-          <span>do 6km, zdarma</span> <br />
-          Raškovice, Skalice Pražmo, Morávka
+          <span>do 5km, zdarma</span> <br />
+          Raškovice, Pražmo
         </p>
         <br></br>
         <h4>Zóna 2:</h4>
         <p>
           <span>
-            od 6km do 12km, +55 Kč rozvoz <br />
-            (nad 500 Kč zdarma)
+            od 5km do 10km, <br />+69Kč rozvoz (nad 500Kč zdarma,<br />
+            minimální objednávka 2 pizzy)
           </span>{' '}
           <br />
-          Krásná, Visalaje, Nižní Lhoty, Vyšní Lhoty
+          Skalice, Morávka, Krásná, Visalaje, Nižní Lhoty, Vyšní Lhoty
         </p>
         <br></br>
         <h4>Zóna 3:</h4>
-        <p>
-          <span>dle domluvy</span>
+        <p>          <span>
+            od 10km do 15km, +69Kč rozvoz <br />
+          </span>{' '}
+          {/* <span>dle domluvy</span> */}
         </p>
       </div>
       <div>

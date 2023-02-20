@@ -24,7 +24,6 @@ import { SectionContainer } from '../../globalStyles';
 function Restaurace() {
   return (
     <>
-      {/* <Dialog /> */}
       <Navbar />
       <SectionHeaderHome2 image={dataWebImages.uvodHeader}>
         <img

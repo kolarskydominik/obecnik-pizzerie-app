@@ -42,6 +42,9 @@ const GlobalStyle = createGlobalStyle`
 body {
   background: linear-gradient(176deg, var(--color-black) 20%,var(--color-black2) 100%);
   width: 100%;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 `;
 

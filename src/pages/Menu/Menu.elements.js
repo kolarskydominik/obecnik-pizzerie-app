@@ -5,7 +5,6 @@ export const Wrapper = styled(SectionWrapper)`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0 60px;
 
   >p {
     font-size: 1rem;

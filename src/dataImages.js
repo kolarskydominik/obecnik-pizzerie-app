@@ -19,40 +19,51 @@ import rozvozHeader from './images/pizza.jpg';
 // import galerieHeader from './images/galerie.jpg';
 import kontaktHeader from './images/img4m.jpg';
 
+//poledni menu
+import obed_07 from './images/07obed.jpg';
+import obed_08 from './images/08obed.jpg';
+import spec_08 from './images/08spec.jpg';
+import napoj_1 from './images/napoj1.jpg';
+import napoj_2 from './images/napoj2.jpg';
 
 export const dataGalleryImages = [
-    {
-        img: image1
-    },
-    {
-        img: image2
-    },
-    {
-        img: image3
-    },
-    {
-        img: image4
-    },
-    {
-        img: image5
-    },
-    {
-        img: image6
-    }
-]
+  {
+    img: image1,
+  },
+  {
+    img: image2,
+  },
+  {
+    img: image3,
+  },
+  {
+    img: image4,
+  },
+  {
+    img: image5,
+  },
+  {
+    img: image6,
+  },
+];
 
 export const dataWebImages = {
-    logoNavbar: logoNavbar,
-    logoHeader: logoHeader,
-    logoIcon: logoIcon,
-    
-    uvodHeader: uvodHeader,
-    uvodWelcome: uvodWelcome,
-    uvodGalerie: image3,
-    uvodTesimeSe: uvodTesimeSe  ,
+  logoNavbar: logoNavbar,
+  logoHeader: logoHeader,
+  logoIcon: logoIcon,
 
-    jidelniListekHeader: jidelniListekHeader,
-    rozvozHeader: rozvozHeader,
-    galerieHeader: image2,
-    kontaktHeader: kontaktHeader
-}
+  uvodHeader: uvodHeader,
+  uvodWelcome: uvodWelcome,
+  uvodGalerie: image3,
+  uvodTesimeSe: uvodTesimeSe,
+
+  jidelniListekHeader: jidelniListekHeader,
+  rozvozHeader: rozvozHeader,
+  galerieHeader: image2,
+  kontaktHeader: kontaktHeader,
+
+  poledniMenu: obed_08,
+  specMenu: spec_08,
+  napoj1: napoj_1,
+  napoj2: napoj_2,
+};

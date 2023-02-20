@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { dataWebImages } from "../../dataImages";
+import styled from 'styled-components';
+import { dataWebImages } from '../../dataImages';
 
 export const DialogWrap = styled.div`
   position: fixed;
@@ -21,8 +21,8 @@ export const DialogWrap = styled.div`
     display: flex;
     flex-direction: column;
     overflow: auto;
-    max-width: 600px;
-    max-height: 80vh;
+    max-width: 800px;
+    max-height: 90vh;
     border-radius: 20px;
   }
 `;
@@ -44,7 +44,13 @@ export const DialogContent = styled.div`
   padding-bottom: 1.5rem;
   border-radius: 10px;
 
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
   button {
+    position: sticky;
+    top: 0;
     width: 2.5rem;
     height: 2.5rem;
     margin-left: auto;
@@ -67,7 +73,7 @@ export const DialogContent = styled.div`
 
   h3 {
     margin: 0.5rem 1.5rem;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     color: var(--color-primary);
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
   }

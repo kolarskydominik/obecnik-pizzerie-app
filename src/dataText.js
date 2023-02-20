@@ -30,11 +30,7 @@ export const dataText = {
 
 export const aktualneText = [
   {
-    date: "25.10.2022",
-    info: "Restaurace je momentálně UZAVŘENA. Rozvoz funguje.",
-  },
-  {
     date: "",
-    info: "",
-  },
+    info: "Tuto sobotu 18.2. bude restaurace uzavřen pro soukromou společnost do 18:00. Tým Obecník",
+  }
 ];
