@@ -1,7 +1,7 @@
 {
   "homepage": "https://obecnik.cz",
   "name": "obecnik-pizzerie-app",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
@@ -24,9 +24,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "prebuild": "npm run generate-build-meta",
-    "generate-build-meta": "./node_modules/react-clear-cache/bin/cli.js"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

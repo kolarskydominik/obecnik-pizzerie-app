@@ -1,11 +1,11 @@
 import App from './App';
 import ReactDOM from 'react-dom/client';
-import { ClearCacheProvider, useClearCacheCtx } from 'react-clear-cache';
+import { HashRouter } from 'react-router-dom'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ClearCacheProvider duration={5000}>
+  <HashRouter hashType="noslash">
     <App />
-  </ClearCacheProvider>
+  </HashRouter>
 );

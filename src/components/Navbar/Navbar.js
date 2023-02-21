@@ -37,11 +37,11 @@ function Navbar(props) {
   }, []);
 
   // disableBodyScroll
-  if (isOpen) {
-    document.body.style.overflow = 'hidden';
-  } else {
-    document.body.style.overflow = 'initial';
-  }
+  // if (isOpen && window.innerWidth > 765) {
+  //   document.body.style.overflow = 'hidden';
+  // } else {
+  //   document.body.style.overflow = 'initial';
+  // }
 
   return (
     <>
