@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 // icons
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes } from 'react-icons/fa';
 // pro obarveni loga
-import { IconContext } from "react-icons/lib";
+import { IconContext } from 'react-icons/lib';
 //elements
 import {
   Nav,
@@ -12,9 +12,9 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-} from "./Navbar.elements";
+} from './Navbar.elements';
 //images
-import { dataWebImages } from "../../dataImages";
+import { dataWebImages } from '../../dataImages';
 
 function Navbar(props) {
   // logika hamburgeru
@@ -33,14 +33,14 @@ function Navbar(props) {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", changeNav);
+    window.addEventListener('scroll', changeNav);
   }, []);
 
   // disableBodyScroll
   if (isOpen) {
-    document.body.style.overflow = "hidden";
+    document.body.style.overflow = 'hidden';
   } else {
-    document.body.style.overflow = "initial";
+    document.body.style.overflow = 'initial';
   }
 
   return (
@@ -58,7 +58,7 @@ function Navbar(props) {
           </h1>
           <MobileIcon onClick={handleIsOpen}>
             {/* obarveni icon */}
-            <IconContext.Provider value={{ color: "#fff" }}>
+            <IconContext.Provider value={{ color: '#fff' }}>
               {isOpen ? <FaTimes /> : <FaBars />}
             </IconContext.Provider>
           </MobileIcon>
@@ -69,20 +69,20 @@ function Navbar(props) {
               </NavLinks>
             </NavItem>
             <NavItem>
+              <NavLinks to="/rozvoz" onClick={closeMobileMenu}>
+                Rozvoz
+              </NavLinks>
+            </NavItem>
+            <NavItem>
               <NavLinks to="/jidelni-listek" onClick={closeMobileMenu}>
                 Jídelní lístek
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/rozvoz" onClick={closeMobileMenu}>
-                Rozvoz
-              </NavLinks>
-            </NavItem>
-            {/* <NavItem>
               <NavLinks to="/galerie" onClick={closeMobileMenu}>
                 Galerie
               </NavLinks>
-            </NavItem> */}
+            </NavItem>
             <NavItem>
               <NavLinks to="/kontakt" onClick={closeMobileMenu}>
                 Kontakt

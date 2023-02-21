@@ -40,7 +40,7 @@ function Rozvoz() {
         <PhoneLink href={dataText.telefon2}>604 284 804</PhoneLink>
       </SectionHeaderHome>
       <SectionContainer>
-        <Wrapper>
+        <Wrapper style={{gap: '2rem'}}>
           <Heading2
             style={{
               textShadow: '0px 2px 2px rgba(0, 0, 0, 1)',

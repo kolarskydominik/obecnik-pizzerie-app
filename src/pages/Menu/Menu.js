@@ -37,28 +37,7 @@ function Menu() {
               padding: '1rem',
             }}>
             <a
-              href={dataWebImages.specMenu}
-              target="_self"
-              rel="noopener noreferrer">
-              <img
-                id="image"
-                style={{ width: '100%' }}
-                src={dataWebImages.specMenu}
-                alt="Speciální nabídka"
-                title="Speciální nabídka"
-              />
-            </a>
-          </div>
-          <div
-            style={{
-              width: '100%',
-              maxWidth: '550px',
-              display: 'flex',
-              justifyContent: 'center',
-              padding: '1rem',
-            }}>
-            <a
-              href={dataWebImages.specMenu}
+              href={dataWebImages.poledniMenu}
               target="_self"
               rel="noopener noreferrer">
               <img
@@ -79,7 +58,7 @@ function Menu() {
               padding: '1rem',
             }}>
             <a
-              href={dataWebImages.specMenu}
+              href={dataWebImages.napoj1}
               target="_self"
               rel="noopener noreferrer">
               <img
@@ -100,7 +79,7 @@ function Menu() {
               padding: '1rem',
             }}>
             <a
-              href={dataWebImages.specMenu}
+              href={dataWebImages.napoj2}
               target="_self"
               rel="noopener noreferrer">
               <img
@@ -114,6 +93,7 @@ function Menu() {
           </div>
           <p
             style={{
+              width: '600px',
               color: 'black',
               textDecorationLine: 'none',
               fontSize: '1rem',
@@ -124,7 +104,7 @@ function Menu() {
               target="_blank"
               rel="noopener noreferrer"
               style={{
-                color: 'black',
+                color: 'blue',
                 textDecorationLine: 'none',
                 fontSize: '1rem',
               }}>

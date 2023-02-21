@@ -1,10 +1,16 @@
 //galerie
-import image1 from './images/img1m.jpg';
-import image2 from './images/img2m.jpg';
-import image3 from './images/img3m.jpg';
-import image4 from './images/img4m.jpg';
-import image5 from './images/img5m.jpg';
-import image6 from './images/img6m.jpg';
+import image1 from './images/interier_tiny/1.jpg';
+import image2 from './images/interier_tiny/2.jpg';
+import image3 from './images/interier_tiny/3.jpg';
+import image4 from './images/interier_tiny/4.jpg';
+import image5 from './images/interier_tiny/5.jpg';
+import image6 from './images/interier_tiny/6.jpg';
+import image7 from './images/interier_tiny/7.jpg';
+import image8 from './images/interier_tiny/8.jpg';
+import image9 from './images/interier_tiny/9.jpg';
+import image10 from './images/interier_tiny/10.jpg';
+import image11 from './images/interier_tiny/11.jpg';
+import image12 from './images/interier_tiny/12.jpg';
 
 //web
 import logoNavbar from './images/obecnik-logo-navbar.png';
@@ -17,7 +23,7 @@ import uvodTesimeSe from './images/CTAgalerie.jpg';
 import jidelniListekHeader from './images/menu.jpg';
 import rozvozHeader from './images/pizza.jpg';
 // import galerieHeader from './images/galerie.jpg';
-import kontaktHeader from './images/img4m.jpg';
+import kontaktHeader from './images/interier_tiny/4.jpg';
 
 //poledni menu
 import obed_07 from './images/07obed.jpg';
@@ -44,6 +50,24 @@ export const dataGalleryImages = [
   },
   {
     img: image6,
+  },
+  {
+    img: image7,
+  },
+  {
+    img: image8,
+  },
+  {
+    img: image9,
+  },
+  {
+    img: image10,
+  },
+  {
+    img: image11,
+  },
+  {
+    img: image12,
   },
 ];
 
