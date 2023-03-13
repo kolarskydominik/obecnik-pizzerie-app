@@ -26,7 +26,7 @@ import rozvozHeader from './images/pizza.jpg';
 import kontaktHeader from './images/interier_tiny/4.jpg';
 
 //poledni menu
-import obed from './images/obed/obed10.jpg';
+import obed from './images/obed/obed11.jpg';
 import spec from './images/obed/spec10.jpg';
 import napoj_1 from './images/obed/napoj1_1.jpg';
 import napoj_2 from './images/obed/napoj2_1.jpg';

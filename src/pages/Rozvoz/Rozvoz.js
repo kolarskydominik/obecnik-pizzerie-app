@@ -127,7 +127,7 @@ function Rozvoz() {
                 fontSize: '.95rem',
                 fontStyle: 'italic',
               }}>
-              Italské uzeniny a sýry: 35,- / 100g
+              Italské uzeniny a sýry: 35,-
               <br />
               <p
                 style={{
@@ -146,7 +146,7 @@ function Rozvoz() {
                   fontStyle: 'italic',
                   marginBottom: '.5rem',
                 }}>
-                Italské uzeniny a sýry: 40,- / 100g
+                Italské uzeniny a sýry: 40,-
                 <br />
                 <p
                   style={{
