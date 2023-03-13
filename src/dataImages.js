@@ -26,11 +26,12 @@ import rozvozHeader from './images/pizza.jpg';
 import kontaktHeader from './images/interier_tiny/4.jpg';
 
 //poledni menu
-import obed_07 from './images/07obed.jpg';
-import obed_08 from './images/08obed.jpg';
-import spec_08 from './images/08spec.jpg';
-import napoj_1 from './images/napoj1.jpg';
-import napoj_2 from './images/napoj2.jpg';
+import obed from './images/obed/obed10.jpg';
+import spec from './images/obed/spec10.jpg';
+import napoj_1 from './images/obed/napoj1_1.jpg';
+import napoj_2 from './images/obed/napoj2_1.jpg';
+
+import bbq from './images/bbq.jpg'
 
 export const dataGalleryImages = [
   {
@@ -86,8 +87,10 @@ export const dataWebImages = {
   galerieHeader: image2,
   kontaktHeader: kontaktHeader,
 
-  poledniMenu: obed_08,
-  specMenu: spec_08,
+  poledniMenu: obed,
+  specMenu: spec,
   napoj1: napoj_1,
   napoj2: napoj_2,
+
+  bbq: bbq
 };

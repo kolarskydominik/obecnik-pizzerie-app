@@ -28,6 +28,27 @@ function Menu() {
       </SectionHeaderHome>
       <SectionContainer>
         <Wrapper>
+        <div
+            style={{
+              width: '100%',
+              maxWidth: '550px',
+              display: 'flex',
+              justifyContent: 'center',
+              padding: '1rem',
+            }}>
+            <a
+              href={dataWebImages.specMenu}
+              target="_self"
+              rel="noopener noreferrer">
+              <img
+                id="image"
+                style={{ width: '100%' }}
+                src={dataWebImages.specMenu}
+                alt="Speciální menu"
+                title="Speciální menu"
+              />
+            </a>
+          </div>
           <div
             style={{
               width: '100%',

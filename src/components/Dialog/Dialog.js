@@ -43,20 +43,34 @@ function Dialog() {
               <button onClick={handleClose} value="X">
                 <IoClose />
               </button>
-              {/* <h3 style={{ textAlign: 'center' }}>
-                Aktuálně:
-              </h3>
+              {aktualneText === [] ?? (
+                <h3 style={{ textAlign: 'center' }}>Aktuálně:</h3>
+              )}
               {aktualneText &&
                 aktualneText.map((item, index) => {
                   return (
-                    <DialogAktualne key={index} style={{ textAlign: 'center', fontWeight: 'bold' }}>
+                    <DialogAktualne
+                      key={index}
+                      style={{ textAlign: 'center', fontWeight: 'bold' }}>
                       <span>{item.date}</span>
                       <span>{item.info}</span>
-
+                      {/* <img
+                        id="image"
+                        style={{
+                          width: '100%',
+                          maxWidth: '320px',
+                          margin: '20px auto 0',
+                        }}
+                        src={dataWebImages.bbq}
+                        alt="bbq"
+                        title="bbq"
+                      /> */}
                     </DialogAktualne>
                   );
                 })}
-              <p><br /></p> */}
+              <p>
+                <br />
+              </p>
               <h3 style={{ textAlign: 'center' }}>
                 Vážení zákazníci, obědové menu také rozvážím. <br></br>Stačí
                 zavolat na 604284804.
