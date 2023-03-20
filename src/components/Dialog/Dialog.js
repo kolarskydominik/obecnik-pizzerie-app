@@ -68,9 +68,9 @@ function Dialog() {
                     </DialogAktualne>
                   );
                 })}
-              <p>
+              {/* <p>
                 <br />
-              </p>
+              </p> */}
               <h3 style={{ textAlign: 'center' }}>
                 Vážení zákazníci, obědové menu také rozvážím. <br></br>Stačí
                 zavolat na 604284804.

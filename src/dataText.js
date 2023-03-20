@@ -30,7 +30,7 @@ export const dataText = {
 
 export const aktualneText = [
   // {
-  //   date: "",
-  //   info: "Slavnostni otevření naší restaurace Obecník, tento pátek 24.2.2023 od 15:30. Společně s doprovodným programem jsme pro Vás připravili i grilování.",
+    // date: "",
+    // info: "Dnes 18.3. restaurace do 14:00 uzavřena pro soukromou společnost. Od 14:00 otevřeno normálně pro veřejnost. Děkujeme za pochopení.",
   // }
 ];
