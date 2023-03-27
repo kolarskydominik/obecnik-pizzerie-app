@@ -50,7 +50,7 @@ function OrderInfo() {
         </p>
         <p style={{ maxWidth: '400px', margin: '0 auto' }}>
           <br />
-          Poslední objednávky přijímáme 30&nbsp;minut před koncem pracovní doby.
+          Poslední objednávky pro rozvoz přijímáme v&nbsp;20:00.
         </p>
         <p style={{ maxWidth: '400px', margin: '0 auto' }}>
           <br />
