@@ -27,7 +27,7 @@ import kontaktHeader from './images/interier_tiny/4.jpg';
 
 //poledni menu
 import obed from './images/obed/obed15.jpg';
-import obed2 from './images/obed/obed16.jpg';
+import obed2 from './images/obed/obed17.jpg';
 import spec from './images/obed/spec10.jpg';
 import napoj_1 from './images/obed/napoj1_1.jpg';
 import napoj_2 from './images/obed/napoj2_1.jpg';
