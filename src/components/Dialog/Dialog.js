@@ -99,13 +99,13 @@ function Dialog() {
                   padding: '1rem',
                 }}>
                 <a
-                  href={dataWebImages.poledniMenu2}
+                  href={dataWebImages.poledniMenu}
                   target="_self"
                   rel="noopener noreferrer">
                   <img
                     id="image"
                     style={{ width: '100%' }}
-                    src={dataWebImages.poledniMenu2}
+                    src={dataWebImages.poledniMenu}
                     alt="Polední menu"
                     title="Polední menu"
                   />
