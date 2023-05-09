@@ -29,8 +29,8 @@ export const dataText = {
 };
 
 export const aktualneText = [
-  // {
-    // date: "",
-    // info: "Dnes 18.3. restaurace do 14:00 uzavřena pro soukromou společnost. Od 14:00 otevřeno normálně pro veřejnost. Děkujeme za pochopení.",
-  // }
+  {
+    date: "",
+    info: "V útery 9. 5. 2023 je restaurace uzavřena. Děkujeme za pochopení.",
+  }
 ];

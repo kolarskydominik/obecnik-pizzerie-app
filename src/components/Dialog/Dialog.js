@@ -47,9 +47,10 @@ function Dialog() {
                   return (
                     <DialogAktualne
                       key={index}
-                      style={{ textAlign: 'center', fontWeight: 'bold' }}>
+                      style={{ textAlign: 'center', fontWeight: 'bold', color: 'red' }}>
                       <span>{item.date}</span>
                       <span>{item.info}</span>
+
                       {/* <img
                         id="image"
                         style={{
