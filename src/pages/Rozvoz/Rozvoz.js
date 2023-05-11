@@ -27,7 +27,7 @@ import { dataWebImages } from '../../dataImages';
 // dataText
 import { dataText } from '../../dataText';
 //import pdf
-import pdf from '../../files/OBECNIK-PIZZA-ROZVOZ.pdf';
+import pdf from '../../files/OBECNIK-PIZZA-ROZVOZ.jpg';
 import { Dialog } from '../../components';
 
 function Rozvoz() {
@@ -108,7 +108,7 @@ function Rozvoz() {
                 fontStyle: 'italic',
                 marginBottom: '.5rem',
               }}>
-              Zelenina: 25,-
+              Zelenina: 30,-
               <br />
               <p
                 style={{
@@ -127,7 +127,7 @@ function Rozvoz() {
                 fontSize: '.95rem',
                 fontStyle: 'italic',
               }}>
-              Italské uzeniny a sýry: 35,-
+              Italské uzeniny a sýry: 45,-
               <br />
               <p
                 style={{
@@ -146,7 +146,7 @@ function Rozvoz() {
                   fontStyle: 'italic',
                   marginBottom: '.5rem',
                 }}>
-                Italské uzeniny a sýry: 40,-
+                Italské uzeniny a sýry: 45,-
                 <br />
                 <p
                   style={{

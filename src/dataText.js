@@ -31,6 +31,6 @@ export const dataText = {
 export const aktualneText = [
   {
     date: "",
-    info: "V útery 9. 5. 2023 je restaurace uzavřena. Děkujeme za pochopení.",
+    info: "",
   }
 ];
