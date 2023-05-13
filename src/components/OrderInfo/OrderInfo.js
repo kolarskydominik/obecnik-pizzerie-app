@@ -16,7 +16,9 @@ function OrderInfo() {
         <h4>Zóna 2:</h4>
         <p>
           <span>
-            od 5km do 10km, <br />+55Kč rozvoz (nad 500Kč zdarma,<br />
+            od 5km do 10km, <br />
+            +55Kč rozvoz (nad 500Kč zdarma,
+            <br />
             minimální objednávka 2 pizzy)
           </span>{' '}
           <br />
@@ -24,8 +26,11 @@ function OrderInfo() {
         </p>
         <br></br>
         <h4>Zóna 3:</h4>
-        <p>          <span>
-            od 10km do 15km, +69Kč rozvoz <br />
+        <p>
+          {' '}
+          <span>
+            od 10km do 15km,  <br /> +69Kč rozvoz (minimální objednávka 3&nbsp;pizzy){' '}
+            <br />
           </span>{' '}
           {/* <span>dle domluvy</span> */}
         </p>

@@ -27,7 +27,7 @@ import { dataWebImages } from '../../dataImages';
 // dataText
 import { dataText } from '../../dataText';
 //import pdf
-import pdf from '../../files/OBECNIK-PIZZA-ROZVOZ.jpg';
+import pdf from '../../files/OBECNIK-PIZZA-ROZVOZ-new.pdf';
 import { Dialog } from '../../components';
 
 function Rozvoz() {
@@ -40,7 +40,7 @@ function Rozvoz() {
         <PhoneLink href={dataText.telefon2}>604 284 804</PhoneLink>
       </SectionHeaderHome>
       <SectionContainer>
-        <Wrapper style={{gap: '2rem'}}>
+        <Wrapper style={{ gap: '2rem' }}>
           <Heading2
             style={{
               textShadow: '0px 2px 2px rgba(0, 0, 0, 1)',
@@ -99,7 +99,7 @@ function Rozvoz() {
                 textDecoration: 'underline',
                 marginBottom: '.5rem',
               }}>
-              <span>Suroviny navíc:</span>
+              <span>Ingredience navíc:</span>
             </p>
             <p
               style={{
@@ -108,17 +108,17 @@ function Rozvoz() {
                 fontStyle: 'italic',
                 marginBottom: '.5rem',
               }}>
-              Zelenina: 30,-
-              <br />
+              {/* Zelenina: 30,- */}
+              {/* <br /> */}
               <p
                 style={{
                   fontSize: '.9rem',
                   fontWeight: 'normal',
                   fontStyle: 'italic',
                 }}>
-                - olivy, žampiony, ananas, kukuřice, paprika, cibule, rukola,
-                špenát, rajčata, feferonky, beraní rohy, tomato rajčatový
-                základ, smetana
+                - kukuřice, paprika, cherry rajčata, cibule, feferonky, beraní
+                rohy, česnek, rukola, špenát, ananas, olivy{' '}
+                <span style={{ fontWeight: 'bold' }}>+30,-</span>
               </p>
             </p>
             <p
@@ -127,8 +127,8 @@ function Rozvoz() {
                 fontSize: '.95rem',
                 fontStyle: 'italic',
               }}>
-              Italské uzeniny a sýry: 45,-
-              <br />
+              {/* Italské uzeniny a sýry: 45,- */}
+              {/* <br /> */}
               <p
                 style={{
                   fontSize: '.9rem',
@@ -136,10 +136,11 @@ function Rozvoz() {
                   fontStyle: 'italic',
                   marginBottom: '.5rem',
                 }}>
-                - salám dolce, šunka, pikantní salám, tuňák, klobása, parmská
-                šunka, pancetta, vepřová panenka, kuřecí maso, uzený losos, mozzarella, mascarpone
+                - salámy, kuřecí maso, vepřová panenka, šunka, pálivá klobása,
+                gorgonzela, parmazán, mozzarella, pancetta, losos, žampiony{' '}
+                <span style={{ fontWeight: 'bold' }}>+45,-</span>
               </p>
-              <p
+              {/* <p
                 style={{
                   fontWeight: 'bold',
                   fontSize: '.95rem',
@@ -157,7 +158,7 @@ function Rozvoz() {
                   }}>
                   - pancetta, parmazán, gorgonzela
                 </p>
-              </p>
+              </p> */}
             </p>
           </MenuWrap>
           <div style={{ width: '100%' }}>

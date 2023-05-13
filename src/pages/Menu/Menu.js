@@ -28,7 +28,7 @@ function Menu() {
       </SectionHeaderHome>
       <SectionContainer>
         <Wrapper>
-        {/* <div
+        <div
             style={{
               width: '100%',
               maxWidth: '550px',
@@ -48,7 +48,7 @@ function Menu() {
                 title="Speciální menu"
               />
             </a>
-          </div> */}
+          </div>
           <div
             style={{
               width: '100%',
