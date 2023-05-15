@@ -72,7 +72,7 @@ function Dialog() {
                 Vážení zákazníci, obědové menu také rozvážím. <br></br>Stačí
                 zavolat na 604284804.
               </h3>
-              {/* <div
+              <div
                 style={{
                   width: '100%',
                   display: 'flex',
@@ -91,7 +91,7 @@ function Dialog() {
                     title="Polední menu"
                   />
                 </a>
-              </div> */}
+              </div>
               <div
                 style={{
                   width: '100%',
@@ -100,13 +100,13 @@ function Dialog() {
                   padding: '1rem',
                 }}>
                 <a
-                  href={dataWebImages.poledniMenu}
+                  href={dataWebImages.poledniMenu2}
                   target="_self"
                   rel="noopener noreferrer">
                   <img
                     id="image"
                     style={{ width: '100%' }}
-                    src={dataWebImages.poledniMenu}
+                    src={dataWebImages.poledniMenu2}
                     alt="Polední menu"
                     title="Polední menu"
                   />
