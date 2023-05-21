@@ -6,6 +6,7 @@ import { LinkBtn } from '../../globalStyles';
 import { aktualneText } from '../../dataText';
 // icons
 import { IoClose } from 'react-icons/io5';
+import { FiExternalLink } from 'react-icons/fi';
 import { dataWebImages } from '../../dataImages';
 
 function Dialog() {
@@ -39,6 +40,19 @@ function Dialog() {
               <button onClick={handleClose} value="X">
                 <IoClose />
               </button>
+              <p style={{ textAlign: 'center', fontSize: '1.36rem' }}>
+                Nabízíme obědové menu, které s&nbsp;radostí i&nbsp;dovezeme, <br/>stačí
+                zavolat na&nbsp;604284804.
+                <br />
+                <a
+                  href={dataWebImages.poledniMenu}
+                  target="_self"
+                  rel="noopener noreferrer">
+                  Kouknout na menu <FiExternalLink />
+                </a>
+              </p>
+              <br />
+
               {aktualneText === [] ?? (
                 <h3 style={{ textAlign: 'center' }}>Aktuálně:</h3>
               )}
@@ -47,7 +61,11 @@ function Dialog() {
                   return (
                     <DialogAktualne
                       key={index}
-                      style={{ textAlign: 'center', fontWeight: 'bold', color: 'red' }}>
+                      style={{
+                        textAlign: 'center',
+                        fontWeight: 'bold',
+        
+                      }}>
                       <span>{item.date}</span>
                       <span>{item.info}</span>
 
@@ -68,11 +86,7 @@ function Dialog() {
               {/* <p>
                 <br />
               </p> */}
-              <h3 style={{ textAlign: 'center' }}>
-                Vážení zákazníci, obědové menu také rozvážím. <br></br>Stačí
-                zavolat na 604284804.
-              </h3>
-              <div
+              {/* <div
                 style={{
                   width: '100%',
                   display: 'flex',
@@ -82,7 +96,7 @@ function Dialog() {
                 <a
                   href={dataWebImages.poledniMenu}
                   target="_self"
-                  rel="noopener noreferrer">
+                  rel="noopener noreferrer"> Aktuální obědové menu <FiExternalLink/>
                   <img
                     id="image"
                     style={{ width: '100%' }}
@@ -91,8 +105,8 @@ function Dialog() {
                     title="Polední menu"
                   />
                 </a>
-              </div>
-              <div
+              </div> */}
+              {/* <div
                 style={{
                   width: '100%',
                   display: 'flex',
@@ -111,7 +125,7 @@ function Dialog() {
                     title="Polední menu"
                   />
                 </a>
-              </div>
+              </div> */}
               {/* <LinkBtn to="/rozvoz" className="dialogBtn">
                 Přejít k objednání
               </LinkBtn> */}

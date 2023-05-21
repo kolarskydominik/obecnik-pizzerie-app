@@ -30,7 +30,11 @@ export const dataText = {
 
 export const aktualneText = [
   {
+    date: "21. 5. 2023",
+    info: " - Přijmeme na dlouhodobou brigádu servírku/číšníka. ",
+  },
+  {
     date: "",
-    info: "",
+    info: "- Přijmeme na dlouhodobou brigádu řidiče pro rozvoz pizzy. \n\n Pravidelné odpolední směny nebo podle domluvy.  ",
   }
 ];
