@@ -69,10 +69,10 @@ function Footer() {
             <HiOutlineClock /> po:<span> {dataText.otevrenoClose}</span>
           </FooterItem>
           <FooterItem>
-            <HiOutlineClock /> ut-st:<span> {dataText.otevrenoShort}</span>
+            <HiOutlineClock /> ut-čt:<span> {dataText.otevrenoShort}</span>
           </FooterItem>
           <FooterItem>
-            <HiOutlineClock /> čt-so:<span> {dataText.otevrenoLong}</span>
+            <HiOutlineClock /> pa-so:<span> {dataText.otevrenoLonger}</span>
           </FooterItem>
           <FooterItem>
             <HiOutlineClock /> ne:

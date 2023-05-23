@@ -40,18 +40,6 @@ function Dialog() {
               <button onClick={handleClose} value="X">
                 <IoClose />
               </button>
-              <p style={{ textAlign: 'center', fontSize: '1.36rem' }}>
-                Nabízíme obědové menu, které s&nbsp;radostí i&nbsp;dovezeme, <br/>stačí
-                zavolat na&nbsp;604284804.
-                <br />
-                <a
-                  href={dataWebImages.poledniMenu}
-                  target="_self"
-                  rel="noopener noreferrer">
-                  Kouknout na menu <FiExternalLink />
-                </a>
-              </p>
-              <br />
 
               {aktualneText === [] ?? (
                 <h3 style={{ textAlign: 'center' }}>Aktuálně:</h3>
@@ -64,7 +52,6 @@ function Dialog() {
                       style={{
                         textAlign: 'center',
                         fontWeight: 'bold',
-        
                       }}>
                       <span>{item.date}</span>
                       <span>{item.info}</span>
@@ -83,6 +70,19 @@ function Dialog() {
                     </DialogAktualne>
                   );
                 })}
+                      <p style={{ textAlign: 'center', fontSize: '1.36rem' }}>
+                        Nabízíme obědové menu, které s&nbsp;radostí
+                        i&nbsp;dovezeme, <br />
+                        stačí zavolat na&nbsp;604284804.
+                        <br />
+                        <a
+                          href={dataWebImages.poledniMenu}
+                          target="_self"
+                          rel="noopener noreferrer">
+                          Kouknout na menu <FiExternalLink />
+                        </a>
+                      </p>
+                      <br />
               {/* <p>
                 <br />
               </p> */}
