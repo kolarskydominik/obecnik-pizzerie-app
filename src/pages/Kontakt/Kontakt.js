@@ -92,11 +92,13 @@ function Kontakt() {
                   <HiOutlineClock /> po:<span> {dataText.otevrenoClose}</span>
                 </FooterItem>
                 <FooterItem>
-                  <HiOutlineClock /> ut-čt:
-                  <span> {dataText.otevrenoShort}</span>
+                  <HiOutlineClock /> út:<span> {dataText.otevrenoShort}</span>
                 </FooterItem>
                 <FooterItem>
-                  <HiOutlineClock /> pa-so:
+                  <HiOutlineClock /> st-čt:<span> {dataText.otevrenoLong}</span>
+                </FooterItem>
+                <FooterItem>
+                  <HiOutlineClock /> pá-so:
                   <span> {dataText.otevrenoLonger}</span>
                 </FooterItem>
                 <FooterItem>

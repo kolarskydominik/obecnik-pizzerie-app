@@ -45,10 +45,13 @@ function OrderInfo() {
           po: <span>{dataText.otevrenoClose}</span>
         </p>
         <p>
-          ut-st: <span>{dataText.otevrenoShort}</span>
+          út: <span>{dataText.otevrenoShort}</span>
         </p>
         <p>
-          ct-so: <span>{dataText.otevrenoLong}</span>
+          st-čt: <span>{dataText.otevrenoLong}</span>
+        </p>
+        <p>
+          pá-so: <span>{dataText.otevrenoLonger}</span>
         </p>
         <p>
           ne: <span>{dataText.otevrenoClose}</span>
