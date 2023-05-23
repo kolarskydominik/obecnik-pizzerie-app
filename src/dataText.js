@@ -30,10 +30,6 @@ export const dataText = {
 
 export const aktualneText = [
   {
-    date: '23. 5. 2023',
-    info: ' Dnes je zavřeno - Sanitární den. Děkujeme za pochopení.',
-  },
-  {
     date: '21. 5. 2023',
     info: ' - Přijmeme na dlouhodobou brigádu servírku/číšníka. ',
   },
