@@ -28,7 +28,7 @@ function Menu() {
       </SectionHeaderHome>
       <SectionContainer>
         <Wrapper>
-        <div
+          <div
             style={{
               width: '100%',
               maxWidth: '550px',
@@ -65,6 +65,27 @@ function Menu() {
                 id="image"
                 style={{ width: '100%' }}
                 src={dataWebImages.poledniMenu}
+                alt="Polední menu"
+                title="Polední menu"
+              />
+            </a>
+          </div>
+          <div
+            style={{
+              width: '100%',
+              maxWidth: '550px',
+              display: 'flex',
+              justifyContent: 'center',
+              padding: '1rem',
+            }}>
+            <a
+              href={dataWebImages.poledniMenu2}
+              target="_self"
+              rel="noopener noreferrer">
+              <img
+                id="image"
+                style={{ width: '100%' }}
+                src={dataWebImages.poledniMenu2}
                 alt="Polední menu"
                 title="Polední menu"
               />
@@ -121,7 +142,7 @@ function Menu() {
             }}>
             Odkaz na alergeny{' '}
             <a
-              href={ pdf }
+              href={pdf}
               target="_blank"
               rel="noopener noreferrer"
               style={{
