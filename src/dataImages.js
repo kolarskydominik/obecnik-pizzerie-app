@@ -11,6 +11,22 @@ import image9 from './images/interier_tiny/9.jpg';
 import image10 from './images/interier_tiny/10.jpg';
 import image11 from './images/interier_tiny/11.jpg';
 import image12 from './images/interier_tiny/12.jpg';
+import image13 from './images/gallery_new/img_001.jpg';
+import image14 from './images/gallery_new/img_002.jpg';
+import image15 from './images/gallery_new/img_003.jpg';
+import image16 from './images/gallery_new/img_004.jpg';
+import image17 from './images/gallery_new/img_005.jpg';
+import image18 from './images/gallery_new/img_006.jpg';
+import image19 from './images/gallery_new/img_007.jpg';
+import image20 from './images/gallery_new/img_008.jpg';
+import image21 from './images/gallery_new/img_009.jpg';
+import image22 from './images/gallery_new/img_010.jpg';
+import image23 from './images/gallery_new/img_011.jpg';
+import image24 from './images/gallery_new/img_012.jpg';
+import image25 from './images/gallery_new/img_013.jpg';
+import image26 from './images/gallery_new/img_014.jpg';
+import image27 from './images/gallery_new/img_015.jpg';
+import image28 from './images/gallery_new/img_016.jpg';
 
 //web
 import logoNavbar from './images/obecnik-logo-navbar.png';
@@ -32,7 +48,7 @@ import spec from './images/obed/spec11.jpg';
 import napoj_1 from './images/obed/napoj1_1.jpg';
 import napoj_2 from './images/obed/napoj2_1.jpg';
 
-import bbq from './images/bbq.jpg'
+import bbq from './images/bbq.jpg';
 
 export const dataGalleryImages = [
   {
@@ -71,6 +87,54 @@ export const dataGalleryImages = [
   {
     img: image12,
   },
+  {
+    img: image13,
+  },
+  {
+    img: image14,
+  },
+  {
+    img: image15,
+  },
+  {
+    img: image16,
+  },
+  {
+    img: image17,
+  },
+  {
+    img: image18,
+  },
+  {
+    img: image19,
+  },
+  {
+    img: image20,
+  },
+  {
+    img: image21,
+  },
+  {
+    img: image22,
+  },
+  {
+    img: image23,
+  },
+  {
+    img: image24,
+  },
+  {
+    img: image25,
+  },
+  {
+    img: image26,
+  },
+  {
+    img: image27,
+  },
+  {
+    img: image28,
+  },
 ];
 
 export const dataWebImages = {
@@ -94,5 +158,5 @@ export const dataWebImages = {
   napoj1: napoj_1,
   napoj2: napoj_2,
 
-  bbq: bbq
+  bbq: bbq,
 };
