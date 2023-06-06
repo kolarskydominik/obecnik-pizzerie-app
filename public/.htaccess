@@ -1,0 +1,21 @@
+# RewriteEngine on
+# RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+# RewriteRule ^(.*)$ http://%1%{REQUEST_URI} [R=301,QSA,NC,L]
+# RewriteCond %{HTTPS} off 
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirect www.obecnik.cz to obecnik.cz
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.obecnik\.cz [NC]
+RewriteRule ^(.*)$ https://obecnik.cz/$1 [L,R=301]
+
+# Redirect non-HTTPS requests to HTTPS
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://obecnik.cz/$1 [L,R=301]
+
+# React Router routing
+# Redirect non-existing files and directories to index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.html [L]
