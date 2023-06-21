@@ -41,9 +41,9 @@ function Dialog() {
                 <IoClose />
               </button>
 
-              {aktualneText === [] ?? (
+              {/* {aktualneText ?? (
                 <h3 style={{ textAlign: 'center' }}>Aktuálně:</h3>
-              )}
+              )} */}
               {aktualneText &&
                 aktualneText.map((item, index) => {
                   return (
