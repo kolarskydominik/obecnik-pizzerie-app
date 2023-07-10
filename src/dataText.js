@@ -33,12 +33,12 @@ export const aktualneText = [
   //   date: '21. 5. 2023',
   //   info: ' - Přijmeme na dlouhodobou brigádu servírku/číšníka. ',
   // },
-  {
-    date: 'Od 5. 7. do 8. 7. 2023',
-    info: 'Restaurace uzavřena pro soukromou společnost.',
-  },
-  {
-    date: '4. 7. 2023',
-    info: 'Zavřeno z důvodu sanitárního dne.',
-  },
+  // {
+  //   date: 'Od 5. 7. do 8. 7. 2023',
+  //   info: 'Restaurace uzavřena pro soukromou společnost.',
+  // },
+  // {
+  //   date: '4. 7. 2023',
+  //   info: 'Zavřeno z důvodu sanitárního dne.',
+  // },
 ];
