@@ -1,0 +1,7 @@
+.container {
+  margin-bottom: 2rem;
+  padding-inline: 1rem;
+  text-align: center;
+  color: var(--color-lightYellow);
+  font-size: 15px;
+}
