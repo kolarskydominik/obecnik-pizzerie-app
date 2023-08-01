@@ -10,6 +10,7 @@ import {
   HiOutlineClock,
 } from 'react-icons/hi';
 // elements
+import classes from './Kontakt.module.css';
 import { SectionHeaderHome, Heading2 } from '../../globalStyles';
 import { Container, Wrapper } from './Kontakt.elements';
 import {
@@ -111,6 +112,9 @@ function Kontakt() {
           <ContactForm />
         </Wrapper>
       </Container>
+      <div className={classes.container}>
+        <p>Provozovatelka: Monika Chuda, IČ: 09221352, Registrována na živnostenském úřadě ve Frýdku-Místku. </p>
+      </div>
       <Iframe iframe={iframe} />
       <CopyrightFooter />
     </>

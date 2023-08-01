@@ -1,13 +1,10 @@
-import styled from "styled-components";
-import {
-  SectionContainer,
-  SectionWrapper
-} from "../../globalStyles";
+import styled from 'styled-components';
+import { SectionContainer, SectionWrapper } from '../../globalStyles';
 
 export const Container = styled(SectionContainer)`
-      background: transparent;
+  background: transparent;
 
-  margin: 3rem 0;
+  margin-top: 3rem;
 `;
 export const Wrapper = styled(SectionWrapper)`
   display: flex;
