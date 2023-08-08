@@ -42,7 +42,7 @@ import rozvozHeader from './images/pizza.jpg';
 import kontaktHeader from './images/interier_tiny/4.jpg';
 
 //poledni menu
-import obed from './images/obed/obed30.png';
+import obed from './images/obed/obed31.png';
 import obed2 from './images/obed/obed23.jpg';
 import spec from './images/obed/spec11.jpg';
 import napoj_1 from './images/obed/napoj1_1.jpg';
