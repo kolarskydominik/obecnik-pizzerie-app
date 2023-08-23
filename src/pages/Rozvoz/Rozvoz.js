@@ -82,7 +82,7 @@ function Rozvoz() {
                 fontStyle: 'italic',
                 marginBottom: '.75rem',
               }}>
-              Příplatek za bezlepkovou pizzu: 100,-
+              Příplatek za bezlepkovou pizzu: 50,-
             </p>
             <p
               style={{

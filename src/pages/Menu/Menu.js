@@ -70,7 +70,8 @@ function Menu() {
               />
             </a>
           </div>
-{/* [[          <div
+
+          <div
             style={{
               width: '100%',
               maxWidth: '550px',
@@ -79,18 +80,39 @@ function Menu() {
               padding: '1rem',
             }}>
             <a
-              href={dataWebImages.poledniMenu2}
+              href={dataWebImages.jidelni1}
               target="_self"
               rel="noopener noreferrer">
               <img
                 id="image"
                 style={{ width: '100%' }}
-                src={dataWebImages.poledniMenu2}
-                alt="Polední menu"
-                title="Polední menu"
+                src={dataWebImages.jidelni1}
+                alt="Jídelní lístek"
+                title="Jídelní lístek"
               />
             </a>
-          </div>]] */}
+          </div>
+          <div
+            style={{
+              width: '100%',
+              maxWidth: '550px',
+              display: 'flex',
+              justifyContent: 'center',
+              padding: '1rem',
+            }}>
+            <a
+              href={dataWebImages.jidelni2}
+              target="_self"
+              rel="noopener noreferrer">
+              <img
+                id="image"
+                style={{ width: '100%' }}
+                src={dataWebImages.jidelni2}
+                alt="Jídelní lístek"
+                title="Jídelní lístek"
+              />
+            </a>
+          </div>
           <div
             style={{
               width: '100%',

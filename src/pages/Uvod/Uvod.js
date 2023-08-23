@@ -58,13 +58,36 @@ function Restaurace() {
             tam příjemné chvíle. O&nbsp;otevření Vás budeme včas informovat zde
             na webových stránkách.
           </p> */}
+          <p>
+            Vítáme vás v naší restauraci-pizzerii Obecník v Beskydech.
+            Specializujeme se na výrobu italské pizzy. Děláme si vlastní těsto z
+            kvalitní italské mouky, která je zdravá pro tělo. Používáme vybrané
+            italské suroviny. Můžete si pizzu dát u nás v restauraci nebo využít
+            náš rozvoz. Po telefonické objednávce Vám s radostí pizzu připravíme
+            a dovezeme.
+          </p>
+          <p>
+            Vaříme převážně českou kuchyni. Denní obědové menu, které také
+            rozvážíme. A další speciální nabídka jídelního lístku.
+          </p>
+          <p>
+            U nás také výborná káva značky Laura 100% arabika a zákusky. V létě
+            v nabídce i točená zmrzlina.
+          </p>
+          <p>
+            Součástí naší pizzerie je i krásný velký sál s kapacitou cca 100
+            lidí. Vhodný pro pořádání vašich soukromých akcí, plesů, koncertů,
+            divadelních představení, školení, svateb apod. K dispozici
+            dataprojektor, mikrofon, ozvučení, pódium.
+          </p>
           <p style={{ width: '100%' }}>Restaurace otevřena pro veřejnost.</p>
-          <p style={{ width: '100%', marginTop: '0',fontSize: '1rem' }}>
+          <p style={{ width: '100%', marginTop: '0', fontSize: '1rem' }}>
             Bližší informace naleznete na našem{' '}
             <a
               href="https://www.facebook.com/profile.php?id=100087086114612"
               target="_blank"
-              aria-label="Facebook" rel="noreferrer">
+              aria-label="Facebook"
+              rel="noreferrer">
               facebooku
             </a>
             .
