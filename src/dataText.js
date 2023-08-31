@@ -22,9 +22,9 @@ export const dataText = {
   telefon2: 'tel: +420604284804',
   email: 'info@obecnik.cz',
 
-  otevrenoShort: '11:00 - 15:00',
+  otevrenoShort: '11:00 - 20:00',
   otevrenoLong: '11:00 - 21:00',
-  otevrenoLonger: '11:00 - 22:00',
+  otevrenoLonger: '11:00 - 21:00',
   otevrenoClose: 'zavřeno',
 };
 
