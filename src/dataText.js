@@ -37,8 +37,8 @@ export const aktualneText = [
   //   date: 'Od 5. 7. do 8. 7. 2023',
   //   info: 'Restaurace uzavřena pro soukromou společnost.',
   // },
-  // {
-  //   date: '4. 7. 2023',
-  //   info: 'Zavřeno z důvodu sanitárního dne.',
-  // },
+  {
+    date: '19. 9. 2023',
+    info: 'Zavřeno z důvodu sanitárního dne.',
+  },
 ];
