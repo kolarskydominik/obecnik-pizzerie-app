@@ -20,9 +20,11 @@ import image18 from './images/gallery_new/img_006.jpg';
 import image19 from './images/gallery_new/img_007.jpg';
 import image20 from './images/gallery_new/img_008.jpg';
 import image21 from './images/gallery_new/img_009.jpg';
-// import image22 from './images/gallery_new/img_010.jpg';
-// import image23 from './images/gallery_new/img_011.jpg';
-// import image24 from './images/gallery_new/img_012.jpg';
+
+import image22 from './images/detsky_koutek/detskykoutek1.jpg';
+import image23 from './images/detsky_koutek/detskykoutek2.jpg';
+import image24 from './images/detsky_koutek/detskykoutek3.jpg';
+
 // import image25 from './images/gallery_new/img_013.jpg';
 // import image26 from './images/gallery_new/img_014.jpg';
 // import image27 from './images/gallery_new/img_015.jpg';
@@ -51,6 +53,7 @@ import napoj_1 from './images/obed/napojovy-listek-1.png';
 import napoj_2 from './images/obed/napojovy-listek-2.png';
 
 import bbq from './images/bbq.jpg';
+import dialog from './images/rizek.jpg';
 
 export const dataGalleryImages = [
   {
@@ -116,15 +119,15 @@ export const dataGalleryImages = [
   {
     img: image21,
   },
-  // {
-  //   img: image22,
-  // },
-  // {
-  //   img: image23,
-  // },
-  // {
-  //   img: image24,
-  // },
+  {
+    img: image22,
+  },
+  {
+    img: image23,
+  },
+  {
+    img: image24,
+  },
   // {
   //   img: image25,
   // },
@@ -163,4 +166,5 @@ export const dataWebImages = {
   jidelni2: jidelni_2,
 
   bbq: bbq,
+  dialog: dialog,
 };

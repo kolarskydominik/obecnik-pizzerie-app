@@ -56,33 +56,33 @@ function Dialog() {
                       <span>{item.date}</span>
                       <span>{item.info}</span>
 
-                      {/* <img
+                      <img
                         id="image"
                         style={{
                           width: '100%',
-                          maxWidth: '320px',
+                          maxWidth: '460px',
                           margin: '20px auto 0',
                         }}
-                        src={dataWebImages.bbq}
-                        alt="bbq"
-                        title="bbq"
-                      /> */}
+                        src={dataWebImages.dialog}
+                        alt="dialog_obrazek"
+                        title="dialog_obrazek"
+                      />
                     </DialogAktualne>
                   );
                 })}
-                      <p style={{ textAlign: 'center', fontSize: '1.36rem' }}>
-                        Nabízíme obědové menu, které s&nbsp;radostí
-                        i&nbsp;dovezeme, <br />
-                        stačí zavolat na&nbsp;604284804.
-                        <br />
-                        <a
-                          href={dataWebImages.poledniMenu}
-                          target="_self"
-                          rel="noopener noreferrer">
-                          Kouknout na menu <FiExternalLink />
-                        </a>
-                      </p>
-                      <br />
+              <p style={{ textAlign: 'center', fontSize: '1.36rem' }}>
+                Nabízíme obědové menu, které s&nbsp;radostí i&nbsp;dovezeme,{' '}
+                <br />
+                stačí zavolat na&nbsp;604284804.
+                <br />
+                <a
+                  href={dataWebImages.poledniMenu}
+                  target="_self"
+                  rel="noopener noreferrer">
+                  Kouknout na menu <FiExternalLink />
+                </a>
+              </p>
+              <br />
               {/* <p>
                 <br />
               </p> */}

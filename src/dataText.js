@@ -38,7 +38,7 @@ export const aktualneText = [
   //   info: 'Restaurace uzavřena pro soukromou společnost.',
   // },
   {
-    date: '19. 9. 2023',
-    info: 'Zavřeno z důvodu sanitárního dne.',
+    date: '23. 9. 2023',
+    info: '"V sobotní nabídce řízek jako kolo od trakaře."',
   },
 ];
