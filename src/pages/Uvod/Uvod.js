@@ -80,7 +80,6 @@ function Restaurace() {
             divadelních představení, školení, svateb apod. K dispozici
             dataprojektor, mikrofon, ozvučení, pódium.
           </p>
-          <p style={{ width: '100%' }}>Restaurace otevřena pro veřejnost.</p>
           <p style={{ width: '100%', marginTop: '0', fontSize: '1rem' }}>
             Bližší informace naleznete na našem{' '}
             <a

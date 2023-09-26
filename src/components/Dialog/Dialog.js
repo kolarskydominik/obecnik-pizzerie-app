@@ -56,7 +56,7 @@ function Dialog() {
                       <span>{item.date}</span>
                       <span>{item.info}</span>
 
-                      <img
+                      {/* <img
                         id="image"
                         style={{
                           width: '100%',
@@ -66,7 +66,7 @@ function Dialog() {
                         src={dataWebImages.dialog}
                         alt="dialog_obrazek"
                         title="dialog_obrazek"
-                      />
+                      /> */}
                     </DialogAktualne>
                   );
                 })}

@@ -37,8 +37,8 @@ export const aktualneText = [
   //   date: 'Od 5. 7. do 8. 7. 2023',
   //   info: 'Restaurace uzavřena pro soukromou společnost.',
   // },
-  {
-    date: '23. 9. 2023',
-    info: '"V sobotní nabídce řízek jako kolo od trakaře."',
-  },
+  // {
+  //   date: '23. 9. 2023',
+  //   info: '"V sobotní nabídce řízek jako kolo od trakaře."',
+  // },
 ];
