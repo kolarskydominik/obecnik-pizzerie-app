@@ -47,8 +47,9 @@ import kontaktHeader from './images/interier_tiny/4.jpg';
 import obed from './images/obed/obed39.png';
 import obed2 from './images/obed/obed23.jpg';
 import spec from './images/obed/spec11.jpg';
-import jidelni_1 from './images/obed/jidelni-listek-1.png';
-import jidelni_2 from './images/obed/jidelni-listek-2.png';
+import jidelni_1 from './images/obed/jidelni-listek_2-1.png';
+import jidelni_2 from './images/obed/jidelni-listek_2-2.png';
+import jidelni_3 from './images/obed/jidelni-listek_2-3.png';
 import napoj_1 from './images/obed/napojovy-listek-1.png';
 import napoj_2 from './images/obed/napojovy-listek-2.png';
 
@@ -164,6 +165,7 @@ export const dataWebImages = {
   napoj2: napoj_2,
   jidelni1: jidelni_1,
   jidelni2: jidelni_2,
+  jidelni3: jidelni_3,
 
   bbq: bbq,
   dialog: dialog,

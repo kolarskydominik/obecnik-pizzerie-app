@@ -122,6 +122,27 @@ function Menu() {
               padding: '1rem',
             }}>
             <a
+              href={dataWebImages.jidelni3}
+              target="_self"
+              rel="noopener noreferrer">
+              <img
+                id="image"
+                style={{ width: '100%' }}
+                src={dataWebImages.jidelni3}
+                alt="Jídelní lístek"
+                title="Jídelní lístek"
+              />
+            </a>
+          </div>
+          <div
+            style={{
+              width: '100%',
+              maxWidth: '550px',
+              display: 'flex',
+              justifyContent: 'center',
+              padding: '1rem',
+            }}>
+            <a
               href={dataWebImages.napoj1}
               target="_self"
               rel="noopener noreferrer">
