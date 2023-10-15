@@ -13,7 +13,7 @@ import image11 from './images/interier_tiny/11.jpg';
 import image12 from './images/interier_tiny/12.jpg';
 import image13 from './images/gallery_new/img_001.jpg';
 import image14 from './images/gallery_new/img_002.jpg';
-import image15 from './images/gallery_new/img_003.jpg';
+import image15 from './images/gallery_new/img_002.jpg';
 import image16 from './images/gallery_new/img_004.jpg';
 import image17 from './images/gallery_new/img_005.jpg';
 import image18 from './images/gallery_new/img_006.jpg';
@@ -44,7 +44,7 @@ import rozvozHeader from './images/pizza.jpg';
 import kontaktHeader from './images/interier_tiny/4.jpg';
 
 //poledni menu
-import obed from './images/obed/obed39.png';
+import obed from './images/obed/obed41.png';
 import obed2 from './images/obed/obed23.jpg';
 import spec from './images/obed/spec11.jpg';
 import jidelni_1 from './images/obed/jidelni-listek_2-1.png';
